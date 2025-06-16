@@ -89,14 +89,6 @@ func ImportDb(ctx context.Context) (err error) {
 
 // runScripts runs a related group of sql files.  Each file is broken down into batches (separated by the "GO" keyword)
 // and then executed/commited within a transaction fence.
-// isUtf16: files passed are in UTF-16 and should be converted to UTF-8 before executing
-// isUseKodb:  add a "using [databaseConfig.dbname]" statement before executing the batch
-// noTx:  Do not use a transaction fence.  From Go docs:
-//
-// Use the APIs described in this section to manage transactions. Do not use transaction-related SQL statements such as
-// BEGIN and COMMIT directly—doing so can leave your database in an unpredictable state, especially in concurrent programs.
-// When using a transaction, take care not to call the non-transaction sql.DB methods directly, too, as those will execute
-// outside the transaction, giving your code an inconsistent view of the state of the database or even causing deadlocks.
 func runScripts(ctx context.Context, fileNames []string, scriptArgs ScriptArgs) (err error) {
 	fmt.Println(fmt.Sprintf("Found %d scripts", len(fileNames)))
 	if len(fileNames) == 0 {
@@ -269,6 +261,12 @@ func importStoredProcs(ctx context.Context) (err error) {
 	// It is advised to not use TX fences when a script contains BEGIN/COMMIT keywords; however, I'm not sure if that's
 	// actually a problem here as those keywords are part of the body of the stored proc being created and not
 	// being executed.  Either way, I don't think it hurts to skip the Tx Fence for Stored proc creation
+	//
+	// from the doc:
+	// Use the APIs described in this section to manage transactions. Do not use transaction-related SQL statements such as
+	// BEGIN and COMMIT directly—doing so can leave your database in an unpredictable state, especially in concurrent programs.
+	// When using a transaction, take care not to call the non-transaction sql.DB methods directly, too, as those will execute
+	// outside the transaction, giving your code an inconsistent view of the state of the database or even causing deadlocks.
 	sArgs.isNoTx = true
 	return runScripts(ctx, scripts, sArgs)
 }

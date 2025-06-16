@@ -14,7 +14,7 @@ const (
 	dropKnOnlineDbSqlFmt = "DROP DATABASE IF EXISTS [%s]"
 )
 
-// Clean will remove any existing KN_online database and knight user from an mssql instance
+// Clean will remove any existing [databaseConfig.dbname] database and knight user from an mssql instance
 func Clean(ctx context.Context) (err error) {
 	fmt.Println("-- Clean --")
 	driver := mssql.NewMssqlDbDriver()
