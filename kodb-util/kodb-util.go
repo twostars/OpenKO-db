@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"flag"
 	"fmt"
 	"kodb-util/config"
@@ -71,16 +72,21 @@ func main() {
 	_ = config.GetConfig()
 	fmt.Println(" done")
 
+	// Create a stub context for use with our db-ops.  We're not doing anything fancy with it now, but it will give us a
+	// few options if we ever desire them (deadlines, cancel funcs, key:val mapping)
+	// https://pkg.go.dev/context
+	appCtx := context.Background()
+
 	// Run clean if either -clean or -import was called
 	if args.Clean || args.Import {
-		err := clean.Clean()
+		err := clean.Clean(appCtx)
 		if err != nil {
 			panic(err)
 		}
 	}
 
 	if args.Import {
-		err := importDb.ImportDb()
+		err := importDb.ImportDb(appCtx)
 		if err != nil {
 			panic(err)
 		}

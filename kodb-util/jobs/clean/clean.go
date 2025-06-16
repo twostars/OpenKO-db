@@ -1,9 +1,11 @@
 package clean
 
 import (
+	"context"
 	"fmt"
 	"kodb-util/config"
 	"kodb-util/mssql"
+	"log"
 	"strings"
 )
 
@@ -13,14 +15,22 @@ const (
 )
 
 // Clean will remove any existing KN_online database and knight user from an mssql instance
-func Clean() (err error) {
+func Clean(ctx context.Context) (err error) {
 	fmt.Println("-- Clean --")
 	driver := mssql.NewMssqlDbDriver()
 	defer func() {
+		if r := recover(); r != nil {
+			log.Printf("Recovered from panic: %v", r)
+			if err == nil {
+				err = fmt.Errorf("panic: %v", r)
+			}
+		}
+
 		driver.CloseConnection()
 	}()
 
-	conn, err := driver.GetConnection()
+	// Get a connection to the [master] database
+	conn, err := driver.GetConnectionToDbName(mssql.DefaultSysDbName)
 	if err != nil {
 		return err
 	}
