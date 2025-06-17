@@ -1,0 +1,9 @@
+# configuration for the database
+# Do not commit changes to this file unless it is for new configuration properties.
+databaseConfig:
+  host: localhost
+  instance: SQLEXPRESS
+  dbname: OpenKO
+  port: 1433
+  user: sa
+  password: YourPassword
