@@ -4,7 +4,6 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/softlandia/cpd"
 	"kodb-util/mssql"
 	"log"
 	"os"
@@ -21,7 +20,6 @@ const (
 	ViewsDir       = "../Views"
 	StoredProcsDir = "../StoredProcedures"
 
-	UseKoDbSqlFmt   = "USE [%s]"
 	sqlExtPattern   = "*.sql"
 	batchTerminator = "\nGO"
 )
@@ -29,8 +27,6 @@ const (
 type ScriptArgs struct {
 	// Should use the [master] database in the connection string instead of [databaseConfig.dbname]
 	isUseDefaultSystemDb bool
-	// Executing a UTF-16 based file that needs to be converted to UTF-8
-	isUtf16 bool
 	// isNoTx set to true to not use a Tx fence.  See: https://go.dev/doc/database/execute-transactions#best_practices
 	isNoTx bool
 }
@@ -38,7 +34,6 @@ type ScriptArgs struct {
 func defaultScriptArgs() ScriptArgs {
 	return ScriptArgs{
 		isUseDefaultSystemDb: false,
-		isUtf16:              true,
 		isNoTx:               false,
 	}
 }
@@ -132,10 +127,6 @@ func runScripts(ctx context.Context, fileNames []string, scriptArgs ScriptArgs) 
 		}
 
 		sqlStr := string(sqlBytes)
-		if scriptArgs.isUtf16 {
-			sqlStr = cpd.DecodeUTF16le(sqlStr)
-		}
-
 		fmt.Println(fmt.Sprintf("Running %s", fileNames[i]))
 		batches := splitBatches(sqlStr)
 
@@ -190,9 +181,6 @@ func importDbs(ctx context.Context) (err error) {
 
 	sArgs := defaultScriptArgs()
 	sArgs.isUseDefaultSystemDb = true
-	// db creation script export was UTF-8 from MSSQL
-	sArgs.isUtf16 = false
-
 	return runScripts(ctx, scripts, sArgs)
 }
 
