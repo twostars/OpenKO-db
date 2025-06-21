@@ -23,135 +23,127 @@
       "propertyName": "Kind",
       "description": "Item kind",
       "type": "tinyint",
-      "defaultValue": "0",
-      "enumMap": {
-        "ArmorPriest": 24,
-        "ArmorRogue": 22,
-        "ArmorWarrior": 21,
-        "ArmorWizard": 23,
-        "Arrow": 12,
-        "Axe": 3,
-        "Bow": 7,
-        "Dagger": 1,
-        "Javelin": 13,
-        "Launcher": 10,
-        "Longbow": 8,
-        "Mace": 4,
-        "Shield": 6,
-        "Spear": 5,
-        "Staff": 11,
-        "Sword": 2
-      }
+      "enums": [
+        {"name": "Dagger", "value": 1},
+        {"name": "Sword", "value": 2},
+        {"name": "Axe", "value": 3},
+        {"name": "Mace", "value": 4},
+        {"name": "Spear", "value": 5},
+        {"name": "Shield", "value": 6},
+        {"name": "Bow", "value": 7},
+        {"name": "Longbow", "value": 8},
+        {"name": "Launcher", "value": 10},
+        {"name": "Staff", "value": 11},
+        {"name": "Arrow", "value": 12},
+        {"name": "Javelin", "value": 13},
+        {"name": "ArmorWarrior", "value": 21},
+        {"name": "ArmorRogue", "value": 22},
+        {"name": "ArmorWizard", "value": 23},
+        {"name": "ArmorPriest", "value": 24}
+      ]
     },
     {
       "name": "Slot",
       "propertyName": "Slot",
       "description": "slot this item equips to",
       "type": "tinyint",
-      "defaultValue": "0",
-      "enumMap": {
-        "Breast": 4,
-        "Foot": 13,
-        "Glove": 12,
-        "Head": 1,
-        "LeftEar": 2,
-        "LeftHand": 8,
-        "LeftRing": 11,
-        "Leg": 10,
-        "Neck": 3,
-        "Reserved": 14,
-        "RightEar": 0,
-        "RightHand": 6,
-        "RightRing": 9,
-        "Shoulder": 5,
-        "Waist": 7
-      }
+      "enums": [
+        {"name": "RightEar", "value": 0},
+        {"name": "Head", "value": 1},
+        {"name": "LeftEar", "value": 2},
+        {"name": "Neck", "value": 3},
+        {"name": "Breast", "value": 4},
+        {"name": "Shoulder", "value": 5},
+        {"name": "RightHand", "value": 6},
+        {"name": "Waist", "value": 7},
+        {"name": "LeftHand", "value": 8},
+        {"name": "RightRing", "value": 9},
+        {"name": "Leg", "value": 10},
+        {"name": "LeftRing", "value": 11},
+        {"name": "Glove", "value": 12},
+        {"name": "Foot", "value": 13},
+        {"name": "Reserved", "value": 14}
+      ]
     },
     {
       "name": "Race",
       "propertyName": "Race",
       "description": "usable by race",
       "type": "tinyint",
-      "defaultValue": "0",
-      "enumMap": {
-        "Any": 0,
-        "ElMorad": 2,
-        "Karus": 1
-      }
+      "enums": [
+        {"name": "Any", "value": 0},
+        {"name": "Karus", "value": 1},
+        {"name": "ElMorad", "value": 2}
+      ]
     },
     {
       "name": "Class",
       "propertyName": "ClassId",
       "description": "usable by class",
       "type": "tinyint",
-      "defaultValue": "1",
-      "enumMap": {
-        "Any": 0,
-        "Assassin": 208,
-        "Berserker": 105,
-        "Blade": 205,
-        "Cleric": 211,
-        "DarkPriest": 112,
-        "Druid": 212,
-        "ElmoPriest": 204,
-        "ElmoRogue": 202,
-        "ElmoWarrior": 201,
-        "ElmoWizard": 203,
-        "Enchanter": 210,
-        "GroupCleric": 4,
-        "GroupMage": 3,
-        "GroupMageJob": 9,
-        "GroupMageMaster": 10,
-        "GroupPriestJob": 11,
-        "GroupPriestMaster": 12,
-        "GroupRogue": 2,
-        "GroupRogueJob": 7,
-        "GroupRogueMaster": 8,
-        "GroupWarrior": 1,
-        "GroupWarriorJob": 5,
-        "GroupWarriorMaster": 6,
-        "Guardian": 106,
-        "Hunter": 107,
-        "KarusPriest": 104,
-        "KarusRogue": 102,
-        "KarusWarrior": 101,
-        "KarusWizard": 103,
-        "Mage": 209,
-        "Necromancer": 110,
-        "Penetrator": 108,
-        "Protector": 206,
-        "Ranger": 207,
-        "Shaman": 111,
-        "Sorcerer": 109
-      }
+      "enums": [
+        {"name": "Any", "value": 0},
+        {"name": "GroupWarrior", "value": 1},
+        {"name": "GroupRogue", "value": 2},
+        {"name": "GroupMage", "value": 3},
+        {"name": "GroupCleric", "value": 4},
+        {"name": "GroupWarriorJob", "value": 5},
+        {"name": "GroupWarriorMaster", "value": 6},
+        {"name": "GroupRogueJob", "value": 7},
+        {"name": "GroupRogueMaster", "value": 8},
+        {"name": "GroupMageJob", "value": 9},
+        {"name": "GroupMageMaster", "value": 10},
+        {"name": "GroupPriestJob", "value": 11},
+        {"name": "GroupPriestMaster", "value": 12},
+        {"name": "KarusWarrior", "value": 101},
+        {"name": "KarusRogue", "value": 102},
+        {"name": "KarusWizard", "value": 103},
+        {"name": "KarusPriest", "value": 104},
+        {"name": "Berserker", "value": 105},
+        {"name": "Guardian", "value": 106},
+        {"name": "Hunter", "value": 107},
+        {"name": "Penetrator", "value": 108},
+        {"name": "Sorcerer", "value": 109},
+        {"name": "Necromancer", "value": 110},
+        {"name": "Shaman", "value": 111},
+        {"name": "DarkPriest", "value": 112},
+        {"name": "ElmoWarrior", "value": 201},
+        {"name": "ElmoRogue", "value": 202},
+        {"name": "ElmoWizard", "value": 203},
+        {"name": "ElmoPriest", "value": 204},
+        {"name": "Blade", "value": 205},
+        {"name": "Protector", "value": 206},
+        {"name": "Ranger", "value": 207},
+        {"name": "Assassin", "value": 208},
+        {"name": "Mage", "value": 209},
+        {"name": "Enchanter", "value": 210},
+        {"name": "Cleric", "value": 211},
+        {"name": "Druid", "value": 212}
+      ]
     },
     {
       "name": "Damage",
       "propertyName": "Damage",
       "description": "Physical damage",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "Delay",
       "propertyName": "Delay",
       "description": "Animation windup time before activation",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "Range",
       "propertyName": "Range",
       "description": "Maximum distance from a target before item cannot activate",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "Weight",
       "propertyName": "Weight",
       "description": "Weight",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "Duration",
@@ -163,32 +155,30 @@
       "name": "BuyPrice",
       "propertyName": "BuyPrice",
       "description": "Price at which item can be bought from a merchant",
-      "type": "int",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "SellPrice",
       "propertyName": "SellPrice",
       "description": "Price at which item can be sold to a merchant",
-      "type": "int"
+      "type": "smallint"
     },
     {
       "name": "Ac",
       "propertyName": "Armor",
       "description": "Amount contributed to armor value, when equipped",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "Countable",
       "propertyName": "Countable",
       "description": "Price at which item can be sold to a merchant",
       "type": "tinyint",
-      "enumMap": {
-        "Coins": 2,
-        "NonStackable": 0,
-        "Stackable": 1
-      }
+      "enums": [
+        {"name": "NonStackable", "value": 0},
+        {"name": "Stackable", "value": 1},
+        {"name": "Coins", "value": 2}
+      ]
     },
     {
       "name": "Effect1",
@@ -201,20 +191,20 @@
       "propertyName": "SpecialEffect",
       "description": "Special Effect",
       "type": "int",
-      "enumMap": {
-        "ScrollAccessory": 253,
-        "ScrollRental": 254,
-        "ScrollTransform": 1,
-        "ScrollTransform2": 2,
-        "ScrollTransform3": 3,
-        "ScrollTransform4": 4,
-        "ScrollUpgrade": 255,
-        "UniqueAxe": 12050000,
-        "UniqueBow": 12120000,
-        "UniqueMace": 12130000,
-        "UniqueSpear": 12070000,
-        "UniqueStaff": 40000000
-      }
+      "enums": [
+        {"name": "ScrollTransform", "value": 1},
+        {"name": "ScrollTransform2", "value": 2},
+        {"name": "ScrollTransform3", "value": 3},
+        {"name": "ScrollTransform4", "value": 4},
+        {"name": "ScrollAccessory", "value": 253},
+        {"name": "ScrollRental", "value": 254},
+        {"name": "ScrollUpgrade", "value": 255},
+        {"name": "UniqueAxe", "value": 12050000},
+        {"name": "UniqueSpear", "value": 12070000},
+        {"name": "UniqueBow", "value": 12120000},
+        {"name": "UniqueMace", "value": 12130000},
+        {"name": "UniqueStaff", "value": 40000000}
+      ]
     },
     {
       "name": "ReqLevel",
@@ -239,16 +229,16 @@
       "propertyName": "RequireTitle",
       "description": "Title required to use item",
       "type": "tinyint",
-      "enumMap": {
-        "Any": 0,
-        "Chief": 1,
-        "King": 1,
-        "Knight": 3,
-        "Officer": 4,
-        "Trainee": 5,
-        "ViceChief": 2,
-        "WarCommander": 100
-      }
+      "enums": [
+        {"name": "Any", "value": 0},
+        {"name": "King", "value": 1},
+        {"name": "Chief", "value": 1},
+        {"name": "ViceChief", "value": 2},
+        {"name": "Knight", "value": 3},
+        {"name": "Officer", "value": 4},
+        {"name": "Trainee", "value": 5},
+        {"name": "WarCommander", "value": 100}
+      ]
     },
     {
       "name": "ReqStr",
@@ -290,7 +280,16 @@
       "name": "ItemType",
       "propertyName": "Type",
       "description": "Item grade",
-      "type": "tinyint"
+      "type": "tinyint",
+      "enumType": {
+        "White": 0,
+        "Magic": 1,
+        "Rare": 2,
+        "Craft": 3,
+        "Upgradable": 4,
+        "Unknown5": 5,
+        "Unknown6": 6
+      }
     },
     {
       "name": "Hitrate",
@@ -308,43 +307,37 @@
       "name": "DaggerAc",
       "propertyName": "DaggerArmor",
       "description": "Dagger defense modifier",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "SwordAc",
       "propertyName": "SwordArmor",
       "description": "Sword defense modifier",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "MaceAc",
       "propertyName": "MaceArmor",
       "description": "Mace defense modifier",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "AxeAc",
       "propertyName": "AxeArmor",
       "description": "Axe defense modifier",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "SpearAc",
       "propertyName": "SpearArmor",
       "description": "Spear defense modifier",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "BowAc",
       "propertyName": "BowArmor",
       "description": "Bow defense modifier",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "FireDamage",
@@ -392,50 +385,43 @@
       "name": "MirrorDamage",
       "propertyName": "MirrorDamage",
       "description": "Percent of damage reflected to attacker",
-      "type": "tinyint",
-      "defaultValue": "0"
+      "type": "tinyint"
     },
     {
       "name": "Droprate",
       "propertyName": "DropRate",
       "description": "TODO: Unused? Drop rates dictated by K_NPC_ITEM",
-      "type": "tinyint",
-      "defaultValue": "0"
+      "type": "tinyint"
     },
     {
       "name": "StrB",
       "propertyName": "StrengthBonus",
       "description": "Strength bonus when item equipped",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "StaB",
       "propertyName": "StaminaBonus",
       "description": "Stamina bonus when item equipped",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "DexB",
       "propertyName": "DexterityBonus",
       "description": "Dexterity bonus when item equipped",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "IntelB",
       "propertyName": "IntelligenceBonus",
       "description": "Intelligence bonus when item equipped",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "ChaB",
       "propertyName": "CharismaBonus",
       "description": "Charisma bonus when item equipped",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "MaxHpB",
@@ -453,43 +439,37 @@
       "name": "FireR",
       "propertyName": "FireResistance",
       "description": "Fire resistance",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "ColdR",
       "propertyName": "ColdResistance",
       "description": "Cold resistance",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "LightningR",
       "propertyName": "LightningResistance",
       "description": "Lightning resistance",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "MagicR",
       "propertyName": "MagicResistance",
       "description": "Magic resistance",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "PoisonR",
       "propertyName": "PoisonResistance",
       "description": "Poison resistance",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     },
     {
       "name": "CurseR",
       "propertyName": "CurseResistance",
       "description": "Curse resistance",
-      "type": "smallint",
-      "defaultValue": "0"
+      "type": "smallint"
     }
   ]
 }

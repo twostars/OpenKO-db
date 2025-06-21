@@ -22,15 +22,20 @@ type TableDef struct {
 }
 
 type Column struct {
-	Name         string                 `json:"name"`                   // Column name in the database
-	PropertyName string                 `json:"propertyName"`           // Code-friendly property name
-	Description  string                 `json:"description"`            // Property description
-	Type         tsql.TSqlType          `json:"type"`                   // Supported TSQL Type
-	IsPrimaryKey bool                   `json:"isPrimaryKey,omitempty"` // Is this column part of the table's Primary Key?
-	DefaultValue string                 `json:"defaultValue,omitempty"` // Default value that should be assigned to the property
-	AllowNull    bool                   `json:"allowNull,omitempty"`    // Can the column's value be null?
-	Length       int                    `json:"length,omitempty"`       // length specifier for array types
-	EnumMap      map[string]interface{} `json:"enumMap,omitempty"`      // map of enumerated values
+	Name         string        `json:"name"`                   // Column name in the database
+	PropertyName string        `json:"propertyName"`           // Code-friendly property name
+	Description  string        `json:"description"`            // Property description
+	Type         tsql.TSqlType `json:"type"`                   // Supported TSQL Type
+	IsPrimaryKey bool          `json:"isPrimaryKey,omitempty"` // Is this column part of the table's Primary Key?
+	DefaultValue string        `json:"defaultValue,omitempty"` // Default value that should be assigned to the property
+	AllowNull    bool          `json:"allowNull,omitempty"`    // Can the column's value be null?
+	Length       int           `json:"length,omitempty"`       // length specifier for array types
+	Enums        []Enum        `json:"enums,omitempty"`        // array of enumerated values
+}
+
+type Enum struct {
+	Name  string
+	Value interface{}
 }
 
 func (this *Column) GormType() string {
