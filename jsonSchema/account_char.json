@@ -1,0 +1,52 @@
+{
+  "database": 0,
+  "name": "ACCOUNT_CHAR",
+  "className": "AccountChar",
+  "description": "Represents the relationship between accounts and characters",
+  "columns": [
+    {
+      "name": "strAccountID",
+      "propertyName": "AccountId",
+      "description": "Account Identifier",
+      "type": "varchar",
+      "length": 21,
+      "isPrimaryKey": true
+    },
+    {
+      "name": "bNation",
+      "propertyName": "Nation",
+      "description": "Nation Identifier",
+      "type": "tinyint"
+    },
+    {
+      "name": "bCharNum",
+      "propertyName": "CharNum",
+      "description": "Number of created characters",
+      "type": "tinyint"
+    },
+    {
+      "name": "strCharID1",
+      "propertyName": "CharId1",
+      "description": "Character 1 Name",
+      "type": "varchar",
+      "length": 21,
+      "allowNull": true
+    },
+    {
+      "name": "strCharID2",
+      "propertyName": "CharId2",
+      "description": "Character 2 Name",
+      "type": "varchar",
+      "length": 21,
+      "allowNull": true
+    },
+    {
+      "name": "strCharID3",
+      "propertyName": "CharId3",
+      "description": "Character 3 Name",
+      "type": "varchar",
+      "length": 21,
+      "allowNull": true
+    }
+  ]
+}

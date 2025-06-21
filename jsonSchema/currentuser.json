@@ -1,0 +1,42 @@
+{
+  "database": 0,
+  "name": "CURRENTUSER",
+  "className": "CurrentUser",
+  "description": "Keeps track of users currently connected to the server",
+  "columns": [
+    {
+      "name": "nServerNo",
+      "propertyName": "ServerNumber",
+      "description": "Server Index",
+      "type": "int"
+    },
+    {
+      "name": "strServerIP",
+      "propertyName": "ServerIP",
+      "description": "Server IP Address",
+      "type": "varchar",
+      "length": 20
+    },
+    {
+      "name": "strAccountID",
+      "propertyName": "AccountId",
+      "description": "User Account Identifier",
+      "type": "varchar",
+      "length": 20
+    },
+    {
+      "name": "strCharID",
+      "propertyName": "CharId",
+      "description": "User Character Name",
+      "type": "varchar",
+      "length": 20
+    },
+    {
+      "name": "strClientIP",
+      "propertyName": "ClientIP",
+      "description": "User IP Address",
+      "type": "varchar",
+      "length": 20
+    }
+  ]
+}

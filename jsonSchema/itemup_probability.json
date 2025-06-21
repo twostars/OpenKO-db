@@ -1,0 +1,39 @@
+{
+  "database": 0,
+  "name": "ITEMUP_PROBABILITY",
+  "className": "ItemUpProbability",
+  "description": "TODO: Doc usage",
+  "columns": [
+    {
+      "name": "bType",
+      "propertyName": "Type",
+      "description": "Type",
+      "type": "tinyint",
+      "isPrimaryKey": true
+    },
+    {
+      "name": "nMaxSuccess",
+      "propertyName": "MaxSuccess",
+      "description": "Max Success",
+      "type": "smallint"
+    },
+    {
+      "name": "nMaxFail",
+      "propertyName": "MaxFail",
+      "description": "Max Fail",
+      "type": "smallint"
+    },
+    {
+      "name": "nCurSuccess",
+      "propertyName": "CurrentSuccess",
+      "description": "Current success",
+      "type": "smallint"
+    },
+    {
+      "name": "nCurFail",
+      "propertyName": "CurrentFailure",
+      "description": "Current failure",
+      "type": "smallint"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "database": 0,
+  "name": "COUPON_SERIAL_LIST",
+  "className": "CouponSerialList",
+  "description": "Coupon Serial List",
+  "columns": [
+    {
+      "name": "nIndex",
+      "propertyName": "Index",
+      "description": "Index",
+      "type": "int"
+    },
+    {
+      "name": "strSerialNum",
+      "propertyName": "SerialNum",
+      "description": "Serial Number",
+      "type": "char",
+      "length": 16
+    },
+    {
+      "name": "nItemNum",
+      "propertyName": "ItemNumber",
+      "description": "Item Number",
+      "type": "int"
+    },
+    {
+      "name": "sItemCount",
+      "propertyName": "ItemCount",
+      "description": "Item Count",
+      "type": "smallint"
+    }
+  ]
+}

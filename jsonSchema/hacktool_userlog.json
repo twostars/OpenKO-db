@@ -1,0 +1,36 @@
+{
+  "database": 0,
+  "name": "HACKTOOL_USERLOG",
+  "className": "HacktoolUserLog",
+  "description": "Tracks possible detections of a hack tool by a user",
+  "columns": [
+    {
+      "name": "strAccountID",
+      "propertyName": "AccountId",
+      "description": "Account identifier",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "strCharID",
+      "propertyName": "CharId",
+      "description": "Character name",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "strHackToolName",
+      "propertyName": "HackToolName",
+      "description": "Name of the hack tool detected",
+      "type": "varchar",
+      "length": 512,
+      "allowNull": true
+    },
+    {
+      "name": "tWriteTime",
+      "propertyName": "WriteTime",
+      "description": "Log time",
+      "type": "smalldatetime"
+    }
+  ]
+}

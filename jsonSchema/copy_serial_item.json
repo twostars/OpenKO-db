@@ -1,0 +1,46 @@
+{
+  "database": 0,
+  "name": "COPY_SERIAL_ITEM",
+  "className": "CopySerialItem",
+  "description": "TODO: Doc",
+  "columns": [
+    {
+      "name": "strAccountID",
+      "propertyName": "AccountId",
+      "description": "Account Identifier",
+      "type": "char",
+      "length": 21,
+      "allowNull": true
+    },
+    {
+      "name": "byType",
+      "propertyName": "Type",
+      "description": "Type",
+      "type": "tinyint",
+      "allowNull": true
+    },
+    {
+      "name": "nPos",
+      "propertyName": "Pos",
+      "description": "nPos: TODO",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "ItemNum",
+      "propertyName": "ItemNum",
+      "description": "Item Number",
+      "type": "binary",
+      "length": 4,
+      "allowNull": true
+    },
+    {
+      "name": "ItemSerial",
+      "propertyName": "ItemSerial",
+      "description": "Item Serial",
+      "type": "binary",
+      "length": 8,
+      "allowNull": true
+    }
+  ]
+}

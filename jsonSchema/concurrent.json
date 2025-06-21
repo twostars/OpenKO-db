@@ -1,0 +1,43 @@
+{
+  "database": 0,
+  "name": "CONCURRENT",
+  "className": "Concurrent",
+  "description": "Keeps track of concurrent user counts",
+  "columns": [
+    {
+      "name": "serverid",
+      "propertyName": "ServerId",
+      "description": "Server Identifier",
+      "type": "tinyint"
+    },
+    {
+      "name": "zone1_count",
+      "propertyName": "Zone1Count",
+      "description": "Zone 1 Count",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "zone2_count",
+      "propertyName": "Zone2Count",
+      "description": "Zone 2 Count",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "zone3_count",
+      "propertyName": "Zone3Count",
+      "description": "Zone 3 Count",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "bz",
+      "propertyName": "Bz",
+      "description": "Bz: TODO",
+      "type": "varchar",
+      "length": 50,
+      "allowNull": true
+    }
+  ]
+}

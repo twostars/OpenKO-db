@@ -1,0 +1,46 @@
+{
+  "database": 0,
+  "name": "HERO_USER",
+  "className": "HeroUser",
+  "description": "TODO Doc",
+  "columns": [
+    {
+      "name": "shIndex",
+      "propertyName": "Index",
+      "description": "Index",
+      "type": "smallint"
+    },
+    {
+      "name": "strUserID",
+      "propertyName": "UserId",
+      "description": "User identifier",
+      "type": "varchar",
+      "length": 21,
+      "allowNull": true
+    },
+    {
+      "name": "strNation",
+      "propertyName": "Nation",
+      "description": "Nation text",
+      "type": "varchar",
+      "length": 20,
+      "allowNull": true
+    },
+    {
+      "name": "strClass",
+      "propertyName": "ClassName",
+      "description": "Class name",
+      "type": "varchar",
+      "length": 30,
+      "allowNull": true
+    },
+    {
+      "name": "strAchievement",
+      "propertyName": "Achievement",
+      "description": "Achievement text",
+      "type": "varchar",
+      "length": 50,
+      "allowNull": true
+    }
+  ]
+}

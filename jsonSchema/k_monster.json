@@ -1,0 +1,296 @@
+{
+  "database": 0,
+  "name": "K_MONSTER",
+  "className": "Monster",
+  "description": "Monster definitions",
+  "columns": [
+    {
+      "name": "sSid",
+      "propertyName": "MonsterId",
+      "description": "Monster Identifier",
+      "type": "smallint"
+    },
+    {
+      "name": "strName",
+      "propertyName": "Name",
+      "description": "Name",
+      "type": "varchar",
+      "length": 30,
+      "allowNull": true
+    },
+    {
+      "name": "sPid",
+      "propertyName": "PictureId",
+      "description": "Picture identifier",
+      "type": "smallint"
+    },
+    {
+      "name": "sSize",
+      "propertyName": "Size",
+      "description": "Size multiplier",
+      "type": "smallint"
+    },
+    {
+      "name": "iWeapon1",
+      "propertyName": "Weapon1",
+      "description": "Weapon 1 ItemNum",
+      "type": "int"
+    },
+    {
+      "name": "iWeapon2",
+      "propertyName": "Weapon2",
+      "description": "Weapon 2 ItemNum",
+      "type": "int"
+    },
+    {
+      "name": "byGroup",
+      "propertyName": "Group",
+      "description": "Group",
+      "type": "tinyint"
+    },
+    {
+      "name": "byActType",
+      "propertyName": "ActType",
+      "description": "Act Type",
+      "type": "tinyint"
+    },
+    {
+      "name": "byType",
+      "propertyName": "Type",
+      "description": "Type",
+      "type": "tinyint",
+      "enumMap": {
+        "Monster": 0,
+        "Npc": 1,
+        "Event": 2,
+        "Unknown3": 3,
+        "Unknown4": 4,
+        "Trap": 5,
+        "RangedOrc": 6,
+        "Unknown9": 9
+      }
+    },
+    {
+      "name": "byFamily",
+      "propertyName": "Family",
+      "description": "Family",
+      "type": "tinyint"
+    },
+    {
+      "name": "byRank",
+      "propertyName": "Rank",
+      "description": "Rank",
+      "type": "tinyint"
+    },
+    {
+      "name": "byTitle",
+      "propertyName": "Title",
+      "description": "Title",
+      "type": "tinyint"
+    },
+    {
+      "name": "iSellingGroup",
+      "propertyName": "SellingGroup",
+      "description": "Npc selling group",
+      "type": "int"
+    },
+    {
+      "name": "sLevel",
+      "propertyName": "Level",
+      "description": "Level",
+      "type": "smallint"
+    },
+    {
+      "name": "iExp",
+      "propertyName": "Exp",
+      "description": "Experience granted when killed",
+      "type": "int"
+    },
+    {
+      "name": "iLoyalty",
+      "propertyName": "Loyalty",
+      "description": "NP granted when killed",
+      "type": "int"
+    },
+    {
+      "name": "iHpPoint",
+      "propertyName": "HitPoints",
+      "description": "Max health",
+      "type": "int"
+    },
+    {
+      "name": "sMpPoint",
+      "propertyName": "ManaPoints",
+      "description": "Max mana",
+      "type": "smallint"
+    },
+    {
+      "name": "sAtk",
+      "propertyName": "Attack",
+      "description": "TODO: Doc usage",
+      "type": "smallint"
+    },
+    {
+      "name": "sAc",
+      "propertyName": "Armor",
+      "description": "Armor",
+      "type": "smallint"
+    },
+    {
+      "name": "sHitRate",
+      "propertyName": "HitRate",
+      "description": "Attack success rate",
+      "type": "smallint"
+    },
+    {
+      "name": "sEvadeRate",
+      "propertyName": "EvadeRate",
+      "description": "Evasion Rate",
+      "type": "smallint"
+    },
+    {
+      "name": "sDamage",
+      "propertyName": "Damage",
+      "description": "Raw damage dealt",
+      "type": "smallint"
+    },
+    {
+      "name": "sAttackDelay",
+      "propertyName": "AttackDelay",
+      "description": "Time to wait between attacks",
+      "type": "smallint"
+    },
+    {
+      "name": "bySpeed1",
+      "propertyName": "WalkSpeed",
+      "description": "Walk movement speed",
+      "type": "tinyint"
+    },
+    {
+      "name": "bySpeed2",
+      "propertyName": "RunSpeed",
+      "description": "Run movement speed",
+      "type": "tinyint"
+    },
+    {
+      "name": "sStandtime",
+      "propertyName": "StandTime",
+      "description": "Delay time while in standing state",
+      "type": "smallint"
+    },
+    {
+      "name": "iMagic1",
+      "propertyName": "Magic1",
+      "description": "Magic identifier 1",
+      "type": "int"
+    },
+    {
+      "name": "iMagic2",
+      "propertyName": "Magic2",
+      "description": "Magic identifier 2",
+      "type": "int"
+    },
+    {
+      "name": "iMagic3",
+      "propertyName": "Magic3",
+      "description": "Magic identifier 3",
+      "type": "int"
+    },
+    {
+      "name": "sFireR",
+      "propertyName": "FireResistance",
+      "description": "Fire resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "sColdR",
+      "propertyName": "ColdResistance",
+      "description": "Cold resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "sLightningR",
+      "propertyName": "LightningResistance",
+      "description": "Lightning resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "sMagicR",
+      "propertyName": "MagicResistance",
+      "description": "Magic resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "sDiseaseR",
+      "propertyName": "DiseaseResistance",
+      "description": "Disease resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "sPoisonR",
+      "propertyName": "PoisonResistance",
+      "description": "Poison resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "sLightR",
+      "propertyName": "LightResistance",
+      "description": "Light resistance",
+      "type": "smallint"
+    },
+    {
+      "name": "sBulk",
+      "propertyName": "Bulk",
+      "description": "Bulk",
+      "type": "smallint"
+    },
+    {
+      "name": "byAttackRange",
+      "propertyName": "AttackRange",
+      "description": "Attack range",
+      "type": "tinyint"
+    },
+    {
+      "name": "bySearchRange",
+      "propertyName": "SearchRange",
+      "description": "Search range",
+      "type": "tinyint"
+    },
+    {
+      "name": "byTracingRange",
+      "propertyName": "TracingRange",
+      "description": "Tracing range",
+      "type": "tinyint"
+    },
+    {
+      "name": "iMoney",
+      "propertyName": "Money",
+      "description": "Coins dropped on death",
+      "type": "int"
+    },
+    {
+      "name": "sItem",
+      "propertyName": "Item",
+      "description": "K_MONSTER_ITEM.Index drop table reference",
+      "type": "smallint"
+    },
+    {
+      "name": "byDirectAttack",
+      "propertyName": "DirectAttack",
+      "description": "Direct attack",
+      "type": "tinyint"
+    },
+    {
+      "name": "byMagicAttack",
+      "propertyName": "MagicAttack",
+      "description": "Magic attack",
+      "type": "tinyint"
+    },
+    {
+      "name": "byMoneyType",
+      "propertyName": "MoneyType",
+      "description": "Money type",
+      "type": "tinyint"
+    }
+  ]
+}
