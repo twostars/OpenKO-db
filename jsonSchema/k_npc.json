@@ -1,0 +1,286 @@
+{
+  "database": 0,
+  "name": "K_NPC",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "sSid",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "strName",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 30
+    },
+    {
+      "name": "sPid",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sSize",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "iWeapon1",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "iWeapon2",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "byGroup",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "byActType",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "byType",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "byFamily",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "byRank",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "byTitle",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "iSellingGroup",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "sLevel",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "iExp",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "iLoyalty",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "iHpPoint",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "sMpPoint",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sAtk",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sAc",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sHitRate",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sEvadeRate",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sDamage",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sAttackDelay",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "bySpeed1",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "bySpeed2",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "sStandtime",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "iMagic1",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "iMagic2",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "iMagic3",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "sFireR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sColdR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sLightningR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sMagicR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sDiseaseR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sPoisonR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sLightR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sBulk",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "byAttackRange",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "bySearchRange",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "byTracingRange",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "iMoney",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "sItem",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "byDirectAttack",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "byMagicAttack",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "byMoneyType",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    }
+  ]
+}

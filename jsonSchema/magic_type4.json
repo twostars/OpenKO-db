@@ -1,0 +1,192 @@
+{
+  "database": 0,
+  "name": "MAGIC_TYPE4",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "iNum",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50
+    },
+    {
+      "name": "Description",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100
+    },
+    {
+      "name": "BuffType",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "Radius",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "Duration",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "AttackSpeed",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "Speed",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "AC",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "ACPct",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "Attack",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "MagicAttack",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "MaxHP",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "MaxHpPct",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "MaxMP",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "MaxMpPct",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "HitRate",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "AvoidRate",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "Str",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "Sta",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "Dex",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "Intel",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "Cha",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "FireR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "ColdR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "LightningR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "MagicR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "DiseaseR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "PoisonR",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "ExpPct",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    }
+  ]
+}

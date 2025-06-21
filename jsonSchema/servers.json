@@ -1,0 +1,34 @@
+{
+  "database": 0,
+  "name": "SERVERS",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "id",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "sName",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 64
+    },
+    {
+      "name": "sHost",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 64
+    },
+    {
+      "name": "players",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    }
+  ]
+}

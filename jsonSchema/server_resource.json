@@ -1,0 +1,29 @@
+{
+  "database": 0,
+  "name": "SERVER_RESOURCE",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "nResourceID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "strName",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 50
+    },
+    {
+      "name": "strResource",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "database": 0,
+  "name": "USERDATA_SKILLSHORTCUT",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "strCharID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "isPrimaryKey": true,
+      "defaultValue": "''",
+      "length": 21
+    },
+    {
+      "name": "nCount",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "strSkillData",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "defaultValue": "0x00",
+      "length": 260
+    }
+  ]
+}

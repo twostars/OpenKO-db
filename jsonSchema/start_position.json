@@ -1,0 +1,74 @@
+{
+  "database": 0,
+  "name": "START_POSITION",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "ZoneID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sKarusX",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sKarusZ",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sElmoradX",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sElmoradZ",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "bRangeX",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "bRangeZ",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "sKarusGateX",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sKarusGateZ",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sElmoGateX",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "sElmoGateZ",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    }
+  ]
+}

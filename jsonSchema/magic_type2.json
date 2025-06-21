@@ -1,0 +1,67 @@
+{
+  "database": 0,
+  "name": "MAGIC_TYPE2",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "iNum",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50
+    },
+    {
+      "name": "Description",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100
+    },
+    {
+      "name": "HitType",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "HitRate",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "AddDamage",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "AddRange",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "NeedArrow",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "AddDamagePlus",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "database": 0,
+  "name": "MAGIC_TYPE5",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "iNum",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 50
+    },
+    {
+      "name": "Description",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 100
+    },
+    {
+      "name": "Type",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "ExpRecover",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "NeedStone",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    }
+  ]
+}

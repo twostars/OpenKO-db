@@ -1,0 +1,46 @@
+{
+  "database": 0,
+  "name": "TERM_ITEM",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "strUserId",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "allowNull": true,
+      "length": 21
+    },
+    {
+      "name": "byType",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "allowNull": true
+    },
+    {
+      "name": "nPos",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "ItemNum",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "binary",
+      "allowNull": true,
+      "length": 4
+    },
+    {
+      "name": "ItemSerial",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "binary",
+      "allowNull": true,
+      "length": 8
+    }
+  ]
+}

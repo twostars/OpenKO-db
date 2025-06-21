@@ -1,0 +1,43 @@
+{
+  "database": 0,
+  "name": "PROGRAMLIST_LOG",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "id",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "isPrimaryKey": true
+    },
+    {
+      "name": "strAccountID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "strCharID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "strHackToolName",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 1024
+    },
+    {
+      "name": "tWriteTime",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smalldatetime",
+      "defaultValue": "getdate("
+    }
+  ]
+}

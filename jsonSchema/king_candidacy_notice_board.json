@@ -1,0 +1,35 @@
+{
+  "database": 0,
+  "name": "KING_CANDIDACY_NOTICE_BOARD",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "strUserID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "isPrimaryKey": true,
+      "length": 21
+    },
+    {
+      "name": "byNation",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "sNoticeLen",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "strNotice",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varbinary",
+      "length": 1024
+    }
+  ]
+}

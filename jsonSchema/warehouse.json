@@ -1,0 +1,46 @@
+{
+  "database": 0,
+  "name": "WAREHOUSE",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "strAccountID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "isPrimaryKey": true,
+      "length": 50
+    },
+    {
+      "name": "nMoney",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "dwTime",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "WarehouseData",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 1600
+    },
+    {
+      "name": "strSerial",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 1600
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "database": 0,
+  "name": "KNIGHTS",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "IDNum",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "isPrimaryKey": true
+    },
+    {
+      "name": "Flag",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "defaultValue": "1"
+    },
+    {
+      "name": "Nation",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "Ranking",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "IDName",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "Members",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "defaultValue": "1"
+    },
+    {
+      "name": "Chief",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "length": 21
+    },
+    {
+      "name": "ViceChief_1",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21
+    },
+    {
+      "name": "ViceChief_2",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21
+    },
+    {
+      "name": "ViceChief_3",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21
+    },
+    {
+      "name": "strEnemyName",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 21
+    },
+    {
+      "name": "byOldWarResult",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nWarEnemyID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nVictory",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nLose",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Gold",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "bigint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Domination",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Points",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "defaultValue": "0",
+      "allowNull": true
+    },
+    {
+      "name": "CreateTime",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smalldatetime",
+      "defaultValue": "getdate("
+    },
+    {
+      "name": "sMarkVersion",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sMarkLen",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "Mark",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "image",
+      "allowNull": true,
+      "length": 2147483647
+    },
+    {
+      "name": "Stash",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "varchar",
+      "allowNull": true,
+      "length": 1600
+    },
+    {
+      "name": "bySiegeFlag",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sAllianceKnights",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "sCape",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "defaultValue": "-1"
+    }
+  ]
+}

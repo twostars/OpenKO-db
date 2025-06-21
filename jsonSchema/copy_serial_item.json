@@ -1,0 +1,46 @@
+{
+  "database": 0,
+  "name": "COPY_SERIAL_ITEM",
+  "className": "CopySerialItem",
+  "description": "TODO: Doc",
+  "columns": [
+    {
+      "name": "strUserId",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "allowNull": true,
+      "length": 21
+    },
+    {
+      "name": "byType",
+      "propertyName": "Type",
+      "description": "Type",
+      "type": "tinyint",
+      "allowNull": true
+    },
+    {
+      "name": "nPos",
+      "propertyName": "Pos",
+      "description": "nPos: TODO",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "ItemNum",
+      "propertyName": "ItemNum",
+      "description": "Item Number",
+      "type": "binary",
+      "allowNull": true,
+      "length": 4
+    },
+    {
+      "name": "ItemSerial",
+      "propertyName": "ItemSerial",
+      "description": "Item Serial",
+      "type": "binary",
+      "allowNull": true,
+      "length": 8
+    }
+  ]
+}

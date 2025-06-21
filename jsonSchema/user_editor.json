@@ -1,0 +1,113 @@
+{
+  "database": 0,
+  "name": "USER_EDITOR",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "strCharID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 21
+    },
+    {
+      "name": "strAccountID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 21
+    },
+    {
+      "name": "strOpID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 21
+    },
+    {
+      "name": "strOpIP",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 21
+    },
+    {
+      "name": "strOldUserValue",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 600
+    },
+    {
+      "name": "strNewUserValue",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 600
+    },
+    {
+      "name": "strOldUserSkill",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 10
+    },
+    {
+      "name": "strNewUserSkill",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 10
+    },
+    {
+      "name": "strOldUserItem",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 400
+    },
+    {
+      "name": "strNewUserItem",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 400
+    },
+    {
+      "name": "strOldWHValue",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 100
+    },
+    {
+      "name": "strNewWHValue",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 100
+    },
+    {
+      "name": "strOldWHItem",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 1600
+    },
+    {
+      "name": "strNewWHItem",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 1600
+    },
+    {
+      "name": "EditorTime",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smalldatetime",
+      "defaultValue": "getdate("
+    }
+  ]
+}

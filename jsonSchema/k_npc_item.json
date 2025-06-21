@@ -1,0 +1,83 @@
+{
+  "database": 0,
+  "name": "K_NPC_ITEM",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "sIndex",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "iItem01",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "sPersent01",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "iItem02",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sPersent02",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "iItem03",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sPersent03",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "iItem04",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sPersent04",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "iItem05",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sPersent05",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    }
+  ]
+}

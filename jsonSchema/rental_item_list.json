@@ -1,0 +1,108 @@
+{
+  "database": 0,
+  "name": "RENTAL_ITEM_LIST",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "nRentalIndex",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "nItemIndex",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "sDurability",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "nSerialNumber",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "bigint"
+    },
+    {
+      "name": "byRegType",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "defaultValue": "0"
+    },
+    {
+      "name": "byItemType",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "byClass",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint"
+    },
+    {
+      "name": "sRentalTime",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "nRentalMoney",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int"
+    },
+    {
+      "name": "strLenderCharID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 21
+    },
+    {
+      "name": "strLenderAcID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "length": 21
+    },
+    {
+      "name": "strBorrowerCharID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "allowNull": true,
+      "length": 21
+    },
+    {
+      "name": "strBorrowerAcID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "char",
+      "allowNull": true,
+      "length": 21
+    },
+    {
+      "name": "timeLender",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smalldatetime",
+      "allowNull": true
+    },
+    {
+      "name": "timeRegister",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smalldatetime",
+      "defaultValue": "getdate("
+    }
+  ]
+}
