@@ -34,8 +34,8 @@ type Column struct {
 }
 
 type Enum struct {
-	Name  string
-	Value interface{}
+	Name  string      `json:"name"`
+	Value interface{} `json:"value"`
 }
 
 func (this *Column) GormType() string {

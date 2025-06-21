@@ -60,14 +60,38 @@
       "description": "Type",
       "type": "tinyint",
       "enums": [
-        {"name": "Monster", "value": 0},
-        {"name": "Npc", "value": 1},
-        {"name": "Event", "value": 2},
-        {"name": "Unknown3", "value": 3},
-        {"name": "Unknown4", "value": 4},
-        {"name": "Trap", "value": 5},
-        {"name": "RangedOrc", "value": 6},
-        {"name": "Unknown9", "value": 9}
+        {
+          "name": "Monster",
+          "value": 0
+        },
+        {
+          "name": "Npc",
+          "value": 1
+        },
+        {
+          "name": "Event",
+          "value": 2
+        },
+        {
+          "name": "Unknown3",
+          "value": 3
+        },
+        {
+          "name": "Unknown4",
+          "value": 4
+        },
+        {
+          "name": "Trap",
+          "value": 5
+        },
+        {
+          "name": "RangedOrc",
+          "value": 6
+        },
+        {
+          "name": "Unknown9",
+          "value": 9
+        }
       ]
     },
     {
