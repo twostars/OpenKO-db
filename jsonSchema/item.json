@@ -27,67 +27,83 @@
       "enums": [
         {
           "name": "Dagger",
-          "value": 1
+          "value": 1,
+          "comment": ""
         },
         {
           "name": "Sword",
-          "value": 2
+          "value": 2,
+          "comment": ""
         },
         {
           "name": "Axe",
-          "value": 3
+          "value": 3,
+          "comment": ""
         },
         {
           "name": "Mace",
-          "value": 4
+          "value": 4,
+          "comment": ""
         },
         {
           "name": "Spear",
-          "value": 5
+          "value": 5,
+          "comment": ""
         },
         {
           "name": "Shield",
-          "value": 6
+          "value": 6,
+          "comment": ""
         },
         {
           "name": "Bow",
-          "value": 7
+          "value": 7,
+          "comment": ""
         },
         {
           "name": "Longbow",
-          "value": 8
+          "value": 8,
+          "comment": ""
         },
         {
           "name": "Launcher",
-          "value": 10
+          "value": 10,
+          "comment": ""
         },
         {
           "name": "Staff",
-          "value": 11
+          "value": 11,
+          "comment": ""
         },
         {
           "name": "Arrow",
-          "value": 12
+          "value": 12,
+          "comment": ""
         },
         {
           "name": "Javelin",
-          "value": 13
+          "value": 13,
+          "comment": ""
         },
         {
           "name": "ArmorWarrior",
-          "value": 21
+          "value": 21,
+          "comment": ""
         },
         {
           "name": "ArmorRogue",
-          "value": 22
+          "value": 22,
+          "comment": ""
         },
         {
           "name": "ArmorWizard",
-          "value": 23
+          "value": 23,
+          "comment": ""
         },
         {
           "name": "ArmorPriest",
-          "value": 24
+          "value": 24,
+          "comment": ""
         }
       ]
     },
@@ -100,63 +116,78 @@
       "enums": [
         {
           "name": "RightEar",
-          "value": 0
+          "value": 0,
+          "comment": ""
         },
         {
           "name": "Head",
-          "value": 1
+          "value": 1,
+          "comment": ""
         },
         {
           "name": "LeftEar",
-          "value": 2
+          "value": 2,
+          "comment": ""
         },
         {
           "name": "Neck",
-          "value": 3
+          "value": 3,
+          "comment": ""
         },
         {
           "name": "Breast",
-          "value": 4
+          "value": 4,
+          "comment": ""
         },
         {
           "name": "Shoulder",
-          "value": 5
+          "value": 5,
+          "comment": ""
         },
         {
           "name": "RightHand",
-          "value": 6
+          "value": 6,
+          "comment": ""
         },
         {
           "name": "Waist",
-          "value": 7
+          "value": 7,
+          "comment": ""
         },
         {
           "name": "LeftHand",
-          "value": 8
+          "value": 8,
+          "comment": ""
         },
         {
           "name": "RightRing",
-          "value": 9
+          "value": 9,
+          "comment": ""
         },
         {
           "name": "Leg",
-          "value": 10
+          "value": 10,
+          "comment": ""
         },
         {
           "name": "LeftRing",
-          "value": 11
+          "value": 11,
+          "comment": ""
         },
         {
           "name": "Glove",
-          "value": 12
+          "value": 12,
+          "comment": ""
         },
         {
           "name": "Foot",
-          "value": 13
+          "value": 13,
+          "comment": ""
         },
         {
           "name": "Reserved",
-          "value": 14
+          "value": 14,
+          "comment": ""
         }
       ]
     },
@@ -169,15 +200,18 @@
       "enums": [
         {
           "name": "Any",
-          "value": 0
+          "value": 0,
+          "comment": ""
         },
         {
           "name": "Karus",
-          "value": 1
+          "value": 1,
+          "comment": ""
         },
         {
           "name": "ElMorad",
-          "value": 2
+          "value": 2,
+          "comment": ""
         }
       ]
     },
@@ -190,151 +224,188 @@
       "enums": [
         {
           "name": "Any",
-          "value": 0
+          "value": 0,
+          "comment": ""
         },
         {
           "name": "GroupWarrior",
-          "value": 1
+          "value": 1,
+          "comment": ""
         },
         {
           "name": "GroupRogue",
-          "value": 2
+          "value": 2,
+          "comment": ""
         },
         {
           "name": "GroupMage",
-          "value": 3
+          "value": 3,
+          "comment": ""
         },
         {
           "name": "GroupCleric",
-          "value": 4
+          "value": 4,
+          "comment": ""
         },
         {
           "name": "GroupWarriorJob",
-          "value": 5
+          "value": 5,
+          "comment": ""
         },
         {
           "name": "GroupWarriorMaster",
-          "value": 6
+          "value": 6,
+          "comment": ""
         },
         {
           "name": "GroupRogueJob",
-          "value": 7
+          "value": 7,
+          "comment": ""
         },
         {
           "name": "GroupRogueMaster",
-          "value": 8
+          "value": 8,
+          "comment": ""
         },
         {
           "name": "GroupMageJob",
-          "value": 9
+          "value": 9,
+          "comment": ""
         },
         {
           "name": "GroupMageMaster",
-          "value": 10
+          "value": 10,
+          "comment": ""
         },
         {
           "name": "GroupPriestJob",
-          "value": 11
+          "value": 11,
+          "comment": ""
         },
         {
           "name": "GroupPriestMaster",
-          "value": 12
+          "value": 12,
+          "comment": ""
         },
         {
           "name": "KarusWarrior",
-          "value": 101
+          "value": 101,
+          "comment": ""
         },
         {
           "name": "KarusRogue",
-          "value": 102
+          "value": 102,
+          "comment": ""
         },
         {
           "name": "KarusWizard",
-          "value": 103
+          "value": 103,
+          "comment": ""
         },
         {
           "name": "KarusPriest",
-          "value": 104
+          "value": 104,
+          "comment": ""
         },
         {
           "name": "Berserker",
-          "value": 105
+          "value": 105,
+          "comment": ""
         },
         {
           "name": "Guardian",
-          "value": 106
+          "value": 106,
+          "comment": ""
         },
         {
           "name": "Hunter",
-          "value": 107
+          "value": 107,
+          "comment": ""
         },
         {
           "name": "Penetrator",
-          "value": 108
+          "value": 108,
+          "comment": ""
         },
         {
           "name": "Sorcerer",
-          "value": 109
+          "value": 109,
+          "comment": ""
         },
         {
           "name": "Necromancer",
-          "value": 110
+          "value": 110,
+          "comment": ""
         },
         {
           "name": "Shaman",
-          "value": 111
+          "value": 111,
+          "comment": ""
         },
         {
           "name": "DarkPriest",
-          "value": 112
+          "value": 112,
+          "comment": ""
         },
         {
           "name": "ElmoWarrior",
-          "value": 201
+          "value": 201,
+          "comment": ""
         },
         {
           "name": "ElmoRogue",
-          "value": 202
+          "value": 202,
+          "comment": ""
         },
         {
           "name": "ElmoWizard",
-          "value": 203
+          "value": 203,
+          "comment": ""
         },
         {
           "name": "ElmoPriest",
-          "value": 204
+          "value": 204,
+          "comment": ""
         },
         {
           "name": "Blade",
-          "value": 205
+          "value": 205,
+          "comment": ""
         },
         {
           "name": "Protector",
-          "value": 206
+          "value": 206,
+          "comment": ""
         },
         {
           "name": "Ranger",
-          "value": 207
+          "value": 207,
+          "comment": ""
         },
         {
           "name": "Assassin",
-          "value": 208
+          "value": 208,
+          "comment": ""
         },
         {
           "name": "Mage",
-          "value": 209
+          "value": 209,
+          "comment": ""
         },
         {
           "name": "Enchanter",
-          "value": 210
+          "value": 210,
+          "comment": ""
         },
         {
           "name": "Cleric",
-          "value": 211
+          "value": 211,
+          "comment": ""
         },
         {
           "name": "Druid",
-          "value": 212
+          "value": 212,
+          "comment": ""
         }
       ]
     },
@@ -400,15 +471,18 @@
       "enums": [
         {
           "name": "NonStackable",
-          "value": 0
+          "value": 0,
+          "comment": ""
         },
         {
           "name": "Stackable",
-          "value": 1
+          "value": 1,
+          "comment": ""
         },
         {
           "name": "Coins",
-          "value": 2
+          "value": 2,
+          "comment": ""
         }
       ]
     },
@@ -426,51 +500,63 @@
       "enums": [
         {
           "name": "ScrollTransform",
-          "value": 1
+          "value": 1,
+          "comment": ""
         },
         {
           "name": "ScrollTransform2",
-          "value": 2
+          "value": 2,
+          "comment": ""
         },
         {
           "name": "ScrollTransform3",
-          "value": 3
+          "value": 3,
+          "comment": ""
         },
         {
           "name": "ScrollTransform4",
-          "value": 4
+          "value": 4,
+          "comment": ""
         },
         {
           "name": "ScrollAccessory",
-          "value": 253
+          "value": 253,
+          "comment": ""
         },
         {
           "name": "ScrollRental",
-          "value": 254
+          "value": 254,
+          "comment": ""
         },
         {
           "name": "ScrollUpgrade",
-          "value": 255
+          "value": 255,
+          "comment": ""
         },
         {
           "name": "UniqueAxe",
-          "value": 12050000
+          "value": 12050000,
+          "comment": ""
         },
         {
           "name": "UniqueSpear",
-          "value": 12070000
+          "value": 12070000,
+          "comment": ""
         },
         {
           "name": "UniqueBow",
-          "value": 12120000
+          "value": 12120000,
+          "comment": ""
         },
         {
           "name": "UniqueMace",
-          "value": 12130000
+          "value": 12130000,
+          "comment": ""
         },
         {
           "name": "UniqueStaff",
-          "value": 40000000
+          "value": 40000000,
+          "comment": ""
         }
       ]
     },
@@ -500,35 +586,43 @@
       "enums": [
         {
           "name": "Any",
-          "value": 0
+          "value": 0,
+          "comment": ""
         },
         {
           "name": "King",
-          "value": 1
+          "value": 1,
+          "comment": ""
         },
         {
           "name": "Chief",
-          "value": 1
+          "value": 1,
+          "comment": ""
         },
         {
           "name": "ViceChief",
-          "value": 2
+          "value": 2,
+          "comment": ""
         },
         {
           "name": "Knight",
-          "value": 3
+          "value": 3,
+          "comment": ""
         },
         {
           "name": "Officer",
-          "value": 4
+          "value": 4,
+          "comment": ""
         },
         {
           "name": "Trainee",
-          "value": 5
+          "value": 5,
+          "comment": ""
         },
         {
           "name": "WarCommander",
-          "value": 100
+          "value": 100,
+          "comment": ""
         }
       ]
     },
