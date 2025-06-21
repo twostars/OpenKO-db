@@ -1,0 +1,63 @@
+{
+  "database": 0,
+  "name": "K_NPC_MOVE_ITEM",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "sCastleIndex",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint"
+    },
+    {
+      "name": "byChangeItem",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sChangeSid",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "byMoveItem",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "sMoveMinX",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "sMoveMinY",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "sMoveMaxX",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "sMoveMaxY",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    }
+  ]
+}

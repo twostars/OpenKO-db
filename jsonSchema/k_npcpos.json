@@ -1,0 +1,149 @@
+{
+  "database": 0,
+  "name": "K_NPCPOS",
+  "className": "MANUAL_TODO",
+  "description": "MANUAL_TODO",
+  "columns": [
+    {
+      "name": "ZoneID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "NpcID",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "ActType",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "allowNull": true
+    },
+    {
+      "name": "RegenType",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "allowNull": true
+    },
+    {
+      "name": "DungeonFamily",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "allowNull": true
+    },
+    {
+      "name": "SpecialType",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "allowNull": true
+    },
+    {
+      "name": "TrapNumber",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "allowNull": true
+    },
+    {
+      "name": "LeftX",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "TopZ",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "RightX",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "BottomZ",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "LimitMinZ",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "LimitMinX",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "LimitMaxX",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "LimitMaxZ",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "NumNPC",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "allowNull": true
+    },
+    {
+      "name": "RegTime",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "smallint",
+      "allowNull": true
+    },
+    {
+      "name": "byDirection",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "int",
+      "allowNull": true
+    },
+    {
+      "name": "DotCnt",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "tinyint",
+      "allowNull": true
+    },
+    {
+      "name": "path",
+      "propertyName": "MANUAL_TODO",
+      "description": "MANUAL_TODO",
+      "type": "text",
+      "allowNull": true,
+      "length": 2147483647
+    }
+  ]
+}

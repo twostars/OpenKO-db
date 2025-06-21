@@ -15,32 +15,32 @@
       "propertyName": "UserId",
       "description": "User identifier",
       "type": "varchar",
-      "length": 21,
-      "allowNull": true
+      "allowNull": true,
+      "length": 21
     },
     {
       "name": "strNation",
       "propertyName": "Nation",
       "description": "Nation text",
       "type": "varchar",
-      "length": 20,
-      "allowNull": true
+      "allowNull": true,
+      "length": 20
     },
     {
       "name": "strClass",
       "propertyName": "ClassName",
       "description": "Class name",
       "type": "varchar",
-      "length": 30,
-      "allowNull": true
+      "allowNull": true,
+      "length": 30
     },
     {
       "name": "strAchievement",
       "propertyName": "Achievement",
       "description": "Achievement text",
       "type": "varchar",
-      "length": 50,
-      "allowNull": true
+      "allowNull": true,
+      "length": 50
     }
   ]
 }

@@ -23,14 +23,15 @@
       "propertyName": "HackToolName",
       "description": "Name of the hack tool detected",
       "type": "varchar",
-      "length": 512,
-      "allowNull": true
+      "allowNull": true,
+      "length": 512
     },
     {
       "name": "tWriteTime",
       "propertyName": "WriteTime",
       "description": "Log time",
-      "type": "smalldatetime"
+      "type": "smalldatetime",
+      "defaultValue": "getdate("
     }
   ]
 }

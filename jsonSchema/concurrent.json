@@ -36,8 +36,8 @@
       "propertyName": "Bz",
       "description": "Bz: TODO",
       "type": "varchar",
-      "length": 50,
-      "allowNull": true
+      "allowNull": true,
+      "length": 50
     }
   ]
 }

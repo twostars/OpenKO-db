@@ -21,16 +21,16 @@
       "propertyName": "Name",
       "description": "Name",
       "type": "varchar",
-      "length": 50,
-      "allowNull": true
+      "allowNull": true,
+      "length": 50
     },
     {
       "name": "strNote",
       "propertyName": "Note",
       "description": "Note",
       "type": "varchar",
-      "length": 100,
-      "allowNull": true
+      "allowNull": true,
+      "length": 100
     },
     {
       "name": "nOriginType",

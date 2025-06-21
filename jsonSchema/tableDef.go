@@ -2,9 +2,16 @@ package jsonSchema
 
 import (
 	"fmt"
-	"ko-codegen/OpenKO-db/jsonSchema/enums/dbType"
-	"ko-codegen/OpenKO-db/jsonSchema/enums/tsql"
+	"github.com/kenner2/OpenKO-db/jsonSchema/enums/dbType"
+	"github.com/kenner2/OpenKO-db/jsonSchema/enums/tsql"
 )
+
+// READ BEFORE MODIFYING:
+// This project is used as a submodule for ko-codegen and kodb-util
+// if you're modifying this, you'll need to add the following to the end of your
+// importing go.mod to use your local changes.  Otherwise, you'll be using
+// the main branch code from github
+// replace github.com/kenner2/OpenKO-db => ./OpenKO-db
 
 type TableDef struct {
 	Database    dbType.DbType `json:"database"`    // Which database this table should be created inside of

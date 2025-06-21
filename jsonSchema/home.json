@@ -15,7 +15,8 @@
       "propertyName": "ElmoZoneX",
       "description": "Elmorad Zone X",
       "type": "int"
-    },{
+    },
+    {
       "name": "ElmoZoneZ",
       "propertyName": "ElmoZoneZ",
       "description": "Elmorad Zone Z",
@@ -38,7 +39,8 @@
       "propertyName": "KarusZoneX",
       "description": "Karus Zone X",
       "type": "int"
-    },{
+    },
+    {
       "name": "KarusZoneZ",
       "propertyName": "KarusZoneZ",
       "description": "Karus Zone Z",
@@ -61,7 +63,8 @@
       "propertyName": "FreeZoneX",
       "description": "Free Zone X",
       "type": "int"
-    },{
+    },
+    {
       "name": "FreeZoneZ",
       "propertyName": "FreeZoneZ",
       "description": "Free Zone Z",
@@ -84,7 +87,8 @@
       "propertyName": "BattleZoneX",
       "description": "Battle Zone X",
       "type": "int"
-    },{
+    },
+    {
       "name": "BattleZoneZ",
       "propertyName": "BattleZoneZ",
       "description": "Battle Zone Z",
@@ -107,7 +111,8 @@
       "propertyName": "BattleZone2X",
       "description": "Battle Zone 2 X",
       "type": "int"
-    },{
+    },
+    {
       "name": "BattleZone2Z",
       "propertyName": "BattleZone2Z",
       "description": "Battle Zone 2 Z",

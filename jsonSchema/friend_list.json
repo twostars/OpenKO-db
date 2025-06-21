@@ -5,18 +5,19 @@
   "description": "User friend list",
   "columns": [
     {
-      "name": "strUserId",
+      "name": "strUserID",
       "propertyName": "UserId",
       "description": "User Identifier",
       "type": "varchar",
-      "length": 21,
-      "isPrimaryKey": true
+      "isPrimaryKey": true,
+      "length": 21
     },
     {
       "name": "strFriend1",
       "propertyName": "Friend1",
       "description": "Friend 1",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -24,6 +25,7 @@
       "propertyName": "Friend2",
       "description": "Friend 2",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -31,6 +33,7 @@
       "propertyName": "Friend3",
       "description": "Friend 3",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -38,6 +41,7 @@
       "propertyName": "Friend4",
       "description": "Friend 4",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -45,6 +49,7 @@
       "propertyName": "Friend5",
       "description": "Friend 5",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -52,6 +57,7 @@
       "propertyName": "Friend6",
       "description": "Friend 6",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -59,6 +65,7 @@
       "propertyName": "Friend7",
       "description": "Friend 7",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -66,6 +73,7 @@
       "propertyName": "Friend8",
       "description": "Friend 8",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -73,6 +81,7 @@
       "propertyName": "Friend9",
       "description": "Friend 9",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -80,6 +89,7 @@
       "propertyName": "Friend10",
       "description": "Friend 10",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -87,6 +97,7 @@
       "propertyName": "Friend11",
       "description": "Friend 11",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -94,6 +105,7 @@
       "propertyName": "Friend12",
       "description": "Friend 12",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -101,6 +113,7 @@
       "propertyName": "Friend13",
       "description": "Friend 13",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -108,6 +121,7 @@
       "propertyName": "Friend14",
       "description": "Friend 14",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -115,6 +129,7 @@
       "propertyName": "Friend15",
       "description": "Friend 15",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -122,6 +137,7 @@
       "propertyName": "Friend16",
       "description": "Friend 16",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -129,6 +145,7 @@
       "propertyName": "Friend17",
       "description": "Friend 17",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -136,6 +153,7 @@
       "propertyName": "Friend18",
       "description": "Friend 18",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -143,6 +161,7 @@
       "propertyName": "Friend19",
       "description": "Friend 19",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -150,6 +169,7 @@
       "propertyName": "Friend20",
       "description": "Friend 20",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -157,6 +177,7 @@
       "propertyName": "Friend21",
       "description": "Friend 21",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -164,6 +185,7 @@
       "propertyName": "Friend22",
       "description": "Friend 22",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -171,6 +193,7 @@
       "propertyName": "Friend23",
       "description": "Friend 23",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     },
     {
@@ -178,6 +201,7 @@
       "propertyName": "Friend24",
       "description": "Friend 24",
       "type": "varchar",
+      "allowNull": true,
       "length": 21
     }
   ]

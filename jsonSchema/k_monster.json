@@ -15,8 +15,8 @@
       "propertyName": "Name",
       "description": "Name",
       "type": "varchar",
-      "length": 30,
-      "allowNull": true
+      "allowNull": true,
+      "length": 30
     },
     {
       "name": "sPid",
@@ -60,13 +60,13 @@
       "description": "Type",
       "type": "tinyint",
       "enumMap": {
+        "Event": 2,
         "Monster": 0,
         "Npc": 1,
-        "Event": 2,
+        "RangedOrc": 6,
+        "Trap": 5,
         "Unknown3": 3,
         "Unknown4": 4,
-        "Trap": 5,
-        "RangedOrc": 6,
         "Unknown9": 9
       }
     },

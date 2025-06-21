@@ -15,25 +15,29 @@
       "name": "nMaxSuccess",
       "propertyName": "MaxSuccess",
       "description": "Max Success",
-      "type": "smallint"
+      "type": "smallint",
+      "defaultValue": "0"
     },
     {
       "name": "nMaxFail",
       "propertyName": "MaxFail",
       "description": "Max Fail",
-      "type": "smallint"
+      "type": "smallint",
+      "defaultValue": "0"
     },
     {
       "name": "nCurSuccess",
       "propertyName": "CurrentSuccess",
       "description": "Current success",
-      "type": "smallint"
+      "type": "smallint",
+      "defaultValue": "0"
     },
     {
       "name": "nCurFail",
       "propertyName": "CurrentFailure",
       "description": "Current failure",
-      "type": "smallint"
+      "type": "smallint",
+      "defaultValue": "0"
     }
   ]
 }

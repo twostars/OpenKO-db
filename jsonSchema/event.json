@@ -27,80 +27,80 @@
       "propertyName": "Condition1",
       "description": "Condition 1",
       "type": "varchar",
-      "length": 128,
-      "allowNull": true
+      "allowNull": true,
+      "length": 128
     },
     {
       "name": "Cond2",
       "propertyName": "Condition2",
       "description": "Condition 2",
       "type": "varchar",
-      "length": 128,
-      "allowNull": true
+      "allowNull": true,
+      "length": 128
     },
     {
       "name": "Cond3",
       "propertyName": "Condition3",
       "description": "Condition 3",
       "type": "varchar",
-      "length": 128,
-      "allowNull": true
+      "allowNull": true,
+      "length": 128
     },
     {
       "name": "Cond4",
       "propertyName": "Condition4",
       "description": "Condition 4",
       "type": "varchar",
-      "length": 128,
-      "allowNull": true
+      "allowNull": true,
+      "length": 128
     },
     {
       "name": "Cond5",
       "propertyName": "Condition5",
       "description": "Condition 5",
       "type": "varchar",
-      "length": 128,
-      "allowNull": true
+      "allowNull": true,
+      "length": 128
     },
     {
       "name": "Exec1",
       "propertyName": "Execute1",
       "description": "Execute 1",
       "type": "varchar",
-      "length": 128,
-      "allowNull": true
+      "allowNull": true,
+      "length": 128
     },
     {
       "name": "Exec2",
       "propertyName": "Execute2",
       "description": "Execute 2",
       "type": "varchar",
-      "length": 128,
-      "allowNull": true
+      "allowNull": true,
+      "length": 128
     },
     {
       "name": "Exec3",
       "propertyName": "Execute3",
       "description": "Execute 3",
       "type": "varchar",
-      "length": 128,
-      "allowNull": true
+      "allowNull": true,
+      "length": 128
     },
     {
       "name": "Exec4",
       "propertyName": "Execute4",
       "description": "Execute 4",
       "type": "varchar",
-      "length": 128,
-      "allowNull": true
+      "allowNull": true,
+      "length": 128
     },
     {
       "name": "Exec5",
       "propertyName": "Execute5",
       "description": "Execute 5",
       "type": "varchar",
-      "length": 128,
-      "allowNull": true
+      "allowNull": true,
+      "length": 128
     }
   ]
 }
