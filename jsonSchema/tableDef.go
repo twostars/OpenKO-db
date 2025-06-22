@@ -31,6 +31,7 @@ type Column struct {
 	AllowNull    bool          `json:"allowNull,omitempty"`    // Can the column's value be null?
 	Length       int           `json:"length,omitempty"`       // length specifier for array types
 	Enums        []Enum        `json:"enums,omitempty"`        // array of enumerated values
+	Unique       string        `json:"unique,omitempty"`       // unique constraint this col belongs to
 }
 
 type Enum struct {
