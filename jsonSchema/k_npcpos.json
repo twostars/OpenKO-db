@@ -142,8 +142,7 @@
       "propertyName": "Path",
       "description": "Pathfinding data TODO",
       "type": "text",
-      "allowNull": true,
-      "length": 2147483647
+      "allowNull": true
     }
   ]
 }

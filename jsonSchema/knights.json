@@ -160,8 +160,7 @@
       "propertyName": "Mark",
       "description": "Mark image",
       "type": "image",
-      "allowNull": true,
-      "length": 2147483647
+      "allowNull": true
     },
     {
       "name": "Stash",

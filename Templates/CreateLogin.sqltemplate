@@ -1,10 +1,11 @@
 /* Template Args:
    1. Login Name
    2. Default Database Name
+   3. Password
  */
 USE [master]
 GO
-CREATE LOGIN [%[1]s] WITH PASSWORD=N'%[1]s', DEFAULT_DATABASE=[%[2]s], DEFAULT_LANGUAGE=[us_english], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
+CREATE LOGIN [%[1]s] WITH PASSWORD=N'%[3]s', DEFAULT_DATABASE=[%[2]s], DEFAULT_LANGUAGE=[us_english], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
 GO
 ALTER LOGIN [%[1]s] ENABLE
 GO
