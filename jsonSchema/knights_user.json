@@ -1,19 +1,19 @@
 {
   "database": 0,
   "name": "KNIGHTS_USER",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "KnightsUser",
+  "description": "Knights to character relationships",
   "columns": [
     {
       "name": "sIDNum",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KnightsId",
+      "description": "Knights identifier",
       "type": "smallint"
     },
     {
       "name": "strUserID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "UserId",
+      "description": "Character Identifier",
       "type": "varchar",
       "allowNull": true,
       "length": 21

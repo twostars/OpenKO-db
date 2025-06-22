@@ -1,83 +1,100 @@
 {
   "database": 0,
   "name": "MAGIC_TYPE1",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "MagicType1",
+  "description": "Type 1 covers melee abilities",
   "columns": [
     {
       "name": "iNum",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
       "type": "int"
     },
     {
       "name": "Name",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Name",
+      "description": "Name",
       "type": "varchar",
       "allowNull": true,
       "length": 50
     },
     {
       "name": "Description",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Description",
+      "description": "Description",
       "type": "varchar",
       "allowNull": true,
       "length": 100
     },
     {
       "name": "Type",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
-      "type": "tinyint"
+      "propertyName": "Type",
+      "description": "Attack special type",
+      "type": "tinyint",
+      "enums": [
+        {
+          "name": "Normal",
+          "value": "0",
+          "comment": "Subject to all normal defence checks"
+        },
+        {
+          "name": "AlwaysHit",
+          "value": "1",
+          "comment": "Ability always hits"
+        },
+        {
+          "name": "IgnoreDefense",
+          "value": "2",
+          "comment": "Ability ignores defense"
+        }
+      ]
     },
     {
       "name": "HitRate",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "HitRateMod",
+      "description": "Hit chance modifier - 100 is normal",
       "type": "smallint"
     },
     {
       "name": "Hit",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "DamageMod",
+      "description": "Hit damage modifier - 100 is normal",
       "type": "smallint"
     },
     {
       "name": "AddDamage",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "AddDamage",
+      "description": "Additional flat damage caused by ability",
       "type": "smallint"
     },
     {
       "name": "Delay",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Delay",
+      "description": "Delay TODO",
       "type": "tinyint"
     },
     {
       "name": "ComboType",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ComboType",
+      "description": "Combo type TODO",
       "type": "tinyint"
     },
     {
       "name": "ComboCount",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ComboCount",
+      "description": "Combo count TODO",
       "type": "tinyint"
     },
     {
       "name": "ComboDamage",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ComboDamage",
+      "description": "Combo damage multiplier",
       "type": "smallint"
     },
     {
       "name": "Range",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Range",
+      "description": "Maximum distance to target",
       "type": "smallint"
     }
   ]

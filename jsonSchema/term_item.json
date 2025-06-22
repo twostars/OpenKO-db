@@ -1,43 +1,43 @@
 {
   "database": 0,
   "name": "TERM_ITEM",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "TermItem",
+  "description": "Term item",
   "columns": [
     {
       "name": "strUserId",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "UserId",
+      "description": "User identifier",
       "type": "char",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "byType",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Type",
+      "description": "Type",
       "type": "tinyint",
       "allowNull": true
     },
     {
       "name": "nPos",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Pos",
+      "description": "Pos",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "ItemNum",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ItemNumber",
+      "description": "Item number",
       "type": "binary",
       "allowNull": true,
       "length": 4
     },
     {
       "name": "ItemSerial",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ItemSerial",
+      "description": "Item serial",
       "type": "binary",
       "allowNull": true,
       "length": 8

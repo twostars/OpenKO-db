@@ -1,34 +1,34 @@
 {
   "database": 0,
   "name": "KNIGHTS_RATING",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "KnightsRating",
+  "description": "Knights Ratings",
   "columns": [
     {
       "name": "nRank",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Rank",
+      "description": "Rank",
       "type": "int"
     },
     {
       "name": "shIndex",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Index",
+      "description": "Knights identifier",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "strName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Name",
+      "description": "Knights name",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "nPoints",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Points",
+      "description": "National points",
       "type": "int",
       "allowNull": true
     }

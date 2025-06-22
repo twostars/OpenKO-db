@@ -1,73 +1,73 @@
 {
   "database": 0,
   "name": "START_POSITION",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "StartPosition",
+  "description": "Start position",
   "columns": [
     {
       "name": "ZoneID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ZoneId",
+      "description": "Zone identifier",
       "type": "smallint"
     },
     {
       "name": "sKarusX",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KarusX",
+      "description": "Karus X",
       "type": "smallint"
     },
     {
       "name": "sKarusZ",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KarusZ",
+      "description": "Karus Z",
       "type": "smallint"
     },
     {
       "name": "sElmoradX",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ElmoX",
+      "description": "ElMorad X",
       "type": "smallint"
     },
     {
       "name": "sElmoradZ",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ElmoZ",
+      "description": "ElMorad Z",
       "type": "smallint"
     },
     {
       "name": "bRangeX",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RangeX",
+      "description": "Maximum distance from spawn X",
       "type": "tinyint"
     },
     {
       "name": "bRangeZ",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RangeZ",
+      "description": "Maximum distance from spawn Z",
       "type": "tinyint"
     },
     {
       "name": "sKarusGateX",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KarusGateX",
+      "description": "Karus gate X",
       "type": "smallint"
     },
     {
       "name": "sKarusGateZ",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KarusGateZ",
+      "description": "Karus gate Z",
       "type": "smallint"
     },
     {
       "name": "sElmoGateX",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ElmoGateX",
+      "description": "ElMorad gate X",
       "type": "smallint"
     },
     {
       "name": "sElmoGateZ",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ElmoGateZ",
+      "description": "ElMorad gate Z",
       "type": "smallint"
     }
   ]

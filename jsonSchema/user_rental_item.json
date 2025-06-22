@@ -1,90 +1,90 @@
 {
   "database": 0,
   "name": "USER_RENTAL_ITEM",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "UserRentalItem",
+  "description": "User rental item",
   "columns": [
     {
       "name": "strUserID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "UserId",
+      "description": "User identifier",
       "type": "varchar",
       "length": 50
     },
     {
       "name": "strAccountID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "AccountId",
+      "description": "Account identifier",
       "type": "varchar",
       "length": 50
     },
     {
       "name": "byRentalType",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RentalType",
+      "description": "Rental type",
       "type": "tinyint"
     },
     {
       "name": "byRegType",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RegTime",
+      "description": "Reg time",
       "type": "tinyint",
       "defaultValue": "0"
     },
     {
       "name": "nRentalIndex",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RentalIndex",
+      "description": "Rental index",
       "type": "int"
     },
     {
       "name": "nItemIndex",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ItemIndex",
+      "description": "Item index",
       "type": "int"
     },
     {
       "name": "sDurability",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Durability",
+      "description": "Durability",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "nSerialNumber",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "SerialNumber",
+      "description": "Serial number",
       "type": "bigint"
     },
     {
       "name": "nRentalMoney",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RentalMoney",
+      "description": "Rental money",
       "type": "int"
     },
     {
       "name": "sRentalTime",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RentalTime",
+      "description": "Rental time",
       "type": "smallint"
     },
     {
       "name": "sDuringTime",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "DuringTime",
+      "description": "During time",
       "type": "smallint"
     },
     {
       "name": "timeRental",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RentalTimestamp",
+      "description": "Rental time",
       "type": "smalldatetime",
       "allowNull": true
     },
     {
       "name": "timeRegister",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RegisterTime",
+      "description": "Registration time",
       "type": "smalldatetime",
       "defaultValue": "getdate(",
       "allowNull": true

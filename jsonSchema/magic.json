@@ -1,157 +1,157 @@
 {
   "database": 0,
   "name": "MAGIC",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "Magic",
+  "description": "Contains the configuration for magic and abilities",
   "columns": [
     {
       "name": "MagicNum",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
       "type": "int"
     },
     {
       "name": "EnName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "EnglishName",
+      "description": "English name",
       "type": "varchar",
       "allowNull": true,
       "length": 50
     },
     {
       "name": "KrName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KoreanName",
+      "description": "Korean name",
       "type": "varchar",
       "allowNull": true,
       "length": 50
     },
     {
       "name": "Description",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Description",
+      "description": "Description",
       "type": "varchar",
       "allowNull": true,
       "length": 100
     },
     {
       "name": "BeforeAction",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "BeforeAction",
+      "description": "Before action check",
       "type": "tinyint"
     },
     {
       "name": "TargetAction",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TargetAction",
+      "description": "Target action check",
       "type": "tinyint"
     },
     {
       "name": "SelfEffect",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "SelfEffect",
+      "description": "Self effect TODO",
       "type": "tinyint"
     },
     {
       "name": "FlyingEffect",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "FlyingEffect",
+      "description": "Does the skill fire a projectile",
       "type": "tinyint"
     },
     {
       "name": "TargetEffect",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TargetEffect",
+      "description": "Effect identifier to use on the target",
       "type": "smallint"
     },
     {
       "name": "Moral",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Moral",
+      "description": "Targeting constraints",
       "type": "tinyint"
     },
     {
       "name": "SkillLevel",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "SkillLevel",
+      "description": "Skill points required in the tree to unlock the skill",
       "type": "smallint"
     },
     {
       "name": "Skill",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Skill",
+      "description": "Associated skill tree",
       "type": "smallint"
     },
     {
       "name": "Msp",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ManaCost",
+      "description": "Mana cost",
       "type": "smallint"
     },
     {
       "name": "HP",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "HpCost",
+      "description": "Health cost",
       "type": "smallint"
     },
     {
       "name": "ItemGroup",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ItemGroup",
+      "description": "Item group allows a skill to be constrained to having an item type equipped",
       "type": "tinyint"
     },
     {
       "name": "UseItem",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "UseItem",
+      "description": "Must consume this item from inventory in order to activate ability",
       "type": "int"
     },
     {
       "name": "CastTime",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "CastTime",
+      "description": "Time needed to cast the ability",
       "type": "tinyint"
     },
     {
       "name": "ReCastTime",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RecastTime",
+      "description": "Cooldown",
       "type": "tinyint"
     },
     {
       "name": "SuccessRate",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "SuccessRate",
+      "description": "Chance the skill will hit target",
       "type": "tinyint"
     },
     {
       "name": "Type1",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Type1",
+      "description": "Look up effect in MAGIC_TYPEX table",
       "type": "tinyint"
     },
     {
       "name": "Type2",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Type2",
+      "description": "Look up effect in MAGIC_TYPEX table",
       "type": "tinyint"
     },
     {
       "name": "Range",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Range",
+      "description": "Maximum range from target",
       "type": "smallint"
     },
     {
       "name": "Etc",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Etc",
+      "description": "Etc TODO",
       "type": "tinyint"
     },
     {
       "name": "Event",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Event",
+      "description": "Event TODO",
       "type": "int",
       "allowNull": true
     }

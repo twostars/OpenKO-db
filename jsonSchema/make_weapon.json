@@ -1,96 +1,96 @@
 {
   "database": 0,
   "name": "MAKE_WEAPON",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "MakeWeapon",
+  "description": "Make weapon",
   "columns": [
     {
       "name": "byLevel",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Level",
+      "description": "Level",
       "type": "tinyint"
     },
     {
       "name": "sClass_1",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class1",
+      "description": "Class 1",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sClass_2",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class2",
+      "description": "Class 2",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sClass_3",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class3",
+      "description": "Class 3",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sClass_4",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class4",
+      "description": "Class 4",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sClass_5",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class5",
+      "description": "Class 5",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sClass_6",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class6",
+      "description": "Class 6",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sClass_7",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class7",
+      "description": "Class 7",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sClass_8",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class8",
+      "description": "Class 8",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sClass_9",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class9",
+      "description": "Class 9",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sClass_10",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class10",
+      "description": "Class 10",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sClass_11",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class11",
+      "description": "Class 11",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sClass_12",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class12",
+      "description": "Class 12",
       "type": "smallint",
       "allowNull": true
     }

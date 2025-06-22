@@ -1,39 +1,39 @@
 {
   "database": 0,
   "name": "MONSTER_SUMMON_LIST",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "MonsterSummonList",
+  "description": "Monster summon list",
   "columns": [
     {
       "name": "sSid",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MonsterId",
+      "description": "Monster identifier (K_MONSTER.sSid)",
       "type": "smallint"
     },
     {
       "name": "strName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Name",
+      "description": "Name",
       "type": "varchar",
       "allowNull": true,
       "length": 31
     },
     {
       "name": "sLevel",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Level",
+      "description": "Level",
       "type": "smallint"
     },
     {
       "name": "sProbability",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Probability",
+      "description": "Probability",
       "type": "smallint"
     },
     {
       "name": "bType",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Type",
+      "description": "Type",
       "type": "tinyint",
       "defaultValue": "0"
     }

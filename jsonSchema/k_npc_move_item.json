@@ -1,61 +1,61 @@
 {
   "database": 0,
   "name": "K_NPC_MOVE_ITEM",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "NpcMoveItem",
+  "description": "NPC Move Item: TODO",
   "columns": [
     {
       "name": "sCastleIndex",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "CastleIndex",
+      "description": "Castle identifier TODO mostly lines up with k_npc.ssid",
       "type": "smallint"
     },
     {
       "name": "byChangeItem",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ChangeItem",
+      "description": "Change Item TODO",
       "type": "int",
       "allowNull": true
     },
     {
       "name": "sChangeSid",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ChangeId",
+      "description": "Change identifier TODO",
       "type": "int",
       "allowNull": true
     },
     {
       "name": "byMoveItem",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MoveItem",
+      "description": "Move item to do",
       "type": "int",
       "allowNull": true
     },
     {
       "name": "sMoveMinX",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MoveMinX",
+      "description": "Minimum x-axis movement",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sMoveMinY",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MoveMinY",
+      "description": "Minimum y-axis movement",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sMoveMaxX",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MoveMaxX",
+      "description": "Maximum x-axis movement",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "sMoveMaxY",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MoveMaxY",
+      "description": "Maximum y-axis movement",
       "type": "smallint",
       "allowNull": true
     }

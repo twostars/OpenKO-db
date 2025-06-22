@@ -1,33 +1,33 @@
 {
   "database": 0,
   "name": "KING_CANDIDACY_NOTICE_BOARD",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "KingCandidacyNoticeBoard",
+  "description": "King candidacy notice board",
   "columns": [
     {
       "name": "strUserID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "CandidateId",
+      "description": "Candidate identifier",
       "type": "varchar",
       "isPrimaryKey": true,
       "length": 21
     },
     {
       "name": "byNation",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Nation",
+      "description": "Nation identifier",
       "type": "tinyint"
     },
     {
       "name": "sNoticeLen",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "NoticeLength",
+      "description": "Notice length",
       "type": "smallint"
     },
     {
       "name": "strNotice",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Notice",
+      "description": "Candidate notice",
       "type": "varbinary",
       "length": 1024
     }

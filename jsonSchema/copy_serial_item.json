@@ -6,8 +6,8 @@
   "columns": [
     {
       "name": "strUserId",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "UserId",
+      "description": "User Identifier",
       "type": "char",
       "allowNull": true,
       "length": 21

@@ -1,194 +1,194 @@
 {
   "database": 0,
   "name": "KNIGHTS",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "Knights",
+  "description": "Knights are the clan/guild system of the game",
   "columns": [
     {
       "name": "IDNum",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "IdNumber",
+      "description": "Identification number",
       "type": "smallint",
       "isPrimaryKey": true
     },
     {
       "name": "Flag",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Flag",
+      "description": "Flag TODO",
       "type": "tinyint",
       "defaultValue": "1"
     },
     {
       "name": "Nation",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Nation",
+      "description": "Nation identifier",
       "type": "tinyint"
     },
     {
       "name": "Ranking",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Ranking",
+      "description": "Ranking by sum of members National Points",
       "type": "tinyint",
       "defaultValue": "0"
     },
     {
       "name": "IDName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Name",
+      "description": "Name of the Knights clan",
       "type": "varchar",
       "length": 21
     },
     {
       "name": "Members",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Members",
+      "description": "Member count",
       "type": "smallint",
       "defaultValue": "1"
     },
     {
       "name": "Chief",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Chief",
+      "description": "Leader character identifier",
       "type": "varchar",
       "length": 21
     },
     {
       "name": "ViceChief_1",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ViceChief1",
+      "description": "Vice chief 1 character identifier",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "ViceChief_2",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ViceChief2",
+      "description": "Vice chief 2 character identifier",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "ViceChief_3",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ViceChief3",
+      "description": "Vice chief 3 character identifier",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "strEnemyName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "EnemyName",
+      "description": "Enemy Name TODO",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "byOldWarResult",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "OldWarResult",
+      "description": "Old war result",
       "type": "tinyint",
       "defaultValue": "0"
     },
     {
       "name": "nWarEnemyID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "WarEnemyId",
+      "description": "War enemy identifier",
       "type": "int",
       "defaultValue": "0"
     },
     {
       "name": "nVictory",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Victory",
+      "description": "Victory TODO",
       "type": "int",
       "defaultValue": "0"
     },
     {
       "name": "nLose",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Lose",
+      "description": "Lose TODO",
       "type": "int",
       "defaultValue": "0"
     },
     {
       "name": "Gold",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Gold",
+      "description": "Gold",
       "type": "bigint",
       "defaultValue": "0"
     },
     {
       "name": "Domination",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Domination",
+      "description": "Domination TODO",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "Points",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Points",
+      "description": "National points",
       "type": "int",
       "defaultValue": "0",
       "allowNull": true
     },
     {
       "name": "CreateTime",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "CreateTime",
+      "description": "Create time",
       "type": "smalldatetime",
       "defaultValue": "getdate("
     },
     {
       "name": "sMarkVersion",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MarkVersion",
+      "description": "Mark version",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "sMarkLen",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MarkLength",
+      "description": "Mark length",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "Mark",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Mark",
+      "description": "Mark image",
       "type": "image",
       "allowNull": true,
       "length": 2147483647
     },
     {
       "name": "Stash",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Stash",
+      "description": "Stash TODO",
       "type": "varchar",
       "allowNull": true,
       "length": 1600
     },
     {
       "name": "bySiegeFlag",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "SiegeFlag",
+      "description": "Siege flag",
       "type": "tinyint",
       "defaultValue": "0"
     },
     {
       "name": "sAllianceKnights",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "AllianceKnights",
+      "description": "Alliance Knights TODO",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "sCape",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Cape",
+      "description": "Cape identifier",
       "type": "smallint",
       "defaultValue": "-1"
     }

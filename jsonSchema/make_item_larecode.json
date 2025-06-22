@@ -1,40 +1,40 @@
 {
   "database": 0,
   "name": "MAKE_ITEM_LARECODE",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "MakeItemRareCode",
+  "description": "Make item rarity codes",
   "columns": [
     {
       "name": "byLevelGrade",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "LevelGrade",
+      "description": "Level grade",
       "type": "tinyint"
     },
     {
       "name": "sUpgradeItem",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "UpgradeItem",
+      "description": "Upgrade item",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "sLareItem",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RareItem",
+      "description": "Rare item",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "sMagicItem",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MagicItem",
+      "description": "Magic item",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "sGereralItem",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "GeneralItem",
+      "description": "General item",
       "type": "smallint",
       "defaultValue": "0"
     }

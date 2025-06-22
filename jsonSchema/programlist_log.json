@@ -1,41 +1,41 @@
 {
   "database": 0,
   "name": "PROGRAMLIST_LOG",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "ProgramListLog",
+  "description": "Program list log",
   "columns": [
     {
       "name": "id",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Id",
+      "description": "Identifier",
       "type": "int",
       "isPrimaryKey": true
     },
     {
       "name": "strAccountID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "AccountId",
+      "description": "Account identifier",
       "type": "varchar",
       "length": 21
     },
     {
       "name": "strCharID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "CharId",
+      "description": "Character identifier",
       "type": "varchar",
       "length": 21
     },
     {
       "name": "strHackToolName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "HackToolName",
+      "description": "Hack tool name",
       "type": "varchar",
       "length": 1024
     },
     {
       "name": "tWriteTime",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "WriteTime",
+      "description": "Write time",
       "type": "smalldatetime",
       "defaultValue": "getdate("
     }

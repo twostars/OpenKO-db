@@ -1,135 +1,135 @@
 {
   "database": 0,
   "name": "USER_SAVED_MAGIC",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "UserSavedMagic",
+  "description": "User saved magic",
   "columns": [
     {
       "name": "strCharID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "CharId",
+      "description": "Character identifier",
       "type": "varchar",
       "isPrimaryKey": true,
       "length": 50
     },
     {
       "name": "nSkill1",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Skill1",
+      "description": "Skill 1",
       "type": "int"
     },
     {
       "name": "nDuring1",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "During1",
+      "description": "During 1",
       "type": "smallint"
     },
     {
       "name": "nSkill2",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Skill2",
+      "description": "Skill 2",
       "type": "int"
     },
     {
       "name": "nDuring2",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "During2",
+      "description": "During 2",
       "type": "smallint"
     },
     {
       "name": "nSkill3",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Skill3",
+      "description": "Skill 3",
       "type": "int"
     },
     {
       "name": "nDuring3",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "During3",
+      "description": "During 3",
       "type": "smallint"
     },
     {
       "name": "nSkill4",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Skill4",
+      "description": "Skill 4",
       "type": "int"
     },
     {
       "name": "nDuring4",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "During4",
+      "description": "During 4",
       "type": "smallint"
     },
     {
       "name": "nSkill5",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Skill5",
+      "description": "Skill 5",
       "type": "int"
     },
     {
       "name": "nDuring5",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "During5",
+      "description": "During 5",
       "type": "smallint"
     },
     {
       "name": "nSkill6",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Skill6",
+      "description": "Skill 6",
       "type": "int"
     },
     {
       "name": "nDuring6",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "During6",
+      "description": "During 6",
       "type": "smallint"
     },
     {
       "name": "nSkill7",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Skill7",
+      "description": "Skill 7",
       "type": "int"
     },
     {
       "name": "nDuring7",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "During7",
+      "description": "During 7",
       "type": "smallint"
     },
     {
       "name": "nSkill8",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Skill8",
+      "description": "Skill 8",
       "type": "int"
     },
     {
       "name": "nDuring8",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "During8",
+      "description": "During 8",
       "type": "smallint"
     },
     {
       "name": "nSkill9",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Skill9",
+      "description": "Skill 9",
       "type": "int"
     },
     {
       "name": "nDuring9",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "During9",
+      "description": "During 9",
       "type": "smallint"
     },
     {
       "name": "nSkill10",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Skill10",
+      "description": "Skill 10",
       "type": "int"
     },
     {
       "name": "nDuring10",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "During10",
+      "description": "During 10",
       "type": "smallint"
     }
   ]

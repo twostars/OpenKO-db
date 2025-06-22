@@ -1,19 +1,19 @@
 {
   "database": 0,
   "name": "LEVEL_UP",
-  "className": "MANUAL_TODO",
+  "className": "LevelUp",
   "description": "MANUAL_TODO",
   "columns": [
     {
       "name": "level",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Level",
+      "description": "Level",
       "type": "tinyint"
     },
     {
       "name": "Exp",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RequiredExp",
+      "description": "Required experience to advance to the next level",
       "type": "int"
     }
   ]

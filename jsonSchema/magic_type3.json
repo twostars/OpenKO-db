@@ -1,77 +1,129 @@
 {
   "database": 0,
   "name": "MAGIC_TYPE3",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "MagicType3",
+  "description": "Type 3 supports Area of Effect and Damage over Time effects",
   "columns": [
     {
       "name": "iNum",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
       "type": "int"
     },
     {
       "name": "Name",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Name",
+      "description": "Name",
       "type": "varchar",
       "allowNull": true,
       "length": 50
     },
     {
       "name": "Description",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Description",
+      "description": "Description",
       "type": "varchar",
       "allowNull": true,
       "length": 100
     },
     {
       "name": "Radius",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Radius",
+      "description": "Area of effect circle radius",
       "type": "tinyint"
     },
     {
       "name": "Angle",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Angle",
+      "description": "Angle seems unused/unimplemented TODO",
       "type": "smallint"
     },
     {
       "name": "DirectType",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
-      "type": "tinyint"
+      "propertyName": "DirectType",
+      "description": "Damage calculation type",
+      "type": "tinyint",
+      "enums": [
+        {
+          "name": "Unknown0",
+          "value": "0",
+          "comment": "TODO: Used by some 300000+ DoT abilities"
+        },
+        {
+          "name": "FlatHp",
+          "value": "1",
+          "comment": "Flat damage against health"
+        },
+        {
+          "name": "FlatMana",
+          "value": "2",
+          "comment": "Flat damage against mana"
+        },
+        {
+          "name": "FlatDurability",
+          "value": "4",
+          "comment": "Flat damage applied to durability"
+        },
+        {
+          "name": "Unknown5",
+          "value": "5",
+          "comment": "TODO: Used by some 400000+ abilities"
+        },
+        {
+          "name": "AbsorbHp",
+          "value": "8",
+          "comment": "Absorbs health from target"
+        },
+        {
+          "name": "PercentHp",
+          "value": "9",
+          "comment": "Deals damage relative to targets current health"
+        },
+        {
+          "name": "Unknown11",
+          "value": "11",
+          "comment": "TODO: Used by 220011"
+        },
+        {
+          "name": "Unknown12",
+          "value": "12",
+          "comment": "TODO: Used by 490402"
+        },
+        {
+          "name": "Unknown255",
+          "value": "255",
+          "comment": "TODO: Used by 501011"
+        }
+      ]
     },
     {
       "name": "FirstDamage",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "FirstDamage",
+      "description": "Damage applied on hit",
       "type": "smallint"
     },
     {
       "name": "EndDamage",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "EndDamage",
+      "description": "Damage taken at end of effect",
       "type": "smallint"
     },
     {
       "name": "TimeDamage",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TimeDamage",
+      "description": "Total damage dealt over Duration",
       "type": "smallint"
     },
     {
       "name": "Duration",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Duration",
+      "description": "Duration of damage over time effects",
       "type": "tinyint"
     },
     {
       "name": "Attribute",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Attribute",
+      "description": "Attribute TODO",
       "type": "tinyint"
     }
   ]

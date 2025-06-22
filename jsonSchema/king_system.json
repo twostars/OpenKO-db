@@ -1,189 +1,189 @@
 {
   "database": 0,
   "name": "KING_SYSTEM",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "KingSystem",
+  "description": "King System",
   "columns": [
     {
       "name": "byNation",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Nation",
+      "description": "Nation identifier",
       "type": "tinyint"
     },
     {
       "name": "byType",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Type",
+      "description": "Type TODO",
       "type": "tinyint"
     },
     {
       "name": "sYear",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Year",
+      "description": "Year",
       "type": "smallint"
     },
     {
       "name": "byMonth",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Month",
+      "description": "Month",
       "type": "tinyint"
     },
     {
       "name": "byDay",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Day",
+      "description": "Day",
       "type": "tinyint"
     },
     {
       "name": "byHour",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Hour",
+      "description": "Hour",
       "type": "tinyint"
     },
     {
       "name": "byMinute",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Minute",
+      "description": "Minute",
       "type": "tinyint"
     },
     {
       "name": "byImType",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ImType",
+      "description": "ImType TODO",
       "type": "tinyint"
     },
     {
       "name": "sImYear",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ImYear",
+      "description": "ImYear",
       "type": "smallint"
     },
     {
       "name": "byImMonth",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ImMonth",
+      "description": "ImMonth",
       "type": "tinyint"
     },
     {
       "name": "byImDay",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ImDay",
+      "description": "ImDay",
       "type": "tinyint"
     },
     {
       "name": "byImHour",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ImHour",
+      "description": "ImHour",
       "type": "tinyint"
     },
     {
       "name": "byImMinute",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ImMinute",
+      "description": "ImMinute",
       "type": "tinyint"
     },
     {
       "name": "byNoahEvent",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "NoahEvent",
+      "description": "Noah Event",
       "type": "tinyint",
       "defaultValue": "0"
     },
     {
       "name": "byNoahEvent_Day",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "NoahEventDay",
+      "description": "NoahEvent Day",
       "type": "tinyint"
     },
     {
       "name": "byNoahEvent_Hour",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "NoahEventHour",
+      "description": "NoahEvent Hour",
       "type": "tinyint"
     },
     {
       "name": "byNoahEvent_Minute",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "NoahEventMinute",
+      "description": "NoahEvent Minute",
       "type": "tinyint"
     },
     {
       "name": "sNoahEvent_Duration",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "NoahEventDuration",
+      "description": "NoahEvent Duration",
       "type": "smallint"
     },
     {
       "name": "byExpEvent",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ExpEvent",
+      "description": "Experience Event",
       "type": "tinyint",
       "defaultValue": "0"
     },
     {
       "name": "byExpEvent_Day",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ExpEventDay",
+      "description": "Experience Event Day",
       "type": "tinyint"
     },
     {
       "name": "byExpEvent_Hour",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ExpEventHour",
+      "description": "Experience Event Hour",
       "type": "tinyint"
     },
     {
       "name": "byExpEvent_Minute",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ExpEventMinute",
+      "description": "Experience Event Minute",
       "type": "tinyint"
     },
     {
       "name": "sExpEvent_Duration",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ExpEventDuration",
+      "description": "Experience Event Duration",
       "type": "smallint"
     },
     {
       "name": "nTribute",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Tribute",
+      "description": "Tribute TODO Tax Rate?",
       "type": "int",
       "defaultValue": "0"
     },
     {
       "name": "byTerritoryTariff",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TerritoryTariff",
+      "description": "Territory tariff",
       "type": "tinyint",
       "defaultValue": "0"
     },
     {
       "name": "nTerritoryTax",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TerritoryTax",
+      "description": "Territory tax",
       "type": "int",
       "defaultValue": "0"
     },
     {
       "name": "nNationalTreasury",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "NationalTreasury",
+      "description": "National treasury",
       "type": "int",
       "defaultValue": "0"
     },
     {
       "name": "strKingName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KingName",
+      "description": "King character identifier",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "strImRequestID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ImRequestId",
+      "description": "Im Request Id TODO",
       "type": "varchar",
       "allowNull": true,
       "length": 21

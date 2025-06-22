@@ -1,65 +1,77 @@
 {
   "database": 0,
   "name": "MAGIC_TYPE2",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "MagicType2",
+  "description": "Type 2 covers bow abilities",
   "columns": [
     {
       "name": "iNum",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
       "type": "int"
     },
     {
       "name": "Name",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Name",
+      "description": "Name",
       "type": "varchar",
       "allowNull": true,
       "length": 50
     },
     {
       "name": "Description",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Description",
+      "description": "Description",
       "type": "varchar",
       "allowNull": true,
       "length": 100
     },
     {
       "name": "HitType",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
-      "type": "tinyint"
+      "propertyName": "HitType",
+      "description": "Projectile type",
+      "type": "tinyint",
+      "enums": [
+        {
+          "name": "Normal",
+          "value": "0",
+          "comment": "Fire and forget targeting"
+        },
+        {
+          "name": "Seeking",
+          "value": "0",
+          "comment": "Projectile follows target and always hits (unless blocked by collision)"
+        }
+      ]
     },
     {
       "name": "HitRate",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "HitRateMod",
+      "description": "Hit chance modifier - 100 is normal",
       "type": "smallint"
     },
     {
       "name": "AddDamage",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "DamageMod",
+      "description": "Hit damage modifier - 100 is normal",
       "type": "smallint"
     },
     {
       "name": "AddRange",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "RangeMod",
+      "description": "Range modifier - 100 is normal",
       "type": "smallint"
     },
     {
       "name": "NeedArrow",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "NeedArrow",
+      "description": "Number of arrows needed for ability",
       "type": "tinyint"
     },
     {
       "name": "AddDamagePlus",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "AddDamagePlus",
+      "description": "Additional flat damage caused by ability",
       "type": "smallint",
       "allowNull": true
     }

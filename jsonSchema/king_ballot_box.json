@@ -1,33 +1,33 @@
 {
   "database": 0,
   "name": "KING_BALLOT_BOX",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "KingBallotBox",
+  "description": "King Ballot Box TODO",
   "columns": [
     {
       "name": "strAccountID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "AccountId",
+      "description": "Account identifier",
       "type": "varchar",
       "length": 21
     },
     {
       "name": "strCharID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "CharId",
+      "description": "Character identifier",
       "type": "varchar",
       "length": 21
     },
     {
       "name": "byNation",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Nation",
+      "description": "Nation identifier",
       "type": "tinyint"
     },
     {
       "name": "strCandidacyID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "CandidateId",
+      "description": "Candidate identifier",
       "type": "varchar",
       "length": 21
     }

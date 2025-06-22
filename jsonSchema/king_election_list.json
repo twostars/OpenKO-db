@@ -1,40 +1,40 @@
 {
   "database": 0,
   "name": "KING_ELECTION_LIST",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "KingElectionList",
+  "description": "King election list",
   "columns": [
     {
       "name": "byType",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Type",
+      "description": "Type TODO",
       "type": "tinyint"
     },
     {
       "name": "byNation",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Nation",
+      "description": "Nation identifier",
       "type": "tinyint"
     },
     {
       "name": "nKnights",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Knights",
+      "description": "Knights identifier (Knights.IDNum)",
       "type": "smallint",
       "allowNull": true
     },
     {
       "name": "strName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Name",
+      "description": "Name TODO",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "nMoney",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Money",
+      "description": "Money TODO",
       "type": "int"
     }
   ]

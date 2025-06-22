@@ -1,89 +1,89 @@
 {
   "database": 0,
   "name": "USER_PERSONAL_RANK",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "UserPersonalRank",
+  "description": "User personal ranking",
   "columns": [
     {
       "name": "nRank",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Rank",
+      "description": "Ranking",
       "type": "smallint",
       "isPrimaryKey": true
     },
     {
       "name": "strPosition",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Position",
+      "description": "Position",
       "type": "varchar",
       "length": 21
     },
     {
       "name": "nElmoUP",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ElmoUp",
+      "description": "ElMorad Up?",
       "type": "smallint"
     },
     {
       "name": "strElmoUserID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ElmoUserId",
+      "description": "ElMorad user identifier",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "nElmoLoyaltyMonthly",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ElmoLoyaltyMonthly",
+      "description": "ElMorad national points monthly",
       "type": "int",
       "allowNull": true
     },
     {
       "name": "nElmoCheck",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ElmoCheck",
+      "description": "ElMorad check",
       "type": "int",
       "defaultValue": "0"
     },
     {
       "name": "nKarusUP",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KarusUp",
+      "description": "Karus Up?",
       "type": "smallint"
     },
     {
       "name": "strKarusUserID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KarusUserId",
+      "description": "Karus user identifier",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "nKarusLoyaltyMonthly",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KarusLoyaltyMonthly",
+      "description": "Karus national points monthly",
       "type": "int",
       "allowNull": true
     },
     {
       "name": "nKarusCheck",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KarusCheck",
+      "description": "Karus check",
       "type": "int",
       "defaultValue": "0"
     },
     {
       "name": "nSalary",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Salary",
+      "description": "Salary",
       "type": "int"
     },
     {
       "name": "UpdateDate",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "UpdateDate",
+      "description": "Update date",
       "type": "smalldatetime"
     }
   ]

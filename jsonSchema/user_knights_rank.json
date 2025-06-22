@@ -1,73 +1,73 @@
 {
   "database": 0,
   "name": "USER_KNIGHTS_RANK",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "UserKnightsRank",
+  "description": "User Knights Ranking",
   "columns": [
     {
       "name": "shIndex",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Index",
+      "description": "Index",
       "type": "smallint",
       "isPrimaryKey": true
     },
     {
       "name": "strName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Name",
+      "description": "Name",
       "type": "varchar",
       "length": 21
     },
     {
       "name": "strElmoUserID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ElmoUserId",
+      "description": "ElMorad user identifier",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "strElmoKnightsName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ElmoKnightsName",
+      "description": "ElMorad Knights name",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "nElmoLoyalty",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ElmoLoyalty",
+      "description": "ElMorad national points",
       "type": "int",
       "allowNull": true
     },
     {
       "name": "strKarusUserID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KarusUserId",
+      "description": "Karus user identifier",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "strKarusKnightsName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KarusKnightsName",
+      "description": "Karus Knights name",
       "type": "varchar",
       "allowNull": true,
       "length": 21
     },
     {
       "name": "nKarusLoyalty",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "KarusLoyalty",
+      "description": "Karus national points",
       "type": "int",
       "allowNull": true
     },
     {
       "name": "nMoney",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Money",
+      "description": "Money",
       "type": "int"
     }
   ]

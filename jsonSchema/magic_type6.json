@@ -1,160 +1,160 @@
 {
   "database": 0,
   "name": "MAGIC_TYPE6",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "MagicType6",
+  "description": "Type 6 supports transformation magic",
   "columns": [
     {
       "name": "iNum",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
       "type": "int"
     },
     {
       "name": "Name",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Name",
+      "description": "Name",
       "type": "varchar",
       "length": 50
     },
     {
       "name": "Description",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Description",
+      "description": "Description",
       "type": "varchar",
       "allowNull": true,
       "length": 100
     },
     {
       "name": "Size",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Size",
+      "description": "Size modifier",
       "type": "smallint"
     },
     {
       "name": "TransformID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TransformId",
+      "description": "Transformation picture identifier (K_NPC.sPid)",
       "type": "smallint"
     },
     {
       "name": "Duration",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Duration",
+      "description": "Duration",
       "type": "smallint"
     },
     {
       "name": "MaxHp",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MaxHp",
+      "description": "Maximum health",
       "type": "smallint"
     },
     {
       "name": "MaxMp",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MaxMp",
+      "description": "Maximum mana",
       "type": "smallint"
     },
     {
       "name": "Speed",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Speed",
+      "description": "Movement speed",
       "type": "tinyint"
     },
     {
       "name": "AttackSpeed",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "AttackSpeed",
+      "description": "Attack speed",
       "type": "smallint"
     },
     {
       "name": "TotalHit",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TotalHit",
+      "description": "Total hit",
       "type": "smallint"
     },
     {
       "name": "TotalAc",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TotalArmor",
+      "description": "Total armor",
       "type": "smallint"
     },
     {
       "name": "TotalHitRate",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TotalHitRate",
+      "description": "Total hit rate",
       "type": "smallint"
     },
     {
       "name": "TotalEvasionRate",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TotalEvasionRate",
+      "description": "Total evasion rate",
       "type": "smallint"
     },
     {
       "name": "TotalFireR",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TotalFireResist",
+      "description": "Total fire resistance",
       "type": "smallint"
     },
     {
       "name": "TotalColdR",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TotalColdResist",
+      "description": "Total cold resistance",
       "type": "smallint"
     },
     {
       "name": "TotalLightningR",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TotalLightningResist",
+      "description": "Total lightning resistance",
       "type": "smallint"
     },
     {
       "name": "TotalMagicR",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TotalMagicResist",
+      "description": "Total magic resistance",
       "type": "smallint"
     },
     {
       "name": "TotalDiseaseR",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TotalDiseaseResist",
+      "description": "Total disease resistance",
       "type": "smallint"
     },
     {
       "name": "TotalPoisonR",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "TotalPoisonResist",
+      "description": "Total poison resistance",
       "type": "smallint"
     },
     {
       "name": "Class",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Class",
+      "description": "Class",
       "type": "smallint"
     },
     {
       "name": "UserSkillUse",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "UserSkillUse",
+      "description": "User skill use TODO - allow skill use?",
       "type": "tinyint"
     },
     {
       "name": "NeedItem",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "NeedItem",
+      "description": "Needs item",
       "type": "tinyint"
     },
     {
       "name": "SkillSuccessRate",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "SkillSuccessRate",
+      "description": "Skill success rate",
       "type": "tinyint"
     },
     {
       "name": "MonsterFriendly",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MonsterFriendly",
+      "description": "Do monsters ignore the player while transformed?",
       "type": "tinyint"
     }
   ]

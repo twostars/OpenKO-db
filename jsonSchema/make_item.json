@@ -1,33 +1,33 @@
 {
   "database": 0,
   "name": "MAKE_ITEM",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "MakeItem",
+  "description": "Make item",
   "columns": [
     {
       "name": "sIndex",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Index",
+      "description": "Index",
       "type": "smallint"
     },
     {
       "name": "strItemInfo",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ItemInfo",
+      "description": "Item information",
       "type": "varchar",
       "allowNull": true,
       "length": 20
     },
     {
       "name": "iItemCode",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ItemCode",
+      "description": "Item Code",
       "type": "int"
     },
     {
       "name": "byItemLevel",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ItemLevel",
+      "description": "Item level",
       "type": "tinyint",
       "defaultValue": "0"
     }

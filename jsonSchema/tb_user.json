@@ -1,50 +1,50 @@
 {
   "database": 0,
   "name": "TB_USER",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "TbUser",
+  "description": "User Account Information",
   "columns": [
     {
       "name": "strAccountID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "AccountId",
+      "description": "Account identifier",
       "type": "varchar",
       "length": 21
     },
     {
       "name": "strPasswd",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Password",
+      "description": "Password",
       "type": "varchar",
       "length": 13
     },
     {
       "name": "strSocNo",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "SocNo",
+      "description": "Tax identification number",
       "type": "varchar",
       "defaultValue": "''",
       "length": 20
     },
     {
       "name": "strEmail",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Email",
+      "description": "Electronic mailing address",
       "type": "varchar",
       "defaultValue": "''",
       "length": 250
     },
     {
       "name": "strAuthority",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Authority",
+      "description": "Authority level",
       "type": "tinyint",
       "defaultValue": "1"
     },
     {
       "name": "PremiumExpire",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "PremiumExpire",
+      "description": "Premium expiration datetime",
       "type": "datetime",
       "defaultValue": "getdate()+(3"
     }

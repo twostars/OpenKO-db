@@ -1,53 +1,75 @@
 {
   "database": 0,
   "name": "MAGIC_TYPE8",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "MagicType8",
+  "description": "Type 8 supports warp magic",
   "columns": [
     {
       "name": "iNum",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "MagicNumber",
+      "description": "Magic identification number",
       "type": "int"
     },
     {
       "name": "Name",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Name",
+      "description": "Name",
       "type": "varchar",
       "allowNull": true,
       "length": 50
     },
     {
       "name": "Description",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Description",
+      "description": "Description",
       "type": "varchar",
       "allowNull": true,
       "length": 100
     },
     {
       "name": "Target",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Target",
+      "description": "Target",
       "type": "tinyint"
     },
     {
       "name": "Radius",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Radius",
+      "description": "Radius",
       "type": "smallint"
     },
     {
       "name": "WarpType",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
-      "type": "tinyint"
+      "propertyName": "WarpType",
+      "description": "Warp type",
+      "type": "tinyint",
+      "enums": [
+        {
+          "name": "Gate",
+          "value": "1",
+          "comment": "Teleport to saved gate"
+        },
+        {
+          "name": "SummonFriendly",
+          "value": "12",
+          "comment": "Summons friendly player(s)"
+        },
+        {
+          "name": "SummonMonster",
+          "value": "21",
+          "comment": "TODO"
+        },
+        {
+          "name": "TeleportToFriendly",
+          "value": "25",
+          "comment": "Teleports to a party member"
+        }
+      ]
     },
     {
       "name": "ExpRecover",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ExpRecover",
+      "description": "Experience recovery",
       "type": "smallint"
     }
   ]
