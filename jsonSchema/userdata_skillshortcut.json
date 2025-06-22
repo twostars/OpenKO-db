@@ -1,13 +1,13 @@
 {
   "database": 0,
   "name": "USERDATA_SKILLSHORTCUT",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "UserDataSkillShortcut",
+  "description": "User data skill shortcut",
   "columns": [
     {
       "name": "strCharID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "CharId",
+      "description": "Character identifier",
       "type": "varchar",
       "isPrimaryKey": true,
       "defaultValue": "''",
@@ -15,15 +15,15 @@
     },
     {
       "name": "nCount",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Count",
+      "description": "Count",
       "type": "smallint",
       "defaultValue": "0"
     },
     {
       "name": "strSkillData",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "SkillData",
+      "description": "Skill data",
       "type": "varchar",
       "defaultValue": "0x00",
       "length": 260

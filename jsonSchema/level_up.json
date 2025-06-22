@@ -2,7 +2,7 @@
   "database": 0,
   "name": "LEVEL_UP",
   "className": "LevelUp",
-  "description": "MANUAL_TODO",
+  "description": "Level experience requirements",
   "columns": [
     {
       "name": "level",

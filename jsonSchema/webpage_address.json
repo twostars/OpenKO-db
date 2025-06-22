@@ -1,21 +1,21 @@
 {
   "database": 0,
   "name": "WEBPAGE_ADDRESS",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "WebpageAddress",
+  "description": "Webpage URL list",
   "columns": [
     {
       "name": "nIndex",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Index",
+      "description": "Index",
       "type": "varchar",
       "allowNull": true,
       "length": 10
     },
     {
       "name": "strWebPageAddress",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "WebPageAddress",
+      "description": "Webpage address",
       "type": "varchar",
       "allowNull": true,
       "length": 10

@@ -1,43 +1,43 @@
 {
   "database": 0,
   "name": "WAREHOUSE",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "Warehouse",
+  "description": "The warehouse system is referred to as the Inn in-game.  It is account-level storage for a user",
   "columns": [
     {
       "name": "strAccountID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "AccountId",
+      "description": "Account identifier",
       "type": "varchar",
       "isPrimaryKey": true,
       "length": 50
     },
     {
       "name": "nMoney",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Money",
+      "description": "Money stored in the warehouse",
       "type": "int",
       "defaultValue": "0"
     },
     {
       "name": "dwTime",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "DwTime",
+      "description": "DwTime TODO",
       "type": "int",
       "defaultValue": "0"
     },
     {
       "name": "WarehouseData",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ItemData",
+      "description": "Data on items stored in the warehouse",
       "type": "varchar",
       "allowNull": true,
       "length": 1600
     },
     {
       "name": "strSerial",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Serial",
+      "description": "Serial TODO",
       "type": "varchar",
       "allowNull": true,
       "length": 1600

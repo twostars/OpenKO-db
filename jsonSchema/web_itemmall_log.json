@@ -1,75 +1,75 @@
 {
   "database": 0,
   "name": "WEB_ITEMMALL_LOG",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "WebItemMallLog",
+  "description": "Power-up store purchase log",
   "columns": [
     {
       "name": "strAccountID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "AccountId",
+      "description": "Account identifier",
       "type": "char",
       "length": 21
     },
     {
       "name": "strCharID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "CharId",
+      "description": "Character identifier",
       "type": "char",
       "length": 21
     },
     {
       "name": "ServerNo",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ServerId",
+      "description": "Server identifier",
       "type": "smallint"
     },
     {
       "name": "ItemID",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ItemId",
+      "description": "Item identifier",
       "type": "int"
     },
     {
       "name": "ItemCount",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ItemCount",
+      "description": "Number of items granted on purchase",
       "type": "smallint"
     },
     {
       "name": "BuyTime",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "BuyTime",
+      "description": "Time of purchase",
       "type": "smalldatetime",
       "defaultValue": "getdate("
     },
     {
       "name": "img_file_name",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ImgFileName",
+      "description": "Item image file name",
       "type": "varchar",
       "allowNull": true,
       "length": 50
     },
     {
       "name": "strItemName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "ItemName",
+      "description": "Item name",
       "type": "varchar",
       "allowNull": true,
       "length": 100
     },
     {
       "name": "price",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Price",
+      "description": "Price",
       "type": "int",
       "allowNull": true
     },
     {
       "name": "pay_type",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "PayType",
+      "description": "Pay type",
       "type": "int",
       "allowNull": true
     }

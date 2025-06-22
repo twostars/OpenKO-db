@@ -1,33 +1,33 @@
 {
   "database": 0,
   "name": "VERSION",
-  "className": "MANUAL_TODO",
-  "description": "MANUAL_TODO",
+  "className": "Version",
+  "description": "Version data and patch management",
   "columns": [
     {
       "name": "sVersion",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "Version",
+      "description": "Game version",
       "type": "smallint"
     },
     {
       "name": "strFileName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "FileName",
+      "description": "Patch file name",
       "type": "varchar",
       "length": 50
     },
     {
       "name": "strCompressName",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "CompressName",
+      "description": "User-friendly patch name",
       "type": "varchar",
       "length": 50
     },
     {
       "name": "sHistoryVersion",
-      "propertyName": "MANUAL_TODO",
-      "description": "MANUAL_TODO",
+      "propertyName": "HistoryVersion",
+      "description": "Previous patch version",
       "type": "smallint"
     }
   ]
