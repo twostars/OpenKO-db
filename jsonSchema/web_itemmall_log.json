@@ -41,7 +41,7 @@
       "propertyName": "BuyTime",
       "description": "Time of purchase",
       "type": "smalldatetime",
-      "defaultValue": "getdate("
+      "defaultValue": "getdate()"
     },
     {
       "name": "img_file_name",

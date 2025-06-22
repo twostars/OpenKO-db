@@ -31,7 +31,7 @@
       "propertyName": "WriteTime",
       "description": "Log time",
       "type": "smalldatetime",
-      "defaultValue": "getdate("
+      "defaultValue": "getdate()"
     }
   ]
 }

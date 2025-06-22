@@ -139,7 +139,7 @@
       "propertyName": "CreateTime",
       "description": "Create time",
       "type": "smalldatetime",
-      "defaultValue": "getdate("
+      "defaultValue": "getdate()"
     },
     {
       "name": "sMarkVersion",

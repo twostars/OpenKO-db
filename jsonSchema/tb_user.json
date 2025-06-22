@@ -46,7 +46,7 @@
       "propertyName": "PremiumExpire",
       "description": "Premium expiration datetime",
       "type": "datetime",
-      "defaultValue": "getdate()+(3"
+      "defaultValue": "getdate()+(3)"
     }
   ]
 }

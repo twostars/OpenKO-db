@@ -102,7 +102,7 @@
       "propertyName": "RegisterTime",
       "description": "Register time",
       "type": "smalldatetime",
-      "defaultValue": "getdate("
+      "defaultValue": "getdate()"
     }
   ]
 }

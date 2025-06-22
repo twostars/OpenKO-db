@@ -107,7 +107,7 @@
       "propertyName": "EditorTime",
       "description": "Record create time",
       "type": "smalldatetime",
-      "defaultValue": "getdate("
+      "defaultValue": "getdate()"
     }
   ]
 }
