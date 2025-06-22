@@ -127,8 +127,8 @@
     },
     {
       "name": "byGuerrillaWarDay",
-      "propertyName": "WarRequestDay",
-      "description": "War request day",
+      "propertyName": "GuerrillaWarDay",
+      "description": "Guerrilla war day",
       "type": "tinyint",
       "defaultValue": "1"
     },
