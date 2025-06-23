@@ -1,6 +1,7 @@
 /* Template Args:
    1. Login Name
    2. Default Database Name
+   3. Password
  */
 USE [master]
 GO

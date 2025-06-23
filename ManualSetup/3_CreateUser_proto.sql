@@ -4,7 +4,7 @@
  */
 USE [master]
 GO
-CREATE USER [proto] WITHOUT LOGIN WITH DEFAULT_SCHEMA=[knight]
+CREATE USER [proto] WITHOUT LOGIN WITH DEFAULT_SCHEMA=[proto]
 GO
 sys.sp_addrolemember @rolename = N'db_owner', @membername = N'proto'
 GO

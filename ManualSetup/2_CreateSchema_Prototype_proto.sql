@@ -4,5 +4,5 @@
  */
 USE [Prototype]
 GO
-CREATE SCHEMA [knight]
+CREATE SCHEMA [proto]
 GO

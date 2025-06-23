@@ -1,10 +1,11 @@
 USE [Prototype]
 GO
 
-CREATE TABLE "EVENT_TRIGGER" (
-	"nIndex" int NOT NULL,
-	"bNpcType" tinyint NOT NULL,
-	"sNpcID" smallint NOT NULL,
-	"nTriggerNum" int NOT NULL
+CREATE TABLE [EVENT_TRIGGER] (
+	[nIndex] int NOT NULL,
+	[bNpcType] tinyint NOT NULL,
+	[sNpcID] smallint NOT NULL,
+	[nTriggerNum] int NOT NULL
 
 )
+GO
