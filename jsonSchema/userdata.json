@@ -388,7 +388,8 @@
       "type": "varchar",
       "defaultValue": "0x00",
       "allowNull": true,
-      "length": 10
+      "length": 10,
+      "isForceHexOutput": true
     },
     {
       "name": "strItem",
@@ -396,7 +397,8 @@
       "description": "Character inventory",
       "type": "varchar",
       "allowNull": true,
-      "length": 400
+      "length": 400,
+      "isForceHexOutput": true
     },
     {
       "name": "strSerial",
@@ -404,7 +406,8 @@
       "description": "Serial TODO",
       "type": "varchar",
       "allowNull": true,
-      "length": 400
+      "length": 400,
+      "isForceHexOutput": true
     },
     {
       "name": "sQuestCount",
@@ -419,7 +422,8 @@
       "description": "Quest data",
       "type": "varchar",
       "allowNull": true,
-      "length": 400
+      "length": 400,
+      "isForceHexOutput": true
     },
     {
       "name": "MannerPoint",

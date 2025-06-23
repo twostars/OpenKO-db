@@ -1,0 +1,18 @@
+INSERT INTO [MAGIC_TYPE7] (nIndex, strName, strNote, byValidGroup, byNatoinChange, shMonsterNum, byTargetChange, byStateChange, byRadius, shHitrate, shDuration, shDamage, byVisoin, nNeedItem) VALUES
+(105630, N'Binding', N'', 0, 0, 0, 1, 0, 0, 100, 9, 10, 100, 0),
+(105645, N'provoke', N'', 0, 0, 0, 1, 0, 30, 100, 12, 10, 100, 0),
+(106630, N'Binding', N'', 0, 0, 0, 1, 0, 0, 100, 9, 10, 100, 0),
+(106645, N'provoke', N'', 0, 0, 0, 1, 0, 30, 100, 12, 10, 100, 0),
+(111730, N'Sleep Wing', N'', 0, 0, 0, 2, 0, 0, 100, 20, 0, 100, 0),
+(111751, N'sleep Carpet', N'', 0, 0, 0, 2, 0, 30, 100, 20, 0, 100, 0),
+(112730, N'Sleep Wing', N'', 0, 0, 0, 2, 0, 0, 100, 20, 0, 100, 0),
+(112751, N'sleep Carpet', N'', 0, 0, 0, 2, 0, 30, 100, 20, 0, 100, 0),
+(205630, N'Binding', N'', 0, 0, 0, 1, 0, 0, 100, 9, 10, 100, 0),
+(205645, N'provoke', N'', 0, 0, 0, 1, 0, 30, 100, 12, 10, 100, 0),
+(206630, N'Binding', N'', 0, 0, 0, 1, 0, 0, 100, 9, 10, 100, 0),
+(206645, N'provoke', N'', 0, 0, 0, 1, 0, 30, 100, 12, 10, 100, 0),
+(211730, N'Sleep Wing', N'', 0, 0, 0, 2, 0, 0, 100, 20, 0, 100, 0),
+(211751, N'sleep Carpet', N'', 0, 0, 0, 2, 0, 30, 100, 20, 0, 100, 0),
+(212730, N'Sleep Wing', N'', 0, 0, 0, 2, 0, 0, 100, 20, 0, 100, 0),
+(212751, N'sleep Carpet', N'', 0, 0, 0, 2, 0, 30, 100, 20, 0, 100, 0),
+(490213, N'??? ??arpet', N'', 0, 0, 0, 2, 0, 0, 100, 20, 0, 100, 0)

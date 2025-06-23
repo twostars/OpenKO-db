@@ -32,7 +32,8 @@
       "description": "Data on items stored in the warehouse",
       "type": "varchar",
       "allowNull": true,
-      "length": 1600
+      "length": 1600,
+      "isForceHexOutput": true
     },
     {
       "name": "strSerial",
@@ -40,7 +41,8 @@
       "description": "Serial TODO",
       "type": "varchar",
       "allowNull": true,
-      "length": 1600
+      "length": 1600,
+      "isForceHexOutput": true
     }
   ]
 }

@@ -26,7 +26,8 @@
       "description": "Skill data",
       "type": "varchar",
       "defaultValue": "0x00",
-      "length": 260
+      "length": 260,
+      "isForceHexOutput": true
     }
   ]
 }
