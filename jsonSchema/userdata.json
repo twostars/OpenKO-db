@@ -389,7 +389,7 @@
       "defaultValue": "0x00",
       "allowNull": true,
       "length": 10,
-      "typeOverride": "varbinary"
+      "isHexProtect": true
     },
     {
       "name": "strItem",
@@ -398,7 +398,7 @@
       "type": "varchar",
       "allowNull": true,
       "length": 400,
-      "typeOverride": "varbinary"
+      "isHexProtect": true
     },
     {
       "name": "strSerial",
@@ -407,7 +407,7 @@
       "type": "varchar",
       "allowNull": true,
       "length": 400,
-      "typeOverride": "varbinary"
+      "isHexProtect": true
     },
     {
       "name": "sQuestCount",
@@ -423,7 +423,7 @@
       "type": "varchar",
       "allowNull": true,
       "length": 400,
-      "typeOverride": "varbinary"
+      "isHexProtect": true
     },
     {
       "name": "MannerPoint",

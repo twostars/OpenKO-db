@@ -32,9 +32,7 @@ type Column struct {
 	Length       int           `json:"length,omitempty"`       // length specifier for array types
 	Enums        []Enum        `json:"enums,omitempty"`        // array of enumerated values
 	Unique       string        `json:"unique,omitempty"`       // unique constraint this col belongs to
-	// Override the type-binding in code generated libaries
-	// be careful not to use in scripts that create tables - this shouldn't affect structure exports
-	TypeOverride tsql.TSqlType `json:"typeOverride,omitempty"`
+	IsHexProtect bool          `json:"isHexProtect,omitempty"` // Should this column be read with a convert function to varbinary, and written back with a convert to original?
 }
 
 type Enum struct {
