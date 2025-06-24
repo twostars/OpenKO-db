@@ -34,7 +34,7 @@ type Column struct {
 	Unique       string        `json:"unique,omitempty"`       // unique constraint this col belongs to
 	// Override the type-binding in code generated libaries
 	// be careful not to use in scripts that create tables - this shouldn't affect structure exports
-	TypeOverride string `json:"typeOverride,omitempty"`
+	TypeOverride tsql.TSqlType `json:"typeOverride,omitempty"`
 }
 
 type Enum struct {
