@@ -33,7 +33,7 @@
       "type": "varchar",
       "allowNull": true,
       "length": 1600,
-      "isForceHexOutput": true
+      "typeOverride": "varbinary"
     },
     {
       "name": "strSerial",
@@ -42,7 +42,7 @@
       "type": "varchar",
       "allowNull": true,
       "length": 1600,
-      "isForceHexOutput": true
+      "typeOverride": "varbinary"
     }
   ]
 }

@@ -22,17 +22,19 @@ type TableDef struct {
 }
 
 type Column struct {
-	Name             string        `json:"name"`                   // Column name in the database
-	PropertyName     string        `json:"propertyName"`           // Code-friendly property name
-	Description      string        `json:"description"`            // Property description
-	Type             tsql.TSqlType `json:"type"`                   // Supported TSQL Type
-	IsPrimaryKey     bool          `json:"isPrimaryKey,omitempty"` // Is this column part of the table's Primary Key?
-	DefaultValue     string        `json:"defaultValue,omitempty"` // Default value that should be assigned to the property
-	AllowNull        bool          `json:"allowNull,omitempty"`    // Can the column's value be null?
-	Length           int           `json:"length,omitempty"`       // length specifier for array types
-	Enums            []Enum        `json:"enums,omitempty"`        // array of enumerated values
-	Unique           string        `json:"unique,omitempty"`       // unique constraint this col belongs to
-	IsForceHexOutput bool          `json:"isForceHexOutput,omitempty"`
+	Name         string        `json:"name"`                   // Column name in the database
+	PropertyName string        `json:"propertyName"`           // Code-friendly property name
+	Description  string        `json:"description"`            // Property description
+	Type         tsql.TSqlType `json:"type"`                   // Supported TSQL Type
+	IsPrimaryKey bool          `json:"isPrimaryKey,omitempty"` // Is this column part of the table's Primary Key?
+	DefaultValue string        `json:"defaultValue,omitempty"` // Default value that should be assigned to the property
+	AllowNull    bool          `json:"allowNull,omitempty"`    // Can the column's value be null?
+	Length       int           `json:"length,omitempty"`       // length specifier for array types
+	Enums        []Enum        `json:"enums,omitempty"`        // array of enumerated values
+	Unique       string        `json:"unique,omitempty"`       // unique constraint this col belongs to
+	// Override the type-binding in code generated libaries
+	// be careful not to use in scripts that create tables - this shouldn't affect structure exports
+	TypeOverride string `json:"typeOverride,omitempty"`
 }
 
 type Enum struct {
