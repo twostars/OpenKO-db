@@ -19,8 +19,7 @@
       "description": "Webpage address",
       "type": "varchar",
       "allowNull": true,
-      "length": 10,
-      "isHexProtect": true
+      "length": 10
     }
   ]
 }
