@@ -11,5 +11,4 @@ INSERT INTO [TB_USER] (strAccountID, strPasswd, strSocNo, strEmail, strAuthority
 (N'testing7', N'testing7', N'', N'', 1, CAST(N'2016-07-03T19:38:40.09' AS DateTime)),
 (N'testing8', N'testing8', N'', N'', 1, CAST(N'2016-07-03T19:38:45.793' AS DateTime)),
 (N'testing9', N'testing9', N'', N'', 1, CAST(N'2016-07-03T19:38:52.043' AS DateTime)),
-(N'testing10', N'testing10', N'', N'', 1, CAST(N'2016-07-03T19:38:57.543' AS DateTime)),
-(N'kenner', N'xxx', N'', N'', 1, CAST(N'2016-07-03T19:38:57.543' AS DateTime))
+(N'testing10', N'testing10', N'', N'', 1, CAST(N'2016-07-03T19:38:57.543' AS DateTime))
