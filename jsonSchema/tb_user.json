@@ -23,7 +23,7 @@
     {
       "name": "strSocNo",
       "propertyName": "SocNo",
-      "description": "Tax identification number - TODO: we should drop this if we can",
+      "description": "Character delete password",
       "type": "varchar",
       "defaultValue": "''",
       "length": 20,
