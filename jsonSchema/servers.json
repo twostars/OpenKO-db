@@ -8,7 +8,8 @@
       "name": "id",
       "propertyName": "Id",
       "description": "Identifier",
-      "type": "int"
+      "type": "int",
+      "isPrimaryKey": true
     },
     {
       "name": "sName",

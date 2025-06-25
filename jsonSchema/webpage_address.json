@@ -10,7 +10,8 @@
       "description": "Index",
       "type": "varchar",
       "allowNull": true,
-      "length": 10
+      "length": 10,
+      "isPrimaryKey": true
     },
     {
       "name": "strWebPageAddress",
@@ -18,7 +19,8 @@
       "description": "Webpage address",
       "type": "varchar",
       "allowNull": true,
-      "length": 10
+      "length": 10,
+      "isHexProtect": true
     }
   ]
 }

@@ -152,7 +152,8 @@
       "description": "Challenge list",
       "type": "char",
       "allowNull": true,
-      "length": 50
+      "length": 50,
+      "isHexProtect": true
     },
     {
       "name": "sMoradonTariff",

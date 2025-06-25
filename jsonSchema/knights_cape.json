@@ -8,7 +8,8 @@
       "name": "sCapeIndex",
       "propertyName": "CapeIndex",
       "description": "Cape identifier",
-      "type": "smallint"
+      "type": "smallint",
+      "isPrimaryKey": true
     },
     {
       "name": "strName",

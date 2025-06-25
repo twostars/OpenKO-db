@@ -15,7 +15,8 @@
       "propertyName": "SerialNum",
       "description": "Serial Number",
       "type": "char",
-      "length": 16
+      "length": 16,
+      "isHexProtect": true
     },
     {
       "name": "nItemNum",

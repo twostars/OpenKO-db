@@ -8,7 +8,8 @@
       "name": "nIndex",
       "propertyName": "Index",
       "description": "Index",
-      "type": "int"
+      "type": "int",
+      "isPrimaryKey": true
     },
     {
       "name": "nNPCNum",

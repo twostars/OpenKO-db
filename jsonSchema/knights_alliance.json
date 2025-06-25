@@ -8,7 +8,8 @@
       "name": "sMainAllianceKnights",
       "propertyName": "MainAllianceKnights",
       "description": "Alliance leader clan",
-      "type": "smallint"
+      "type": "smallint",
+      "isPrimaryKey": true
     },
     {
       "name": "sSubAllianceKnights",

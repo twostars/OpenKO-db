@@ -40,7 +40,8 @@
       "description": "Achievement text",
       "type": "varchar",
       "allowNull": true,
-      "length": 50
+      "length": 50,
+      "isHexProtect": true
     }
   ]
 }

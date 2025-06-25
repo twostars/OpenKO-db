@@ -8,7 +8,8 @@
       "name": "ZoneID",
       "propertyName": "ZoneId",
       "description": "Zone identifier",
-      "type": "smallint"
+      "type": "smallint",
+      "isPrimaryKey": true
     },
     {
       "name": "sKarusX",

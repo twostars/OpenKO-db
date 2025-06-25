@@ -8,7 +8,8 @@
       "name": "sCastleIndex",
       "propertyName": "CastleIndex",
       "description": "Castle identifier TODO mostly lines up with k_npc.ssid",
-      "type": "smallint"
+      "type": "smallint",
+      "isPrimaryKey": true
     },
     {
       "name": "byChangeItem",

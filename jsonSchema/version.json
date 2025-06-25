@@ -8,7 +8,8 @@
       "name": "sVersion",
       "propertyName": "Version",
       "description": "Game version",
-      "type": "smallint"
+      "type": "smallint",
+      "isPrimaryKey": true
     },
     {
       "name": "strFileName",
