@@ -8,7 +8,8 @@
       "name": "serverid",
       "propertyName": "ServerId",
       "description": "Server Identifier",
-      "type": "tinyint"
+      "type": "tinyint",
+      "isPrimaryKey": true
     },
     {
       "name": "zone1_count",

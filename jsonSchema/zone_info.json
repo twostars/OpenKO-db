@@ -8,13 +8,15 @@
       "name": "ServerNo",
       "propertyName": "ServerId",
       "description": "Server identifier",
-      "type": "tinyint"
+      "type": "tinyint",
+      "isPrimaryKey": true
     },
     {
       "name": "ZoneNo",
       "propertyName": "ZoneId",
       "description": "Zone identifier",
-      "type": "smallint"
+      "type": "smallint",
+      "isPrimaryKey": true
     },
     {
       "name": "strZoneName",

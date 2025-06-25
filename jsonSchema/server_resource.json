@@ -8,7 +8,8 @@
       "name": "nResourceID",
       "propertyName": "ResourceId",
       "description": "Resource Identifier",
-      "type": "int"
+      "type": "int",
+      "isPrimaryKey": true
     },
     {
       "name": "strName",
@@ -23,7 +24,8 @@
       "description": "Sprintf supported string",
       "type": "varchar",
       "allowNull": true,
-      "length": 100
+      "length": 100,
+      "isHexProtect": true
     }
   ]
 }

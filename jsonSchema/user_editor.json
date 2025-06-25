@@ -51,56 +51,64 @@
       "propertyName": "OldUserSkill",
       "description": "Old user skill",
       "type": "char",
-      "length": 10
+      "length": 10,
+      "isHexProtect": true
     },
     {
       "name": "strNewUserSkill",
       "propertyName": "NewUserSkill",
       "description": "New user skill",
       "type": "char",
-      "length": 10
+      "length": 10,
+      "isHexProtect": true
     },
     {
       "name": "strOldUserItem",
       "propertyName": "OldUserItem",
       "description": "Old user item",
       "type": "char",
-      "length": 400
+      "length": 400,
+      "isHexProtect": true
     },
     {
       "name": "strNewUserItem",
       "propertyName": "NewUserItem",
       "description": "New user item",
       "type": "char",
-      "length": 400
+      "length": 400,
+      "isHexProtect": true
     },
     {
       "name": "strOldWHValue",
       "propertyName": "OldWarehouseValue",
       "description": "Old warehouse value",
       "type": "char",
-      "length": 100
+      "length": 100,
+      "isHexProtect": true
     },
     {
       "name": "strNewWHValue",
       "propertyName": "NewWarehouseValue",
       "description": "New warehouse value",
       "type": "char",
-      "length": 100
+      "length": 100,
+      "isHexProtect": true
     },
     {
       "name": "strOldWHItem",
       "propertyName": "OldWarehouseItem",
       "description": "Old warehouse item",
       "type": "char",
-      "length": 1600
+      "length": 1600,
+      "isHexProtect": true
     },
     {
       "name": "strNewWHItem",
       "propertyName": "NewWarehouseItem",
       "description": "New warehouse item",
       "type": "char",
-      "length": 1600
+      "length": 1600,
+      "isHexProtect": true
     },
     {
       "name": "EditorTime",

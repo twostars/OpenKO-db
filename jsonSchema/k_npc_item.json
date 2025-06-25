@@ -8,7 +8,8 @@
       "name": "sIndex",
       "propertyName": "NpcId",
       "description": "NPC identifier (K_NPC.sSid)",
-      "type": "smallint"
+      "type": "smallint",
+      "isPrimaryKey": true
     },
     {
       "name": "iItem01",

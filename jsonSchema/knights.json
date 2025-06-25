@@ -169,7 +169,8 @@
       "description": "Stash TODO",
       "type": "varchar",
       "allowNull": true,
-      "length": 1600
+      "length": 1600,
+      "isHexProtect": true
     },
     {
       "name": "bySiegeFlag",

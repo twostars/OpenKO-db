@@ -29,7 +29,8 @@
       "propertyName": "Notice",
       "description": "Candidate notice",
       "type": "varbinary",
-      "length": 1024
+      "length": 1024,
+      "isHexProtect": true
     }
   ]
 }

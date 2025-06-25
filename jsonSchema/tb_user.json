@@ -9,22 +9,25 @@
       "propertyName": "AccountId",
       "description": "Account identifier",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "isPrimaryKey": true
     },
     {
       "name": "strPasswd",
       "propertyName": "Password",
       "description": "Password",
       "type": "varchar",
-      "length": 13
+      "length": 13,
+      "isHexProtect": true
     },
     {
       "name": "strSocNo",
       "propertyName": "SocNo",
-      "description": "Tax identification number",
+      "description": "Tax identification number - TODO: we should drop this if we can",
       "type": "varchar",
       "defaultValue": "''",
-      "length": 20
+      "length": 20,
+      "isHexProtect": true
     },
     {
       "name": "strEmail",
@@ -32,7 +35,8 @@
       "description": "Electronic mailing address",
       "type": "varchar",
       "defaultValue": "''",
-      "length": 250
+      "length": 250,
+      "isHexProtect": true
     },
     {
       "name": "strAuthority",

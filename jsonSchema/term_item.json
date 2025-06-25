@@ -32,7 +32,8 @@
       "description": "Item number",
       "type": "binary",
       "allowNull": true,
-      "length": 4
+      "length": 4,
+      "isHexProtect": true
     },
     {
       "name": "ItemSerial",
@@ -40,7 +41,8 @@
       "description": "Item serial",
       "type": "binary",
       "allowNull": true,
-      "length": 8
+      "length": 8,
+      "isHexProtect": true
     }
   ]
 }

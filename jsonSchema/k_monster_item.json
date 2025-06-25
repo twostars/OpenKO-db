@@ -8,7 +8,8 @@
       "name": "sIndex",
       "propertyName": "MonsterId",
       "description": "Monster identifier (K_MONSTER.sSid)",
-      "type": "smallint"
+      "type": "smallint",
+      "isPrimaryKey": true
     },
     {
       "name": "iItem01",

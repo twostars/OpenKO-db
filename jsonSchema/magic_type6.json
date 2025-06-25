@@ -8,7 +8,8 @@
       "name": "iNum",
       "propertyName": "MagicNumber",
       "description": "Magic identification number",
-      "type": "int"
+      "type": "int",
+      "isPrimaryKey": true
     },
     {
       "name": "Name",

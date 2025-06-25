@@ -8,7 +8,8 @@
       "name": "sClass",
       "propertyName": "ClassId",
       "description": "ClassIdentifier",
-      "type": "smallint"
+      "type": "smallint",
+      "isPrimaryKey": true
     },
     {
       "name": "ShortSword",
