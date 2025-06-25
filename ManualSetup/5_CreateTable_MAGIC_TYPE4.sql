@@ -1,4 +1,4 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [MAGIC_TYPE4] (
@@ -32,6 +32,6 @@ CREATE TABLE [MAGIC_TYPE4] (
 	[DiseaseR] tinyint NOT NULL,
 	[PoisonR] tinyint NOT NULL,
 	[ExpPct] tinyint NOT NULL
-
+	CONSTRAINT [PK_MAGIC_TYPE4] PRIMARY KEY ([iNum])
 )
 GO

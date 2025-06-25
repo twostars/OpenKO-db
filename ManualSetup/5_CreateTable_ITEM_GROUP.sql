@@ -1,4 +1,4 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [ITEM_GROUP] (

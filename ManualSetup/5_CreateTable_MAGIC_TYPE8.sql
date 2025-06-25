@@ -1,4 +1,4 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [MAGIC_TYPE8] (
@@ -9,6 +9,6 @@ CREATE TABLE [MAGIC_TYPE8] (
 	[Radius] smallint NOT NULL,
 	[WarpType] tinyint NOT NULL,
 	[ExpRecover] smallint NOT NULL
-
+	CONSTRAINT [PK_MAGIC_TYPE8] PRIMARY KEY ([iNum])
 )
 GO

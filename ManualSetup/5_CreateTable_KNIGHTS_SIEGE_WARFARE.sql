@@ -1,4 +1,4 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [KNIGHTS_SIEGE_WARFARE] (

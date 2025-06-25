@@ -1,4 +1,4 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [KNIGHTS_CAPE] (
@@ -7,6 +7,6 @@ CREATE TABLE [KNIGHTS_CAPE] (
 	[nBuyPrice] int NOT NULL,
 	[nDuration] int NOT NULL,
 	[byGrade] tinyint NOT NULL
-
+	CONSTRAINT [PK_KNIGHTS_CAPE] PRIMARY KEY ([sCapeIndex])
 )
 GO

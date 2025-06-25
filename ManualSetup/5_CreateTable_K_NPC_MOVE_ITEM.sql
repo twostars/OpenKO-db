@@ -1,4 +1,4 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [K_NPC_MOVE_ITEM] (
@@ -10,6 +10,6 @@ CREATE TABLE [K_NPC_MOVE_ITEM] (
 	[sMoveMinY] smallint,
 	[sMoveMaxX] smallint,
 	[sMoveMaxY] smallint
-
+	CONSTRAINT [PK_K_NPC_MOVE_ITEM] PRIMARY KEY ([sCastleIndex])
 )
 GO

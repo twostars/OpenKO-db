@@ -1,4 +1,4 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [ZONE_INFO] (
@@ -11,6 +11,6 @@ CREATE TABLE [ZONE_INFO] (
 	[Type] tinyint NOT NULL,
 	[RoomEvent] tinyint NOT NULL,
 	[bz] varchar(50)
-
+	CONSTRAINT [PK_ZONE_INFO] PRIMARY KEY ([ServerNo], [ZoneNo])
 )
 GO

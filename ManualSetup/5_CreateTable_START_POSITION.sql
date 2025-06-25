@@ -1,4 +1,4 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [START_POSITION] (
@@ -13,6 +13,6 @@ CREATE TABLE [START_POSITION] (
 	[sKarusGateZ] smallint NOT NULL,
 	[sElmoGateX] smallint NOT NULL,
 	[sElmoGateZ] smallint NOT NULL
-
+	CONSTRAINT [PK_START_POSITION] PRIMARY KEY ([ZoneID])
 )
 GO

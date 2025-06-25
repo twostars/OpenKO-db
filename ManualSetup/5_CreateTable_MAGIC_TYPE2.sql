@@ -1,4 +1,4 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [MAGIC_TYPE2] (
@@ -11,6 +11,6 @@ CREATE TABLE [MAGIC_TYPE2] (
 	[AddRange] smallint NOT NULL,
 	[NeedArrow] tinyint NOT NULL,
 	[AddDamagePlus] smallint
-
+	CONSTRAINT [PK_MAGIC_TYPE2] PRIMARY KEY ([iNum])
 )
 GO

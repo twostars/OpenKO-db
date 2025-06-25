@@ -16,6 +16,6 @@ INSERT INTO [ZONE_INFO] (ServerNo, ZoneNo, strZoneName, InitX, InitZ, InitY, Typ
 (1, 91, N'moradon_0826.smd', 15000, 15000, 15000, 0, 0, N'Monster Storage'),
 (1, 101, N'battle1_1111.smd', 1000, 1000, 1000, 2, 101, N'Lunar War'),
 (1, 102, N'battle2_0722.smd', 1000, 1000, 1000, 2, 102, N'Dark Lunar War'),
-(1, 201, N'freezone_1217.smd', 1000, 1000, 0, 2, 0, N'Colony Zone'),
 (1, 103, N'battle3_1111.smd', 1000, 1000, 0, 2, 103, N'New War'),
-(1, 111, N'battle1_1111.smd', 1000, 1000, 0, 2, 0, N'Snow War')
+(1, 111, N'battle1_1111.smd', 1000, 1000, 0, 2, 0, N'Snow War'),
+(1, 201, N'freezone_1217.smd', 1000, 1000, 0, 2, 0, N'Colony Zone')

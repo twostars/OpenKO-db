@@ -2,7 +2,7 @@
    1. Schema Name
    2. Database Name
  */
-USE [Prototype]
+USE [OpenKO]
 GO
-CREATE SCHEMA [proto]
+CREATE SCHEMA [knight]
 GO

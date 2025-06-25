@@ -1,4 +1,4 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [K_MONSTER] (
@@ -48,6 +48,6 @@ CREATE TABLE [K_MONSTER] (
 	[byDirectAttack] tinyint NOT NULL,
 	[byMagicAttack] tinyint NOT NULL,
 	[byMoneyType] tinyint NOT NULL
-
+	CONSTRAINT [PK_K_MONSTER] PRIMARY KEY ([sSid])
 )
 GO

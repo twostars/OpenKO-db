@@ -1,9 +1,9 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [KNIGHTS_USER] (
 	[sIDNum] smallint NOT NULL,
-	[strUserID] varchar(21)
-
+	[strUserID] varchar(21) NOT NULL
+	CONSTRAINT [PK_KNIGHTS_USER] PRIMARY KEY ([sIDNum], [strUserID])
 )
 GO

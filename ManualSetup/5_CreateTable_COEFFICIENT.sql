@@ -1,4 +1,4 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [COEFFICIENT] (
@@ -17,6 +17,6 @@ CREATE TABLE [COEFFICIENT] (
 	[Ac] float NOT NULL,
 	[Hitrate] float NOT NULL,
 	[Evasionrate] float NOT NULL
-
+	CONSTRAINT [PK_COEFFICIENT] PRIMARY KEY ([sClass])
 )
 GO

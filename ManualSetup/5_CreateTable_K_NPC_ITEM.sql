@@ -1,4 +1,4 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [K_NPC_ITEM] (
@@ -13,6 +13,6 @@ CREATE TABLE [K_NPC_ITEM] (
 	[sPersent04] smallint,
 	[iItem05] int,
 	[sPersent05] smallint
-
+	CONSTRAINT [PK_K_NPC_ITEM] PRIMARY KEY ([sIndex])
 )
 GO

@@ -1,9 +1,9 @@
-USE [Prototype]
+USE [OpenKO]
 GO
 
 CREATE TABLE [LEVEL_UP] (
 	[level] tinyint NOT NULL,
 	[Exp] int NOT NULL
-
+	CONSTRAINT [PK_LEVEL_UP] PRIMARY KEY ([level])
 )
 GO
