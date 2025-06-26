@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "ACCOUNT_CHAR",
   "className": "AccountChar",
   "description": "Represents the relationship between accounts and characters",

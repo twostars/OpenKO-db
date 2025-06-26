@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "MAGIC_TYPE7",
   "className": "MagicType7",
   "description": "Type 7 supports targeting modifications",

@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "COUPON_SERIAL_LIST",
   "className": "CouponSerialList",
   "description": "Coupon Serial List",

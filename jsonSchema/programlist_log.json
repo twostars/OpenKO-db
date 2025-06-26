@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "PROGRAMLIST_LOG",
   "className": "ProgramListLog",
   "description": "Program list log",

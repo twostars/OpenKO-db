@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "ITEMUP_PROBABILITY",
   "className": "ItemUpProbability",
   "description": "TODO: Doc usage",

@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "WEBPAGE_ADDRESS",
   "className": "WebpageAddress",
   "description": "Webpage URL list",

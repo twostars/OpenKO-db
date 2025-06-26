@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "FRIEND_LIST",
   "className": "FriendList",
   "description": "User friend list",

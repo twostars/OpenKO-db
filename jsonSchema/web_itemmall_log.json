@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "WEB_ITEMMALL_LOG",
   "className": "WebItemMallLog",
   "description": "Power-up store purchase log",

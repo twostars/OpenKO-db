@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "USER_RENTAL_ITEM",
   "className": "UserRentalItem",
   "description": "User rental item",

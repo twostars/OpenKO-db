@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "EVENT_TRIGGER",
   "className": "EventTrigger",
   "description": "NPC Event Triggers",

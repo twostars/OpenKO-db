@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "WAREHOUSE",
   "className": "Warehouse",
   "description": "The warehouse system is referred to as the Inn in-game.  It is account-level storage for a user",

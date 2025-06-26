@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "K_NPCPOS",
   "className": "NpcPos",
   "description": "NPC Spawn Positions",

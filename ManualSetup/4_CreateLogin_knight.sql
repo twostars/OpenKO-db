@@ -1,9 +1,9 @@
 /* Template Args:
    1. Login Name
-   2. Default Database Name
+   2. Database Name
    3. Password
  */
-USE [master]
+USE [OpenKO]
 GO
 CREATE LOGIN [knight] WITH PASSWORD=N'knight', DEFAULT_DATABASE=[OpenKO], DEFAULT_LANGUAGE=[us_english], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
 GO

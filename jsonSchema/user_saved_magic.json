@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "USER_SAVED_MAGIC",
   "className": "UserSavedMagic",
   "description": "User saved magic",

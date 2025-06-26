@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "KNIGHTS_USER",
   "className": "KnightsUser",
   "description": "Knights to character relationships",

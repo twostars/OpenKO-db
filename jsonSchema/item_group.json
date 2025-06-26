@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "ITEM_GROUP",
   "className": "ItemGroup",
   "description": "TODO Doc; No Data in table",

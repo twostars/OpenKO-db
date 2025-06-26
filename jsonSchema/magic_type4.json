@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "MAGIC_TYPE4",
   "className": "MagicType4",
   "description": "Type 4 supports stat modification skills",

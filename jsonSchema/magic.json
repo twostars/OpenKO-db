@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "MAGIC",
   "className": "Magic",
   "description": "Contains the configuration for magic and abilities",

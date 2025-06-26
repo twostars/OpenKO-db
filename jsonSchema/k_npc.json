@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "K_NPC",
   "className": "Npc",
   "description": "Non-Player Character",

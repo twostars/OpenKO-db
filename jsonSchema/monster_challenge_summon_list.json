@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "MONSTER_CHALLENGE_SUMMON_LIST",
   "className": "MonsterChallengeSummonList",
   "description": "Forgotten Temple summon list",

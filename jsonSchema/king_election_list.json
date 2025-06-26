@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "KING_ELECTION_LIST",
   "className": "KingElectionList",
   "description": "King election list",

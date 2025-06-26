@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "HACKTOOL_USERLOG",
   "className": "HacktoolUserLog",
   "description": "Tracks possible detections of a hack tool by a user",

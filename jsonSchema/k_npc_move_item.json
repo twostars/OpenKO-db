@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "K_NPC_MOVE_ITEM",
   "className": "NpcMoveItem",
   "description": "NPC Move Item: TODO",

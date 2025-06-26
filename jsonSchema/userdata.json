@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "USERDATA",
   "className": "UserData",
   "description": "User data contains saved character information",

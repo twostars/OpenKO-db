@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "MONSTER_ITEM_TEST",
   "className": "MonsterItemTest",
   "description": "Monster item test",

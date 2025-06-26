@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "MAKE_ITEM",
   "className": "MakeItem",
   "description": "Make item",

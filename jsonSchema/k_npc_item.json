@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "K_NPC_ITEM",
   "className": "NpcItem",
   "description": "NPC loot table",

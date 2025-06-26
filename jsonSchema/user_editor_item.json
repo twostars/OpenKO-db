@@ -1,5 +1,5 @@
 {
-  "database": 0,
+  "database": 1,
   "name": "USER_EDITOR_ITEM",
   "className": "UserEditorItem",
   "description": "User editor item",
