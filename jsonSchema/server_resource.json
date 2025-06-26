@@ -24,8 +24,7 @@
       "description": "Sprintf supported string",
       "type": "varchar",
       "allowNull": true,
-      "length": 100,
-      "isHexProtect": true
+      "length": 100
     }
   ]
 }
