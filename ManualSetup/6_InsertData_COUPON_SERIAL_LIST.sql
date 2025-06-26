@@ -1,2 +1,2 @@
-INSERT INTO [COUPON_SERIAL_LIST] (nIndex, strSerialNum, nItemNum, sItemCount) VALUES
-(1, CONVERT(char(16), 0x31202020202020202020202020202020), 1, 1)
+INSERT INTO [COUPON_SERIAL_LIST] ([nIndex], [strSerialNum], [nItemNum], [sItemCount]) VALUES
+(1, N'1', 1, 1)

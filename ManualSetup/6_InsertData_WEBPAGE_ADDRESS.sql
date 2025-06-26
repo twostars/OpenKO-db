@@ -1,2 +1,2 @@
-INSERT INTO [WEBPAGE_ADDRESS] (nIndex, strWebPageAddress) VALUES
-(N'1         ', N'sohu.com  ')
+INSERT INTO [WEBPAGE_ADDRESS] ([nIndex], [strWebPageAddress]) VALUES
+(1, N'duckduckgo.com')

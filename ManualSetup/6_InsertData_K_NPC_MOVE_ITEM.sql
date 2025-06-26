@@ -1,4 +1,4 @@
-INSERT INTO [K_NPC_MOVE_ITEM] (sCastleIndex, byChangeItem, sChangeSid, byMoveItem, sMoveMinX, sMoveMinY, sMoveMaxX, sMoveMaxY) VALUES
+INSERT INTO [K_NPC_MOVE_ITEM] ([sCastleIndex], [byChangeItem], [sChangeSid], [byMoveItem], [sMoveMinX], [sMoveMinY], [sMoveMaxX], [sMoveMaxY]) VALUES
 (100, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (101, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (102, NULL, NULL, NULL, NULL, NULL, NULL, NULL),

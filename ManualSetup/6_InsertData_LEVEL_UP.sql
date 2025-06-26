@@ -1,4 +1,4 @@
-INSERT INTO [LEVEL_UP] (level, Exp) VALUES
+INSERT INTO [LEVEL_UP] ([level], [Exp]) VALUES
 (1, 50),
 (2, 100),
 (3, 190),

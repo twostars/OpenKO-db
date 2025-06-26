@@ -2,8 +2,8 @@ USE [KN_online]
 GO
 
 CREATE TABLE [WEB_ITEMMALL_LOG] (
-	[strAccountID] char(21) NOT NULL,
-	[strCharID] char(21) NOT NULL,
+	[strAccountID] varchar(21) NOT NULL,
+	[strCharID] varchar(21) NOT NULL,
 	[ServerNo] smallint NOT NULL,
 	[ItemID] int NOT NULL,
 	[ItemCount] smallint NOT NULL,

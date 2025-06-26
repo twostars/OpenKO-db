@@ -1,4 +1,4 @@
-INSERT INTO [MONSTER_CHALLENGE_SUMMON_LIST] (sIndex, bLevel, bStage, bStageLevel, sTime, sSid, sCount, sPosX, sPosZ, bRange) VALUES
+INSERT INTO [MONSTER_CHALLENGE_SUMMON_LIST] ([sIndex], [bLevel], [bStage], [bStageLevel], [sTime], [sSid], [sCount], [sPosX], [sPosZ], [bRange]) VALUES
 (0, 1, 1, 1, 310, 2903, 30, 126, 126, 45),
 (1, 1, 2, 1, 320, 1673, 30, 126, 126, 45),
 (2, 1, 3, 1, 360, 1690, 30, 126, 126, 45),

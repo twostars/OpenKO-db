@@ -1,4 +1,4 @@
-INSERT INTO [MAKE_DEFENSIVE] (byLevel, sClass_1, sClass_2, sClass_3, sClass_4, sClass_5, sClass_6, sClass_7) VALUES
+INSERT INTO [MAKE_DEFENSIVE] ([byLevel], [sClass_1], [sClass_2], [sClass_3], [sClass_4], [sClass_5], [sClass_6], [sClass_7]) VALUES
 (0, 1000, 0, 0, 0, 0, 0, 0),
 (1, 600, 400, 0, 0, 0, 0, 0),
 (2, 400, 600, 0, 0, 0, 0, 0),

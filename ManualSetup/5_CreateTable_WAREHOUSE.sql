@@ -2,7 +2,7 @@ USE [KN_online]
 GO
 
 CREATE TABLE [WAREHOUSE] (
-	[strAccountID] varchar(50) NOT NULL,
+	[strAccountID] varchar(21) NOT NULL,
 	[nMoney] int NOT NULL,
 	[dwTime] int NOT NULL,
 	[WarehouseData] varchar(1600),

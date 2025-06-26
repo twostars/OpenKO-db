@@ -1,4 +1,4 @@
-INSERT INTO [START_POSITION] (ZoneID, sKarusX, sKarusZ, sElmoradX, sElmoradZ, bRangeX, bRangeZ, sKarusGateX, sKarusGateZ, sElmoGateX, sElmoGateZ) VALUES
+INSERT INTO [START_POSITION] ([ZoneID], [sKarusX], [sKarusZ], [sElmoradX], [sElmoradZ], [bRangeX], [bRangeZ], [sKarusGateX], [sKarusGateZ], [sElmoGateX], [sElmoGateZ]) VALUES
 (1, 441, 1625, 1859, 170, 10, 10, 0, 0, 0, 0),
 (2, 219, 1859, 1595, 412, 10, 10, 0, 0, 0, 0),
 (11, 527, 543, 527, 543, 10, 10, 0, 0, 0, 0),

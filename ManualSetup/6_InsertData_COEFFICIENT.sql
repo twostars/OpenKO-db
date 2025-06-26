@@ -1,4 +1,4 @@
-INSERT INTO [COEFFICIENT] (sClass, ShortSword, Sword, Axe, Club, Spear, Pole, Staff, Bow, Hp, Mp, Sp, Ac, Hitrate, Evasionrate) VALUES
+INSERT INTO [COEFFICIENT] ([sClass], [ShortSword], [Sword], [Axe], [Club], [Spear], [Pole], [Staff], [Bow], [Hp], [Mp], [Sp], [Ac], [Hitrate], [Evasionrate]) VALUES
 (101, 0.0001, 0.00013, 0.00013, 0.00013, 0.00013, 0.00013, 0.0001, 0.0001, 0.0015, 0, 0.0015, 1, 0.01, 0.01),
 (102, 0.00015, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.00015, 0.0005, 0, 0.0015, 1, 0.01, 0.01),
 (103, 7e-05, 0, 0, 0, 0, 0, 0.0001, 0, 0.0004, 0.0015, 0, 1, 0.01, 0.01),

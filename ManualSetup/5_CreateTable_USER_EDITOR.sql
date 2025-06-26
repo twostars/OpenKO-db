@@ -2,10 +2,10 @@ USE [KN_online]
 GO
 
 CREATE TABLE [USER_EDITOR] (
-	[strCharID] char(21) NOT NULL,
-	[strAccountID] char(21) NOT NULL,
-	[strOpID] char(21) NOT NULL,
-	[strOpIP] char(21) NOT NULL,
+	[strCharID] varchar(21) NOT NULL,
+	[strAccountID] varchar(21) NOT NULL,
+	[strOpID] varchar(21) NOT NULL,
+	[strOpIP] varchar(21) NOT NULL,
 	[strOldUserValue] char(600) NOT NULL,
 	[strNewUserValue] char(600) NOT NULL,
 	[strOldUserSkill] char(10) NOT NULL,

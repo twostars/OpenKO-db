@@ -1,4 +1,4 @@
-INSERT INTO [K_NPC_ITEM] (sIndex, iItem01, sPersent01, iItem02, sPersent02, iItem03, sPersent03, iItem04, sPersent04, iItem05, sPersent05) VALUES
+INSERT INTO [K_NPC_ITEM] ([sIndex], [iItem01], [sPersent01], [iItem02], [sPersent02], [iItem03], [sPersent03], [iItem04], [sPersent04], [iItem05], [sPersent05]) VALUES
 (100, 2, 8000, 0, 0, 0, 0, 0, 0, 391010000, 1000),
 (101, 2, 8000, 0, 0, 0, 0, 0, 0, 391010000, 2000),
 (102, 2, 8000, 0, 0, 0, 0, 0, 0, 391010000, 3000),

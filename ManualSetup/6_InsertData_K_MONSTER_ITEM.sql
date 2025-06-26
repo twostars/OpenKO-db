@@ -1,4 +1,4 @@
-INSERT INTO [K_MONSTER_ITEM] (sIndex, iItem01, sPersent01, iItem02, sPersent02, iItem03, sPersent03, iItem04, sPersent04, iItem05, sPersent05) VALUES
+INSERT INTO [K_MONSTER_ITEM] ([sIndex], [iItem01], [sPersent01], [iItem02], [sPersent02], [iItem03], [sPersent03], [iItem04], [sPersent04], [iItem05], [sPersent05]) VALUES
 (100, 140, 900, 130, 1500, 379016000, 300, 330310014, 3, 391010000, 3000),
 (101, 140, 900, 130, 1500, 379016000, 300, 330310014, 3, 391010000, 2000),
 (102, 140, 900, 130, 1500, 379016000, 300, 330310014, 3, 391010000, 3000),

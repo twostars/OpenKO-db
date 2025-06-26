@@ -1,4 +1,4 @@
-INSERT INTO [ZONE_INFO] (ServerNo, ZoneNo, strZoneName, InitX, InitZ, InitY, Type, RoomEvent, bz) VALUES
+INSERT INTO [ZONE_INFO] ([ServerNo], [ZoneNo], [strZoneName], [InitX], [InitZ], [InitY], [Type], [RoomEvent], [bz]) VALUES
 (1, 1, N'karus_0730.smd', 163000, 39400, 15000, 1, 0, N'Karus'),
 (1, 2, N'elmorad_1220.smd', 1630000, 39400, 15000, 1, 0, N'Elmorad'),
 (1, 11, N'k_eslant.smd', 15000, 15000, 15000, 0, 0, N'Karus Eslant'),

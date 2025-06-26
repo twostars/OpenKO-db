@@ -1,4 +1,4 @@
-INSERT INTO [MAKE_WEAPON] (byLevel, sClass_1, sClass_2, sClass_3, sClass_4, sClass_5, sClass_6, sClass_7, sClass_8, sClass_9, sClass_10, sClass_11, sClass_12) VALUES
+INSERT INTO [MAKE_WEAPON] ([byLevel], [sClass_1], [sClass_2], [sClass_3], [sClass_4], [sClass_5], [sClass_6], [sClass_7], [sClass_8], [sClass_9], [sClass_10], [sClass_11], [sClass_12]) VALUES
 (0, 600, 400, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 (1, 400, 500, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 (2, 200, 300, 400, 100, 0, 0, 0, 0, 0, 0, 0, 0),

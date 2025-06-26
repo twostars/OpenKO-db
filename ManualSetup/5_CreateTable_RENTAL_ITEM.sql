@@ -11,10 +11,10 @@ CREATE TABLE [RENTAL_ITEM] (
 	[byClass] tinyint NOT NULL,
 	[sRentalTime] smallint NOT NULL,
 	[nRentalMoney] int NOT NULL,
-	[strLenderCharID] char(21) NOT NULL,
-	[strLenderAcID] char(21) NOT NULL,
-	[strBorrowerCharID] char(21),
-	[strBorrowerAcID] char(21),
+	[strLenderCharID] varchar(21) NOT NULL,
+	[strLenderAcID] varchar(21) NOT NULL,
+	[strBorrowerCharID] varchar(21),
+	[strBorrowerAcID] varchar(21),
 	[timeLender] smalldatetime,
 	[timeRegister] smalldatetime NOT NULL
 	CONSTRAINT [PK_RENTAL_ITEM] PRIMARY KEY ([nRentalIndex])

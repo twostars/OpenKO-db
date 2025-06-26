@@ -1,4 +1,4 @@
-INSERT INTO [MAKE_ITEM_GRADECODE] (byItemIndex, byGrade_1, byGrade_2, byGrade_3, byGrade_4, byGrade_5, byGrade_6, byGrade_7, byGrade_8, byGrade_9) VALUES
+INSERT INTO [MAKE_ITEM_GRADECODE] ([byItemIndex], [byGrade_1], [byGrade_2], [byGrade_3], [byGrade_4], [byGrade_5], [byGrade_6], [byGrade_7], [byGrade_8], [byGrade_9]) VALUES
 (1, 800, 200, 0, 0, 0, 0, 0, 0, 0),
 (2, 200, 800, 0, 0, 0, 0, 0, 0, 0),
 (3, 100, 400, 500, 0, 0, 0, 0, 0, 0),

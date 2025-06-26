@@ -1,4 +1,4 @@
-INSERT INTO [MAKE_ITEM_LARECODE] (byLevelGrade, sUpgradeItem, sLareItem, sMagicItem, sGereralItem) VALUES
+INSERT INTO [MAKE_ITEM_LARECODE] ([byLevelGrade], [sUpgradeItem], [sLareItem], [sMagicItem], [sGereralItem]) VALUES
 (0, 500, 250, 250, 0),
 (1, 500, 250, 250, 0),
 (2, 500, 250, 250, 0),

@@ -1,4 +1,4 @@
-INSERT INTO [EVENT_TRIGGER] (nIndex, bNpcType, sNpcID, nTriggerNum) VALUES
+INSERT INTO [EVENT_TRIGGER] ([nIndex], [bNpcType], [sNpcID], [nTriggerNum]) VALUES
 (1, 28, 1, 40001),
 (2, 28, 2, 40101),
 (3, 28, 3, 40201),

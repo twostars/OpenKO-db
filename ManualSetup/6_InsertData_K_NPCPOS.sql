@@ -1,4 +1,4 @@
-INSERT INTO [K_NPCPOS] (ZoneID, NpcID, ActType, RegenType, DungeonFamily, SpecialType, TrapNumber, LeftX, TopZ, RightX, BottomZ, LimitMinZ, LimitMinX, LimitMaxX, LimitMaxZ, NumNPC, RegTime, byDirection, DotCnt, path) VALUES
+INSERT INTO [K_NPCPOS] ([ZoneID], [NpcID], [ActType], [RegenType], [DungeonFamily], [SpecialType], [TrapNumber], [LeftX], [TopZ], [RightX], [BottomZ], [LimitMinZ], [LimitMinX], [LimitMaxX], [LimitMaxZ], [NumNPC], [RegTime], [byDirection], [DotCnt], [path]) VALUES
 (1, 26055, 100, 0, 0, 7, 1, 1735, 834, 1736, 833, 1734, 835, 1736, 833, 1, 1800, 0, 0, NULL),
 (1, 26055, 100, 0, 0, 7, 2, 1528, 902, 1529, 901, 1527, 902, 1529, 900, 1, 1800, 0, 0, NULL),
 (1, 26055, 100, 0, 0, 7, 4, 307, 1272, 308, 1271, 307, 1273, 309, 1271, 1, 1800, 0, 0, NULL),
