@@ -16,7 +16,9 @@
       "description": "User identifier",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strNation",
@@ -24,7 +26,9 @@
       "description": "Nation text",
       "type": "varchar",
       "allowNull": true,
-      "length": 20
+      "length": 20,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strClass",
@@ -32,7 +36,9 @@
       "description": "Class name",
       "type": "varchar",
       "allowNull": true,
-      "length": 30
+      "length": 30,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strAchievement",
@@ -40,7 +46,9 @@
       "description": "Achievement text",
       "type": "varchar",
       "allowNull": true,
-      "length": 50
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     }
   ]
 }

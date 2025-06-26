@@ -9,14 +9,18 @@
       "propertyName": "UserId",
       "description": "User identifier",
       "type": "varchar",
-      "length": 50
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strAccountID",
       "propertyName": "AccountId",
       "description": "Account identifier",
       "type": "varchar",
-      "length": 50
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "byRentalType",

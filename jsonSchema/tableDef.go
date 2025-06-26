@@ -14,25 +14,34 @@ import (
 // replace github.com/kenner2/OpenKO-db => ./OpenKO-db
 
 type TableDef struct {
-	Database    dbType.DbType `json:"database"`    // Which database this table should be created inside of
-	Name        string        `json:"name"`        // Table name in the database
-	ClassName   string        `json:"className"`   // Code-friendly class/struct name
-	Description string        `json:"description"` // Table description
-	Columns     []Column      `json:"columns"`     // Columns belonging to the table
+	Database    dbType.DbType `json:"database"`          // Which database this table should be created inside of
+	Name        string        `json:"name"`              // Table name in the database
+	ClassName   string        `json:"className"`         // Code-friendly class/struct name
+	Description string        `json:"description"`       // Table description
+	Indexes     []IndexDef    `json:"indexes,omitempty"` // Any index definitions for the table
+	Columns     []Column      `json:"columns"`           // Columns belonging to the table
 }
 
 type Column struct {
-	Name         string        `json:"name"`                   // Column name in the database
-	PropertyName string        `json:"propertyName"`           // Code-friendly property name
-	Description  string        `json:"description"`            // Property description
-	Type         tsql.TSqlType `json:"type"`                   // Supported TSQL Type
-	IsPrimaryKey bool          `json:"isPrimaryKey,omitempty"` // Is this column part of the table's Primary Key?
-	DefaultValue string        `json:"defaultValue,omitempty"` // Default value that should be assigned to the property
-	AllowNull    bool          `json:"allowNull,omitempty"`    // Can the column's value be null?
-	Length       int           `json:"length,omitempty"`       // length specifier for array types
-	Enums        []Enum        `json:"enums,omitempty"`        // array of enumerated values
-	Unique       string        `json:"unique,omitempty"`       // unique constraint this col belongs to
-	IsHexProtect bool          `json:"isHexProtect,omitempty"` // Should this column be read with a convert function to varbinary, and written back with a convert to original?
+	Name          string        `json:"name"`                   // Column name in the database
+	PropertyName  string        `json:"propertyName"`           // Code-friendly property name
+	Description   string        `json:"description"`            // Property description
+	Type          tsql.TSqlType `json:"type"`                   // Supported TSQL Type
+	DefaultValue  string        `json:"defaultValue,omitempty"` // Default value that should be assigned to the property
+	AllowNull     bool          `json:"allowNull,omitempty"`    // Can the column's value be null?
+	Length        int           `json:"length,omitempty"`       // length specifier for array types
+	Enums         []Enum        `json:"enums,omitempty"`        // array of enumerated values
+	IsHexProtect  bool          `json:"isHexProtect,omitempty"` // Should this column be read with a convert function to varbinary, and written back with a convert to original?
+	CollationName *string       `json:"collationName,omitempty"`
+	CharacterSet  *string       `json:"characterSet,omitempty"`
+}
+
+type IndexDef struct {
+	Name         string   `json:"name" gorm:"column:name"`
+	Type         string   `json:"type" gorm:"column:type_desc"`
+	IsUnique     bool     `json:"isUnique" gorm:"column:is_unique"`
+	IsPrimaryKey bool     `json:"isPrimaryKey" gorm:"column:is_primary_key"`
+	Columns      []string `json:"columns" gorm:"-"`
 }
 
 type Enum struct {

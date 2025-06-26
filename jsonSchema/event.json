@@ -28,7 +28,9 @@
       "description": "Condition 1",
       "type": "varchar",
       "allowNull": true,
-      "length": 128
+      "length": 128,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Cond2",
@@ -36,7 +38,9 @@
       "description": "Condition 2",
       "type": "varchar",
       "allowNull": true,
-      "length": 128
+      "length": 128,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Cond3",
@@ -44,7 +48,9 @@
       "description": "Condition 3",
       "type": "varchar",
       "allowNull": true,
-      "length": 128
+      "length": 128,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Cond4",
@@ -52,7 +58,9 @@
       "description": "Condition 4",
       "type": "varchar",
       "allowNull": true,
-      "length": 128
+      "length": 128,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Cond5",
@@ -60,7 +68,9 @@
       "description": "Condition 5",
       "type": "varchar",
       "allowNull": true,
-      "length": 128
+      "length": 128,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Exec1",
@@ -68,7 +78,9 @@
       "description": "Execute 1",
       "type": "varchar",
       "allowNull": true,
-      "length": 128
+      "length": 128,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Exec2",
@@ -76,7 +88,9 @@
       "description": "Execute 2",
       "type": "varchar",
       "allowNull": true,
-      "length": 128
+      "length": 128,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Exec3",
@@ -84,7 +98,9 @@
       "description": "Execute 3",
       "type": "varchar",
       "allowNull": true,
-      "length": 128
+      "length": 128,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Exec4",
@@ -92,7 +108,9 @@
       "description": "Execute 4",
       "type": "varchar",
       "allowNull": true,
-      "length": 128
+      "length": 128,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Exec5",
@@ -100,7 +118,9 @@
       "description": "Execute 5",
       "type": "varchar",
       "allowNull": true,
-      "length": 128
+      "length": 128,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     }
   ]
 }

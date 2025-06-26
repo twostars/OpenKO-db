@@ -3,13 +3,32 @@
   "name": "KNIGHTS",
   "className": "Knights",
   "description": "Knights are the clan/guild system of the game",
+  "indexes": [
+    {
+      "name": "PK_KNIGHTS",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "IDNum"
+      ]
+    },
+    {
+      "name": "IX_KNIGHTS",
+      "type": "NONCLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": false,
+      "columns": [
+        "IDName"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "IDNum",
       "propertyName": "IdNumber",
       "description": "Identification number",
-      "type": "smallint",
-      "isPrimaryKey": true
+      "type": "smallint"
     },
     {
       "name": "Flag",
@@ -37,7 +56,8 @@
       "description": "Name of the Knights clan",
       "type": "varchar",
       "length": 21,
-      "unique": "IX_KNIGHTS"
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Members",
@@ -51,7 +71,9 @@
       "propertyName": "Chief",
       "description": "Leader character identifier",
       "type": "varchar",
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "ViceChief_1",
@@ -59,7 +81,9 @@
       "description": "Vice chief 1 character identifier",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "ViceChief_2",
@@ -67,7 +91,9 @@
       "description": "Vice chief 2 character identifier",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "ViceChief_3",
@@ -75,7 +101,9 @@
       "description": "Vice chief 3 character identifier",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strEnemyName",
@@ -83,7 +111,9 @@
       "description": "Enemy Name TODO",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "byOldWarResult",
@@ -170,7 +200,9 @@
       "type": "varchar",
       "allowNull": true,
       "length": 1600,
-      "isHexProtect": true
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "bySiegeFlag",

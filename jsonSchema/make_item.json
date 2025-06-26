@@ -16,7 +16,9 @@
       "description": "Item information",
       "type": "varchar",
       "allowNull": true,
-      "length": 20
+      "length": 20,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "iItemCode",

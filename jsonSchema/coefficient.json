@@ -3,13 +3,23 @@
   "name": "COEFFICIENT",
   "className": "Coefficient",
   "description": "Coefficient relationship between a character class, weapon types, and stats",
+  "indexes": [
+    {
+      "name": "PK_COEFFICIENT",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sClass"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "sClass",
       "propertyName": "ClassId",
       "description": "ClassIdentifier",
-      "type": "smallint",
-      "isPrimaryKey": true
+      "type": "smallint"
     },
     {
       "name": "ShortSword",

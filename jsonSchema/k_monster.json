@@ -3,13 +3,23 @@
   "name": "K_MONSTER",
   "className": "Monster",
   "description": "Monster definitions",
+  "indexes": [
+    {
+      "name": "PK_K_MONSTER",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sSid"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "sSid",
       "propertyName": "MonsterId",
       "description": "Monster Identifier",
-      "type": "smallint",
-      "isPrimaryKey": true
+      "type": "smallint"
     },
     {
       "name": "strName",
@@ -17,7 +27,9 @@
       "description": "Name",
       "type": "varchar",
       "allowNull": true,
-      "length": 30
+      "length": 30,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "sPid",

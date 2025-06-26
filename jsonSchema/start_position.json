@@ -3,13 +3,23 @@
   "name": "START_POSITION",
   "className": "StartPosition",
   "description": "Start position",
+  "indexes": [
+    {
+      "name": "PK_START_POSITION",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "ZoneID"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "ZoneID",
       "propertyName": "ZoneId",
       "description": "Zone identifier",
-      "type": "smallint",
-      "isPrimaryKey": true
+      "type": "smallint"
     },
     {
       "name": "sKarusX",

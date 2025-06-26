@@ -153,7 +153,9 @@
       "type": "char",
       "allowNull": true,
       "length": 50,
-      "isHexProtect": true
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "sMoradonTariff",

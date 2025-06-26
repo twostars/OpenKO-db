@@ -3,20 +3,32 @@
   "name": "ITEM",
   "className": "Item",
   "description": "Item information",
+  "indexes": [
+    {
+      "name": "PK_ITEM",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "Num"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "Num",
       "propertyName": "Number",
       "description": "Item number",
-      "type": "int",
-      "isPrimaryKey": true
+      "type": "int"
     },
     {
       "name": "strName",
       "propertyName": "Name",
       "description": "Item name",
       "type": "varchar",
-      "length": 50
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Kind",

@@ -3,13 +3,23 @@
   "name": "KNIGHTS_ALLIANCE",
   "className": "KnightsAlliance",
   "description": "Knights alliance formations",
+  "indexes": [
+    {
+      "name": "PK_KNIGHTS_ALLIANCE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sMainAllianceKnights"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "sMainAllianceKnights",
       "propertyName": "MainAllianceKnights",
       "description": "Alliance leader clan",
-      "type": "smallint",
-      "isPrimaryKey": true
+      "type": "smallint"
     },
     {
       "name": "sSubAllianceKnights",

@@ -3,14 +3,26 @@
   "name": "USERDATA",
   "className": "UserData",
   "description": "User data contains saved character information",
+  "indexes": [
+    {
+      "name": "PK_USERDATA",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "strUserId"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "strUserId",
       "propertyName": "UserId",
       "description": "User identifier",
       "type": "varchar",
-      "isPrimaryKey": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Nation",
@@ -389,7 +401,9 @@
       "defaultValue": "0x00",
       "allowNull": true,
       "length": 10,
-      "isHexProtect": true
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strItem",
@@ -398,7 +412,9 @@
       "type": "varchar",
       "allowNull": true,
       "length": 400,
-      "isHexProtect": true
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strSerial",
@@ -407,7 +423,9 @@
       "type": "varchar",
       "allowNull": true,
       "length": 400,
-      "isHexProtect": true
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "sQuestCount",
@@ -423,7 +441,9 @@
       "type": "varchar",
       "allowNull": true,
       "length": 400,
-      "isHexProtect": true
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "MannerPoint",

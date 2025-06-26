@@ -142,7 +142,9 @@
       "propertyName": "Path",
       "description": "Pathfinding data TODO",
       "type": "text",
-      "allowNull": true
+      "allowNull": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     }
   ]
 }

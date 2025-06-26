@@ -3,14 +3,26 @@
   "name": "WAREHOUSE",
   "className": "Warehouse",
   "description": "The warehouse system is referred to as the Inn in-game.  It is account-level storage for a user",
+  "indexes": [
+    {
+      "name": "PK_WAREHOUSE",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "strAccountID"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "strAccountID",
       "propertyName": "AccountId",
       "description": "Account identifier",
       "type": "varchar",
-      "isPrimaryKey": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "nMoney",
@@ -33,7 +45,9 @@
       "type": "varchar",
       "allowNull": true,
       "length": 1600,
-      "isHexProtect": true
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strSerial",
@@ -42,7 +56,9 @@
       "type": "varchar",
       "allowNull": true,
       "length": 1600,
-      "isHexProtect": true
+      "isHexProtect": true,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     }
   ]
 }

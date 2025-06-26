@@ -3,13 +3,23 @@
   "name": "K_MONSTER_ITEM",
   "className": "MonsterItem",
   "description": "Monster loot table",
+  "indexes": [
+    {
+      "name": "PK_K_MONSTER_ITEM",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "sIndex"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "sIndex",
       "propertyName": "MonsterId",
       "description": "Monster identifier (K_MONSTER.sSid)",
-      "type": "smallint",
-      "isPrimaryKey": true
+      "type": "smallint"
     },
     {
       "name": "iItem01",

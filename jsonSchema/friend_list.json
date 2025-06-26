@@ -3,14 +3,26 @@
   "name": "FRIEND_LIST",
   "className": "FriendList",
   "description": "User friend list",
+  "indexes": [
+    {
+      "name": "PK_FRIEND_LIST",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "strUserID"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "strUserID",
       "propertyName": "UserId",
       "description": "User Identifier",
       "type": "varchar",
-      "isPrimaryKey": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend1",
@@ -18,7 +30,9 @@
       "description": "Friend 1",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend2",
@@ -26,7 +40,9 @@
       "description": "Friend 2",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend3",
@@ -34,7 +50,9 @@
       "description": "Friend 3",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend4",
@@ -42,7 +60,9 @@
       "description": "Friend 4",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend5",
@@ -50,7 +70,9 @@
       "description": "Friend 5",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend6",
@@ -58,7 +80,9 @@
       "description": "Friend 6",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend7",
@@ -66,7 +90,9 @@
       "description": "Friend 7",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend8",
@@ -74,7 +100,9 @@
       "description": "Friend 8",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend9",
@@ -82,7 +110,9 @@
       "description": "Friend 9",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend10",
@@ -90,7 +120,9 @@
       "description": "Friend 10",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend11",
@@ -98,7 +130,9 @@
       "description": "Friend 11",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend12",
@@ -106,7 +140,9 @@
       "description": "Friend 12",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend13",
@@ -114,7 +150,9 @@
       "description": "Friend 13",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend14",
@@ -122,7 +160,9 @@
       "description": "Friend 14",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend15",
@@ -130,7 +170,9 @@
       "description": "Friend 15",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend16",
@@ -138,7 +180,9 @@
       "description": "Friend 16",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend17",
@@ -146,7 +190,9 @@
       "description": "Friend 17",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend18",
@@ -154,7 +200,9 @@
       "description": "Friend 18",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend19",
@@ -162,7 +210,9 @@
       "description": "Friend 19",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend20",
@@ -170,7 +220,9 @@
       "description": "Friend 20",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend21",
@@ -178,7 +230,9 @@
       "description": "Friend 21",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend22",
@@ -186,7 +240,9 @@
       "description": "Friend 22",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend23",
@@ -194,7 +250,9 @@
       "description": "Friend 23",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strFriend24",
@@ -202,7 +260,9 @@
       "description": "Friend 24",
       "type": "varchar",
       "allowNull": true,
-      "length": 21
+      "length": 21,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     }
   ]
 }

@@ -3,13 +3,23 @@
   "name": "ITEMUP_PROBABILITY",
   "className": "ItemUpProbability",
   "description": "TODO: Doc usage",
+  "indexes": [
+    {
+      "name": "PK_ITEMUP_PROBABILITY",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "bType"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "bType",
       "propertyName": "Type",
       "description": "Type",
-      "type": "tinyint",
-      "isPrimaryKey": true
+      "type": "tinyint"
     },
     {
       "name": "nMaxSuccess",

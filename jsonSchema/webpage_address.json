@@ -3,13 +3,23 @@
   "name": "WEBPAGE_ADDRESS",
   "className": "WebpageAddress",
   "description": "Webpage URL list",
+  "indexes": [
+    {
+      "name": "PK_WEBPAGE_ADDRESS",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "nIndex"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "nIndex",
       "propertyName": "Index",
       "description": "Index",
-      "type": "int",
-      "isPrimaryKey": true
+      "type": "int"
     },
     {
       "name": "strWebPageAddress",
@@ -17,7 +27,9 @@
       "description": "Webpage address",
       "type": "varchar",
       "allowNull": true,
-      "length": 100
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     }
   ]
 }

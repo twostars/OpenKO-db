@@ -22,7 +22,9 @@
       "description": "NPC Name",
       "type": "varchar",
       "allowNull": true,
-      "length": 50
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "strNote",
@@ -30,7 +32,9 @@
       "description": "Note",
       "type": "varchar",
       "allowNull": true,
-      "length": 100
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "bRandomFlag",

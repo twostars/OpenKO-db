@@ -3,13 +3,23 @@
   "name": "MAGIC_TYPE1",
   "className": "MagicType1",
   "description": "Type 1 covers melee abilities",
+  "indexes": [
+    {
+      "name": "PK_MAGIC_TYPE1",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "iNum"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "iNum",
       "propertyName": "MagicNumber",
       "description": "Magic identification number",
-      "type": "int",
-      "isPrimaryKey": true
+      "type": "int"
     },
     {
       "name": "Name",
@@ -17,7 +27,9 @@
       "description": "Name",
       "type": "varchar",
       "allowNull": true,
-      "length": 50
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Description",
@@ -25,7 +37,9 @@
       "description": "Description",
       "type": "varchar",
       "allowNull": true,
-      "length": 100
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Type",

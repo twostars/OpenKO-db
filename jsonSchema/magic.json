@@ -3,13 +3,23 @@
   "name": "MAGIC",
   "className": "Magic",
   "description": "Contains the configuration for magic and abilities",
+  "indexes": [
+    {
+      "name": "PK_MAGIC",
+      "type": "CLUSTERED",
+      "isUnique": true,
+      "isPrimaryKey": true,
+      "columns": [
+        "MagicNum"
+      ]
+    }
+  ],
   "columns": [
     {
       "name": "MagicNum",
       "propertyName": "MagicNumber",
       "description": "Magic identification number",
-      "type": "int",
-      "isPrimaryKey": true
+      "type": "int"
     },
     {
       "name": "EnName",
@@ -17,7 +27,9 @@
       "description": "English name",
       "type": "varchar",
       "allowNull": true,
-      "length": 50
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "KrName",
@@ -25,7 +37,9 @@
       "description": "Korean name",
       "type": "varchar",
       "allowNull": true,
-      "length": 50
+      "length": 50,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "Description",
@@ -33,7 +47,9 @@
       "description": "Description",
       "type": "varchar",
       "allowNull": true,
-      "length": 100
+      "length": 100,
+      "collationName": "SQL_Latin1_General_CP1_CI_AS",
+      "characterSet": "iso_1"
     },
     {
       "name": "BeforeAction",
