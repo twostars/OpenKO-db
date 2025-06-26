@@ -1,4 +1,4 @@
-USE [OpenKO]
+USE [KN_online]
 GO
 
 CREATE TABLE [KING_BALLOT_BOX] (

@@ -1,4 +1,4 @@
-USE [OpenKO]
+USE [KN_online]
 GO
 
 CREATE TABLE [TERM_ITEM] (

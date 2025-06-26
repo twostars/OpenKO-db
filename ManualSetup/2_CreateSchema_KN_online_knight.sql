@@ -2,7 +2,7 @@
    1. Schema Name
    2. Database Name
  */
-USE [OpenKO]
+USE [KN_online]
 GO
 CREATE SCHEMA [knight]
 GO

@@ -3,7 +3,7 @@
    2. Default Schema Name
    3. Database name
  */
-USE [OpenKO]
+USE [KN_online]
 GO
 CREATE USER [knight] WITHOUT LOGIN WITH DEFAULT_SCHEMA=[knight]
 GO
