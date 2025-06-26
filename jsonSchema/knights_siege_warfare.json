@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "KNIGHTS_SIEGE_WARFARE",
   "className": "KnightsSiegeWarfare",
   "description": "Knights Siege Warfare",
@@ -30,8 +30,8 @@
     },
     {
       "name": "byWarTime",
-      "propertyName": "WarTime",
-      "description": "War time",
+      "propertyName": "WarHour",
+      "description": "War hour",
       "type": "tinyint"
     },
     {

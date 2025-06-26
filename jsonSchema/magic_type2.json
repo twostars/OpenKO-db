@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "MAGIC_TYPE2",
   "className": "MagicType2",
   "description": "Type 2 covers bow abilities",

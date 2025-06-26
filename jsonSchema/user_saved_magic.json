@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "USER_SAVED_MAGIC",
   "className": "UserSavedMagic",
   "description": "User saved magic",

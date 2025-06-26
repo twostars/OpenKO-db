@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "MAKE_ITEM_LARECODE",
   "className": "MakeItemRareCode",
   "description": "Make item rarity codes",

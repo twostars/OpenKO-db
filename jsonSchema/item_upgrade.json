@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "ITEM_UPGRADE",
   "className": "ItemUpgrade",
   "description": "Item upgrade configuration",

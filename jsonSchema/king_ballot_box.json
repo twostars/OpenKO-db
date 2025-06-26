@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "KING_BALLOT_BOX",
   "className": "KingBallotBox",
   "description": "King Ballot Box TODO",

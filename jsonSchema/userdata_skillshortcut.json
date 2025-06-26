@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "USERDATA_SKILLSHORTCUT",
   "className": "UserDataSkillShortcut",
   "description": "User data skill shortcut",

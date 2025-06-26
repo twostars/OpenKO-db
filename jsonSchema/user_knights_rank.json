@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "USER_KNIGHTS_RANK",
   "className": "UserKnightsRank",
   "description": "User Knights Ranking",

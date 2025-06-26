@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "PROGRAMLIST_LOG",
   "className": "ProgramListLog",
   "description": "Program list log",

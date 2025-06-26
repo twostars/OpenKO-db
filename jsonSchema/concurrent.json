@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "CONCURRENT",
   "className": "Concurrent",
   "description": "Keeps track of concurrent user counts",

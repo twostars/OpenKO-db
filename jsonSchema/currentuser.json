@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "CURRENTUSER",
   "className": "CurrentUser",
   "description": "Keeps track of users currently connected to the server",

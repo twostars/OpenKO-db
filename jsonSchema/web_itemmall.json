@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "WEB_ITEMMALL",
   "className": "WebItemMall",
   "description": "Power-up store purchases",
@@ -8,14 +8,14 @@
       "name": "strAccountID",
       "propertyName": "AccountId",
       "description": "Account identifier",
-      "type": "char",
+      "type": "varchar",
       "length": 21
     },
     {
       "name": "strCharID",
       "propertyName": "CharId",
       "description": "Character identifier",
-      "type": "char",
+      "type": "varchar",
       "length": 21
     },
     {

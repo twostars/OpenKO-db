@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "K_MONSTER_ITEM",
   "className": "MonsterItem",
   "description": "Monster loot table",

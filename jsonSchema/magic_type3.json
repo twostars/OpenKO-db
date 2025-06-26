@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "MAGIC_TYPE3",
   "className": "MagicType3",
   "description": "Type 3 supports Area of Effect and Damage over Time effects",

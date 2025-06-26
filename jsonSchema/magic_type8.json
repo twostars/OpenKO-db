@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "MAGIC_TYPE8",
   "className": "MagicType8",
   "description": "Type 8 supports warp magic",

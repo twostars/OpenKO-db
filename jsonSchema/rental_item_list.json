@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "RENTAL_ITEM_LIST",
   "className": "RentalItemList",
   "description": "Rental item list",
@@ -64,21 +64,21 @@
       "name": "strLenderCharID",
       "propertyName": "LenderCharId",
       "description": "Lender character identifier",
-      "type": "char",
+      "type": "varchar",
       "length": 21
     },
     {
       "name": "strLenderAcID",
       "propertyName": "LenderAccountId",
       "description": "Lender account identifier",
-      "type": "char",
+      "type": "varchar",
       "length": 21
     },
     {
       "name": "strBorrowerCharID",
       "propertyName": "BorrowerCharId",
       "description": "Borrower character identifier",
-      "type": "char",
+      "type": "varchar",
       "allowNull": true,
       "length": 21
     },
@@ -86,7 +86,7 @@
       "name": "strBorrowerAcID",
       "propertyName": "BorrowerAccountId",
       "description": "Borrower account identifier",
-      "type": "char",
+      "type": "varchar",
       "allowNull": true,
       "length": 21
     },

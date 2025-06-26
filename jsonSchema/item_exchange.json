@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "ITEM_EXCHANGE",
   "className": "ItemExchange",
   "description": "Enables players to be able to give items in exchange for an item from an NPC",

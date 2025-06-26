@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "SERVERS",
   "className": "Servers",
   "description": "Game server instances",

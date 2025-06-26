@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "BATTLE",
   "className": "Battle",
   "description": "Battle data for the game server",

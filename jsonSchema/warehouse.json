@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "WAREHOUSE",
   "className": "Warehouse",
   "description": "The warehouse system is referred to as the Inn in-game.  It is account-level storage for a user",
@@ -10,7 +10,7 @@
       "description": "Account identifier",
       "type": "varchar",
       "isPrimaryKey": true,
-      "length": 50
+      "length": 21
     },
     {
       "name": "nMoney",

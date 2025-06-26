@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "MAGIC_TYPE9",
   "className": "MagicType9",
   "description": "Type 9 supports stealth and detection abilities",

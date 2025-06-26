@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "COUPON_SERIAL_LIST",
   "className": "CouponSerialList",
   "description": "Coupon Serial List",
@@ -14,9 +14,8 @@
       "name": "strSerialNum",
       "propertyName": "SerialNum",
       "description": "Serial Number",
-      "type": "char",
-      "length": 16,
-      "isHexProtect": true
+      "type": "varchar",
+      "length": 16
     },
     {
       "name": "nItemNum",

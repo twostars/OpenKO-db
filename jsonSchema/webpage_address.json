@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "WEBPAGE_ADDRESS",
   "className": "WebpageAddress",
   "description": "Webpage URL list",
@@ -8,9 +8,7 @@
       "name": "nIndex",
       "propertyName": "Index",
       "description": "Index",
-      "type": "varchar",
-      "allowNull": true,
-      "length": 10,
+      "type": "int",
       "isPrimaryKey": true
     },
     {
@@ -19,7 +17,7 @@
       "description": "Webpage address",
       "type": "varchar",
       "allowNull": true,
-      "length": 10
+      "length": 100
     }
   ]
 }

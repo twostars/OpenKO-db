@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "K_MONSTER",
   "className": "Monster",
   "description": "Monster definitions",

@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "MAGIC_TYPE7",
   "className": "MagicType7",
   "description": "Type 7 supports targeting modifications",

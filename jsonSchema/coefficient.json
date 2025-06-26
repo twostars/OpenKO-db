@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "COEFFICIENT",
   "className": "Coefficient",
   "description": "Coefficient relationship between a character class, weapon types, and stats",

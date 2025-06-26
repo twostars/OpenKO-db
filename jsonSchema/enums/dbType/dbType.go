@@ -1,21 +1,9 @@
 package dbType
 
-type DbType uint8
+type DbType string
 
 const (
-	LOGIN DbType = 0
-	GAME  DbType = 1
-	LOG   DbType = 2
+	ACCOUNT DbType = "ACCOUNT"
+	GAME    DbType = "GAME"
+	LOG     DbType = "LOG"
 )
-
-func (this DbType) String() string {
-	switch this {
-	case LOGIN:
-		return "LOGIN"
-	case GAME:
-		return "GAME"
-	case LOG:
-		return "LOG"
-	}
-	return ""
-}

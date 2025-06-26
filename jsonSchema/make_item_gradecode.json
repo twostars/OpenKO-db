@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "MAKE_ITEM_GRADECODE",
   "className": "MakeItemGradeCode",
   "description": "Make item grade code",

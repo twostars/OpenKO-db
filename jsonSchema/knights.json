@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "KNIGHTS",
   "className": "Knights",
   "description": "Knights are the clan/guild system of the game",

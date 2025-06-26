@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "TB_USER",
   "className": "TbUser",
   "description": "User Account Information",
@@ -17,8 +17,7 @@
       "propertyName": "Password",
       "description": "Password",
       "type": "varchar",
-      "length": 13,
-      "isHexProtect": true
+      "length": 13
     },
     {
       "name": "strSocNo",
@@ -26,8 +25,7 @@
       "description": "Character delete password",
       "type": "varchar",
       "defaultValue": "''",
-      "length": 20,
-      "isHexProtect": true
+      "length": 20
     },
     {
       "name": "strEmail",
@@ -35,8 +33,7 @@
       "description": "Electronic mailing address",
       "type": "varchar",
       "defaultValue": "''",
-      "length": 250,
-      "isHexProtect": true
+      "length": 250
     },
     {
       "name": "strAuthority",

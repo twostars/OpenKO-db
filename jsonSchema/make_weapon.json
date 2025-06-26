@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "MAKE_WEAPON",
   "className": "MakeWeapon",
   "description": "Make weapon",

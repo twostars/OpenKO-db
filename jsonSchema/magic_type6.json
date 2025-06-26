@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "MAGIC_TYPE6",
   "className": "MagicType6",
   "description": "Type 6 supports transformation magic",

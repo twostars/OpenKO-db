@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "USER_PERSONAL_RANK",
   "className": "UserPersonalRank",
   "description": "User personal ranking",

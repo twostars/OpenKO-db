@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "ITEM",
   "className": "Item",
   "description": "Item information",

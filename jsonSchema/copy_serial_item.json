@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "COPY_SERIAL_ITEM",
   "className": "CopySerialItem",
   "description": "TODO: Doc",

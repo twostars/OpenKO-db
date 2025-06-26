@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "VERSION",
   "className": "Version",
   "description": "Version data and patch management",

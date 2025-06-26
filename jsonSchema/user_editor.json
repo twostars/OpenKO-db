@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "USER_EDITOR",
   "className": "UserEditor",
   "description": "User editor",
@@ -8,28 +8,28 @@
       "name": "strCharID",
       "propertyName": "CharId",
       "description": "Character identifier",
-      "type": "char",
+      "type": "varchar",
       "length": 21
     },
     {
       "name": "strAccountID",
       "propertyName": "AccountId",
       "description": "Account identifier",
-      "type": "char",
+      "type": "varchar",
       "length": 21
     },
     {
       "name": "strOpID",
       "propertyName": "OpId",
       "description": "Op identifier",
-      "type": "char",
+      "type": "varchar",
       "length": 21
     },
     {
       "name": "strOpIP",
       "propertyName": "OpIP",
       "description": "Op IP address",
-      "type": "char",
+      "type": "varchar",
       "length": 21
     },
     {

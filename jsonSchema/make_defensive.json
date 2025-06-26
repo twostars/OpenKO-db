@@ -1,5 +1,5 @@
 {
-  "database": 1,
+  "database": "GAME",
   "name": "MAKE_DEFENSIVE",
   "className": "MakeDefensive",
   "description": "Make defensive",
