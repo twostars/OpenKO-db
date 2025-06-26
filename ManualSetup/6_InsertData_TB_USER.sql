@@ -1,5 +1,6 @@
 INSERT INTO [TB_USER] (strAccountID, strPasswd, strSocNo, strEmail, strAuthority, PremiumExpire) VALUES
 (N'BitShift', CONVERT(varchar(13), 0x74657374), CONVERT(varchar(20), 0x), CONVERT(varchar(250), 0x), 1, CAST(N'2016-05-26T21:48:24.15' AS DateTime)),
+(N'kenner', CONVERT(varchar(13), 0x787878), CONVERT(varchar(20), 0x), CONVERT(varchar(250), 0x), 1, CAST(N'2025-06-28T22:20:17.193' AS DateTime)),
 (N'testing', CONVERT(varchar(13), 0x74657374696e67), CONVERT(varchar(20), 0x), CONVERT(varchar(250), 0x), 1, CAST(N'2016-03-16T19:57:23.977' AS DateTime)),
 (N'testing1', CONVERT(varchar(13), 0x74657374696e6731), CONVERT(varchar(20), 0x), CONVERT(varchar(250), 0x), 1, CAST(N'2016-07-03T19:37:56.92' AS DateTime)),
 (N'testing10', CONVERT(varchar(13), 0x74657374696e673130), CONVERT(varchar(20), 0x), CONVERT(varchar(250), 0x), 1, CAST(N'2016-07-03T19:38:57.543' AS DateTime)),
