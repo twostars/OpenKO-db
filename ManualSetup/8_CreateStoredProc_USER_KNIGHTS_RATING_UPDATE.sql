@@ -42,8 +42,8 @@ CREATE  INDEX [IX_rating_rank] ON [dbo].[KUSER_RATING]([nRank]) ON [PRIMARY]
 CREATE  INDEX [IX_rating_rank] ON [dbo].[EUSER_RATING]([nRank]) ON [PRIMARY]
 
 -- USER_KNIGHTS_RANK Update Table
-DECLARE @strCharID char(21)
-DECLARE @strKnightsID char(21)
+DECLARE @strCharID varchar(21)
+DECLARE @strKnightsID varchar(21)
 DECLARE @nIndex smallint
 DECLARE @nLoyalty int
 

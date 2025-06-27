@@ -2,11 +2,11 @@
 
 -- 2004.07.07. sungyong
 
-CREATE PROCEDURE [KING_IMPEACHMENT_ELECTION]
+CREATE PROCEDURE [dbo].[KING_IMPEACHMENT_ELECTION]
 @byResult	tinyint,
 @byNation	tinyint,
-@strAccountID	char(21),		--     투표한 사람의 계정
-@strCharID	char(21),		--     투표한 사람의 아이디
+@strAccountID	varchar(21),		--     투표한 사람의 계정
+@strCharID	varchar(21),		--     투표한 사람의 아이디
 @nRet		smallint OUTPUT
 
 AS

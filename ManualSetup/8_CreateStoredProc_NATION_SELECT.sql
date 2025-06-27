@@ -7,7 +7,7 @@
 
 CREATE PROCEDURE [NATION_SELECT]
 @nRet		smallint	OUTPUT,
-@AccountID 	char(21),
+@AccountID 	varchar(21),
 @Nation	tinyint
 AS
 

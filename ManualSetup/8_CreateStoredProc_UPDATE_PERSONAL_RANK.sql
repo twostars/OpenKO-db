@@ -11,7 +11,7 @@ DROP TABLE [dbo].[EPERSONAL_RANK]
 CREATE TABLE [KPERSONAL_RANK]
 (
     [nRank] [int] IDENTITY (1, 1) NOT NULL ,
-    [strUserID] char(21) NOT NULL,
+    [strUserID] varchar(21) NOT NULL,
     [LoyaltyMonthly] int NOT NULL,
     [Loyalty] int NOT NULL,
     [nRankUP] int NOT NULL
@@ -20,7 +20,7 @@ CREATE TABLE [KPERSONAL_RANK]
 CREATE TABLE [EPERSONAL_RANK]
 (
     [nRank] [int] IDENTITY (1, 1) NOT NULL ,
-    [strUserID] char(21) NOT NULL,
+    [strUserID] varchar(21) NOT NULL,
     [LoyaltyMonthly] int NOT NULL,
     [Loyalty] int NOT NULL,
     [nRankUP] int NOT NULL

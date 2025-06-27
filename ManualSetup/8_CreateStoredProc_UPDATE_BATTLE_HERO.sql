@@ -3,10 +3,10 @@
 -- sungyong 2003.1.21 create
 
 CREATE PROCEDURE [UPDATE_BATTLE_HERO]
-@strCharID		char(21),
-@strNation		char(20),
-@strClass		char(30),
-@strAchievement		char(50),
+@strCharID		varchar(21),
+@strNation		varchar(20),
+@strClass		varchar(30),
+@strAchievement		varchar(50),
 @nIndex			smallint
 
 AS

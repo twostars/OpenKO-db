@@ -2,11 +2,11 @@
 
 -- create by sungyong 2002.09.16
 
-CREATE PROCEDURE [EXEC_KNIGHTS_USER]
+CREATE PROCEDURE [dbo].[EXEC_KNIGHTS_USER]
 AS
 
 SET NOCOUNT ON
-DECLARE @strUserID char(21)
+DECLARE @strUserID varchar(21)
 DECLARE @KnightsIndex smallint
 DECLARE job1 CURSOR FOR
 

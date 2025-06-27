@@ -2,7 +2,7 @@
 
 
 CREATE PROCEDURE [LOAD_SAVED_MAGIC]
-@CharId	char(21),
+@CharId	varchar(21),
 @nRet		smallint OUTPUT
 AS
 

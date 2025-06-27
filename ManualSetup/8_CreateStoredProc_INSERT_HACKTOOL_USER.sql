@@ -2,10 +2,10 @@
 
 -- scripted by sungyong 2003.11.18
 
-CREATE PROCEDURE [INSERT_HACKTOOL_USER]
-@AccountID 	char(21), 
-@CharID		char(21),
-@HackToolName 	char(512)
+CREATE PROCEDURE [dbo].[INSERT_HACKTOOL_USER]
+@AccountID 	varchar(21), 
+@CharID		varchar(21),
+@HackToolName 	varchar(512)
 
 AS
 

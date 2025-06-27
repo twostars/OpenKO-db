@@ -2,10 +2,10 @@
 
 -- created by sungyong 2004.07.13
 
-CREATE PROC [KING_IMPEACHMENT_REQUEST_ELECTION]
+CREATE PROC [dbo].[KING_IMPEACHMENT_REQUEST_ELECTION]
 @byType smallint,
 @byNation tinyint,
-@strUserID char(21)
+@strUserID varchar(21)
 
 AS
 

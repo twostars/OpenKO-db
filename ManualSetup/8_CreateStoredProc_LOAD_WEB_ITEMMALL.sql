@@ -5,7 +5,7 @@
 -- Created 2003.06.27 by Samma
 
 CREATE PROCEDURE [LOAD_WEB_ITEMMALL]
-@strCharID	char(21)
+@strCharID	varchar(21)
 AS
 
 SELECT strAccountID, ItemID, ItemCount, BuyTime FROM WEB_ITEMMALL WHERE strCharID = @strCharID

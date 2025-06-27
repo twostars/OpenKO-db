@@ -2,18 +2,18 @@
 
 -- modify by sungyong 2002.09.27
 
-CREATE PROCEDURE [CREATE_KNIGHTS]
+CREATE PROCEDURE [dbo].[CREATE_KNIGHTS]
 
 @nRet		smallint OUTPUT, 
 @index 		smallint,
 @nation		tinyint,
 @community	tinyint,
-@strName 	char(21), 
-@strChief	char(21)
+@strName 	varchar(21), 
+@strChief	varchar(21)
 
 AS
 
-DECLARE @Row tinyint, @knightsindex smallint, @knightsname char(21)
+DECLARE @Row tinyint, @knightsindex smallint, @knightsname varchar(21)
 	SET @Row = 0	SET @knightsindex = 0  SET @knightsname = ''
 
 	SELECT @Row = COUNT(*) FROM KNIGHTS WHERE IDNum = @index or  IDName = @strName

@@ -2,10 +2,10 @@
 
 -- created by sungyong 2004.07.09
 
-CREATE PROCEDURE [KING_INSERT_PRIZE_EVENT]
+CREATE PROCEDURE [dbo].[KING_INSERT_PRIZE_EVENT]
         @byType tinyint,
         @byNation tinyint,
         @nAmount int,
-        @strUserID char(21)
+        @strUserID varchar(21)
 AS
 UPDATE KING_SYSTEM SET nNationalTreasury = nNationalTreasury - @nAmount WHERE byNation = @byNation

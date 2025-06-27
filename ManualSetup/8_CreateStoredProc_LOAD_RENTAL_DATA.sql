@@ -4,8 +4,8 @@
 
 -- Created 2004.03.22 by sungyong
 
-CREATE PROCEDURE [LOAD_RENTAL_DATA]
-@strAccountID	char(21)
+CREATE PROCEDURE [dbo].[LOAD_RENTAL_DATA]
+@strAccountID	varchar(21)
 AS
 
 declare @current_time smalldatetime

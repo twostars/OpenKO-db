@@ -3,8 +3,8 @@
 
 -- created by sungyong 2004.07.09
 
-CREATE PROC [KING_CANDIDACY_NOTICE_BOARD_PROC]
-@strUserID char(21),
+CREATE PROC [dbo].[KING_CANDIDACY_NOTICE_BOARD_PROC]
+@strUserID varchar(21),
 @sNoticeLen smallint, 
 @byNation tinyint, 
 @strNotice varbinary(1024)

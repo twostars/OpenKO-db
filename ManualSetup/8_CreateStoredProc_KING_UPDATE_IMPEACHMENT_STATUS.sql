@@ -2,7 +2,7 @@
 
 -- created by sungyong 2004.07.13
 
-CREATE PROC [KING_UPDATE_IMPEACHMENT_STATUS]
+CREATE PROC [dbo].[KING_UPDATE_IMPEACHMENT_STATUS]
 @byType tinyint,
 @byNation tinyint,
 @sYear smallint,
@@ -10,7 +10,7 @@ CREATE PROC [KING_UPDATE_IMPEACHMENT_STATUS]
 @byDay tinyint,
 @byHour tinyint,
 @byMinute tinyint,
-@strUserID char(21)
+@strUserID varchar(21)
 
 AS
 

@@ -5,7 +5,7 @@ CREATE PROCEDURE [UPDATE_KNIGHTS]
 
 @nRet		smallint OUTPUT, 
 @Type		tinyint,
-@UserId 	char(21), 
+@UserId 	varchar(21),
 @KnightsIndex	smallint,
 @Domanation	tinyint
 
@@ -15,9 +15,9 @@ DECLARE @Row tinyint
 DECLARE @Members tinyint
 DECLARE @UserMembers tinyint
 DECLARE @KnightsNumber smallint
-DECLARE @ViceChief_1 char(21)
-DECLARE @ViceChief_2 char(21)
-DECLARE @ViceChief_3 char(21)
+DECLARE @ViceChief_1 varchar(21)
+DECLARE @ViceChief_2 varchar(21)
+DECLARE @ViceChief_3 varchar(21)
 	SET @Row = 0
 	SET @KnightsNumber = 0
 

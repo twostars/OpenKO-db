@@ -1,18 +1,18 @@
 /****** Object:  Stored Procedure dbo.CREATE_KNIGHTS2    Script Date: 6/6/2006 6:03:32 PM ******/
 
 
-CREATE PROCEDURE [CREATE_KNIGHTS2]
+CREATE PROCEDURE [dbo].[CREATE_KNIGHTS2]
 
 @nRet		smallint OUTPUT, 
 @index 		smallint OUTPUT,
 @nation		tinyint,
 @community	tinyint,
-@strName 	char(21), 
-@strChief	char(21)
+@strName 	varchar(21), 
+@strChief	varchar(21)
 
 AS
 
-DECLARE @Row tinyint, @knightsindex smallint, @knightsname char(21)
+DECLARE @Row tinyint, @knightsindex smallint, @knightsname varchar(21)
 	SET @Row = 0	SET @knightsindex = 0  SET @knightsname = ''
 
 	SELECT @Row = COUNT(*) FROM KNIGHTS WHERE IDNum = @index

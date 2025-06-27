@@ -4,18 +4,18 @@
 -- Create by Samma
 -- 2003.08.22
 
-CREATE PROCEDURE [DELETE_FRIEND_LIST]
+CREATE PROCEDURE [dbo].[DELETE_FRIEND_LIST]
 
-@strUserID	char(21),
-@strFriend	char(21),
+@strUserID	varchar(21),
+@strFriend	varchar(21),
 @nRet		smallint OUTPUT
 
 AS
 
-DECLARE @strFriend1 char(21), @strFriend2 char(21), @strFriend3 char(21), @strFriend4 char(21), @strFriend5 char(21), @strFriend6 char(21)
-DECLARE @strFriend7 char(21), @strFriend8 char(21), @strFriend9 char(21), @strFriend10 char(21), @strFriend11 char(21), @strFriend12 char(21)
-DECLARE @strFriend13 char(21), @strFriend14 char(21), @strFriend15 char(21), @strFriend16 char(21), @strFriend17 char(21), @strFriend18 char(21)
-DECLARE @strFriend19 char(21), @strFriend20 char(21), @strFriend21 char(21), @strFriend22 char(21), @strFriend23 char(21), @strFriend24 char(21) 
+DECLARE @strFriend1 varchar(21), @strFriend2 varchar(21), @strFriend3 varchar(21), @strFriend4 varchar(21), @strFriend5 varchar(21), @strFriend6 varchar(21)
+DECLARE @strFriend7 varchar(21), @strFriend8 varchar(21), @strFriend9 varchar(21), @strFriend10 varchar(21), @strFriend11 varchar(21), @strFriend12 varchar(21)
+DECLARE @strFriend13 varchar(21), @strFriend14 varchar(21), @strFriend15 varchar(21), @strFriend16 varchar(21), @strFriend17 varchar(21), @strFriend18 varchar(21)
+DECLARE @strFriend19 varchar(21), @strFriend20 varchar(21), @strFriend21 varchar(21), @strFriend22 varchar(21), @strFriend23 varchar(21), @strFriend24 varchar(21) 
 
 SELECT  @strFriend1 = strFriend1, @strFriend2 = strFriend2,@strFriend3 = strFriend3,@strFriend4 = strFriend4,
 	@strFriend5 = strFriend5, @strFriend6 = strFriend6,@strFriend7 = strFriend7,@strFriend8 = strFriend8,

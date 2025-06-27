@@ -10,7 +10,7 @@ CREATE PROCEDURE [RENTAL_ITEM_DURABILITY_UPDATE]
 AS
 
 DECLARE @Row tinyint
-DECLARE @LendercharID char(21), @LenderAccountID char(21)
+DECLARE @LendercharID varchar(21), @LenderAccountID varchar(21)
 
 SET @Row = 0
 

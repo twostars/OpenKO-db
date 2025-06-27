@@ -3,8 +3,8 @@
 
 -- 2004.03.26. sungyong
 CREATE PROCEDURE [RENTAL_ITEM_LEND]
-@AccountID	char(21),		--     대여자 계정
-@CharID	char(21),		--     대여자 캐릭 아이디
+@AccountID	varchar(21),		--     대여자 계정
+@CharID	varchar(21),		--     대여자 캐릭 아이디
 @nRentalIndex  int,
 @nItemNumber   int,
 @nRet		smallint OUTPUT
@@ -14,7 +14,7 @@ SET @nRet =  -5
 RETURN
 
 DECLARE @Row tinyint, @sDurability smallint, @nSerialNumber bigint
-DECLARE @bItemType tinyint, @bItemClass tinyint, @sRentalTime smallint, @nMoney int, @LendercharID char(21), @LenderAccountID char(21)
+DECLARE @bItemType tinyint, @bItemClass tinyint, @sRentalTime smallint, @nMoney int, @LendercharID varchar(21), @LenderAccountID varchar(21)
 DECLARE @timeLend smalldatetime, @timeRegister smalldatetime
 SET @Row = 0
 SET @timeLend = getdate()

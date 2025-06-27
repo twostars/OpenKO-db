@@ -2,8 +2,8 @@
 
 
 CREATE PROCEDURE [RENTAL_ITEM_REGISTER]
-@charID		char(21),	
-@AccountID	char(21),
+@charID		varchar(21),
+@AccountID	varchar(21),
 @sRentalTime	smallint,
 @nItemID	int,
 @sDurability	smallint,

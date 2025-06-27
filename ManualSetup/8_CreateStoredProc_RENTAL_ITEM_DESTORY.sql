@@ -4,8 +4,8 @@
 -- 2004.03.26. sungyong
 
 CREATE PROCEDURE [RENTAL_ITEM_DESTORY]
-@AccountID	char(21),	
-@CharID	char(21),		
+@AccountID	varchar(21),
+@CharID	varchar(21),
 @nItemNumber   int,
 @nRentalIndex   int,
 @nDurability	smallint,

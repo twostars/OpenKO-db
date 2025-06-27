@@ -4,7 +4,7 @@
 
 CREATE PROCEDURE [UPDATE_SIEGE_CHALLENGER]
 @sCastleIndex		smallint,
-@strChallengerList	char(50)
+@strChallengerList	varchar(50)
 
 AS
 

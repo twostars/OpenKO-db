@@ -1,12 +1,12 @@
 /****** Object:  Stored Procedure dbo.DELETE_KNIGHTS    Script Date: 6/6/2006 6:03:32 PM ******/
 
 
-CREATE PROCEDURE [DELETE_KNIGHTS]
+CREATE PROCEDURE [dbo].[DELETE_KNIGHTS]
 @nRet			smallint OUTPUT,
 @knightsindex		smallint
 AS
 
-DECLARE @Row	tinyint, @Knights smallint, @Fame tinyint, @UserID char(21)
+DECLARE @Row	tinyint, @Knights smallint, @Fame tinyint, @UserID varchar(21)
 		SET @Row = 0 SET @Knights = 0 SET @Fame = 0 SET @UserID = ''
 
 

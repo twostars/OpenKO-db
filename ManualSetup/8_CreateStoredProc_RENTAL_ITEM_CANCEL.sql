@@ -4,8 +4,8 @@
 -- 2004.03.26. sungyong
 
 CREATE PROCEDURE [RENTAL_ITEM_CANCEL]
-@AccountID	char(21),		--     등록자 계정
-@CharID	char(21),			--     등록자 캐릭 아이디
+@AccountID	varchar(21),		--     등록자 계정
+@CharID	varchar(21),			--     등록자 캐릭 아이디
 @nRentalIndex  int,
 @nItemNumber   int,
 @nRet		smallint OUTPUT

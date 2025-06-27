@@ -3,9 +3,9 @@
 
 -- 2004.07.07. sungyong
 
-CREATE PROCEDURE [KING_CANDIDACY_RECOMMEND]
-@CharID_1	char(21),		--     추천한 사람의 아이디
-@CharID_2	char(21),		--     추천받은 사람의 아이디
+CREATE PROCEDURE [dbo].[KING_CANDIDACY_RECOMMEND]
+@CharID_1	varchar(21),		--     추천한 사람의 아이디
+@CharID_2	varchar(21),		--     추천받은 사람의 아이디
 @nNation	tinyint,			--     소속국가
 @nRet		smallint OUTPUT
 

@@ -9,8 +9,8 @@ CREATE PROCEDURE [UPDATE_KNIGHTS_WAR]
 
 AS
 
-DECLARE @strWhiteName char(21)
-DECLARE @strBlueName char(21)
+DECLARE @strWhiteName varchar(21)
+DECLARE @strBlueName varchar(21)
 
 SET @strWhiteName = NULL
 SET @strBlueName = NULL
