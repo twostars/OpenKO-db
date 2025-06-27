@@ -11,7 +11,7 @@ CREATE PROCEDURE [dbo].[CHANGE_CASTLE_COMMERCE]
 
 AS
 
-if @byType = 2
+if @byType = 2  -- 세금징수 / tax collection
 BEGIN
 	UPDATE KNIGHTS_SIEGE_WARFARE SET nMoradonTax = @nMoradonTariff, nDellosTax = @nDellosTariff WHERE sCastleIndex = @sCastleIndex
 
