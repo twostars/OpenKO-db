@@ -48,6 +48,6 @@ CREATE TABLE [K_NPC] (
 	[byDirectAttack] tinyint NOT NULL,
 	[byMagicAttack] tinyint NOT NULL,
 	[byMoneyType] tinyint NOT NULL
-	CONSTRAINT [PK_K_NPC] PRIMARY KEY ([sSid])
+	CONSTRAINT [PK_K_NPC] PRIMARY KEY CLUSTERED ([sSid])
 )
 GO

@@ -8,7 +8,7 @@ CREATE TABLE [TB_USER] (
 	[strEmail] varchar(250) NOT NULL,
 	[strAuthority] tinyint NOT NULL,
 	[PremiumExpire] datetime NOT NULL
-	CONSTRAINT [PK_TB_USER] PRIMARY KEY ([strAccountID])
+	CONSTRAINT [PK_TB_USER] PRIMARY KEY CLUSTERED ([strAccountID])
 )
 GO
 ALTER TABLE [TB_USER] ADD CONSTRAINT [DF_TB_USER_strSocNo] DEFAULT '' FOR [strSocNo]

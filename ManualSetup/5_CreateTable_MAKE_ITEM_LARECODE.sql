@@ -7,7 +7,6 @@ CREATE TABLE [MAKE_ITEM_LARECODE] (
 	[sLareItem] smallint NOT NULL,
 	[sMagicItem] smallint NOT NULL,
 	[sGereralItem] smallint NOT NULL
-
 )
 GO
 ALTER TABLE [MAKE_ITEM_LARECODE] ADD CONSTRAINT [DF_MAKE_ITEM_LARECODE_sUpgradeItem] DEFAULT 0 FOR [sUpgradeItem]

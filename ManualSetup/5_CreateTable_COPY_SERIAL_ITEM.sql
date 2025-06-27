@@ -7,6 +7,5 @@ CREATE TABLE [COPY_SERIAL_ITEM] (
 	[nPos] smallint,
 	[ItemNum] binary(4),
 	[ItemSerial] binary(8)
-
 )
 GO

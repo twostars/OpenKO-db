@@ -12,7 +12,6 @@ CREATE TABLE [WEB_ITEMMALL] (
 	[strItemName] varchar(100),
 	[price] int,
 	[pay_type] int
-
 )
 GO
 ALTER TABLE [WEB_ITEMMALL] ADD CONSTRAINT [DF_WEB_ITEMMALL_ItemCount] DEFAULT 1 FOR [ItemCount]

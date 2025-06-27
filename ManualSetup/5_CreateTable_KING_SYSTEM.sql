@@ -31,7 +31,6 @@ CREATE TABLE [KING_SYSTEM] (
 	[nNationalTreasury] int NOT NULL,
 	[strKingName] varchar(21),
 	[strImRequestID] varchar(21)
-
 )
 GO
 ALTER TABLE [KING_SYSTEM] ADD CONSTRAINT [DF_KING_SYSTEM_byNoahEvent] DEFAULT 0 FOR [byNoahEvent]

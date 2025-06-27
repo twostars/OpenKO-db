@@ -27,6 +27,5 @@ CREATE TABLE [ITEM_EXCHANGE] (
 	[nExchangeItemCount4] smallint NOT NULL,
 	[nExchangeItemNum5] int NOT NULL,
 	[nExchangeItemCount5] smallint NOT NULL
-
 )
 GO

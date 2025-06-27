@@ -7,6 +7,5 @@ CREATE TABLE [CURRENTUSER] (
 	[strAccountID] varchar(20) NOT NULL,
 	[strCharID] varchar(20) NOT NULL,
 	[strClientIP] varchar(20) NOT NULL
-
 )
 GO

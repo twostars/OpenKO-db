@@ -7,6 +7,6 @@ CREATE TABLE [KNIGHTS_CAPE] (
 	[nBuyPrice] int NOT NULL,
 	[nDuration] int NOT NULL,
 	[byGrade] tinyint NOT NULL
-	CONSTRAINT [PK_KNIGHTS_CAPE] PRIMARY KEY ([sCapeIndex])
+	CONSTRAINT [PK_KNIGHTS_CAPE] PRIMARY KEY CLUSTERED ([sCapeIndex])
 )
 GO

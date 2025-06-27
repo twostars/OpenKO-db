@@ -6,6 +6,5 @@ CREATE TABLE [COUPON_SERIAL_LIST] (
 	[strSerialNum] varchar(16) NOT NULL,
 	[nItemNum] int NOT NULL,
 	[sItemCount] smallint NOT NULL
-
 )
 GO

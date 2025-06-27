@@ -27,6 +27,6 @@ CREATE TABLE [FRIEND_LIST] (
 	[strFriend22] varchar(21),
 	[strFriend23] varchar(21),
 	[strFriend24] varchar(21)
-	CONSTRAINT [PK_FRIEND_LIST] PRIMARY KEY ([strUserID])
+	CONSTRAINT [PK_FRIEND_LIST] PRIMARY KEY CLUSTERED ([strUserID])
 )
 GO

@@ -22,6 +22,5 @@ CREATE TABLE [K_NPCPOS] (
 	[byDirection] int,
 	[DotCnt] tinyint,
 	[path] text
-
 )
 GO

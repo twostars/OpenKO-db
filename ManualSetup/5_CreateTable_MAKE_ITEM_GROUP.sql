@@ -33,6 +33,5 @@ CREATE TABLE [MAKE_ITEM_GROUP] (
 	[iItem_28] int NOT NULL,
 	[iItem_29] int NOT NULL,
 	[iItem_30] int NOT NULL
-
 )
 GO

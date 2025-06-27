@@ -13,6 +13,6 @@ CREATE TABLE [MAGIC_TYPE3] (
 	[TimeDamage] smallint NOT NULL,
 	[Duration] tinyint NOT NULL,
 	[Attribute] tinyint NOT NULL
-	CONSTRAINT [PK_MAGIC_TYPE3] PRIMARY KEY ([iNum])
+	CONSTRAINT [PK_MAGIC_TYPE3] PRIMARY KEY CLUSTERED ([iNum])
 )
 GO

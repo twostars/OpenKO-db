@@ -20,6 +20,6 @@ CREATE TABLE [ITEM_UPGRADE] (
 	[bRateType] tinyint NOT NULL,
 	[nGenRate] smallint NOT NULL,
 	[nGiveItem] smallint NOT NULL
-	CONSTRAINT [PK_ITEM_UPGRADE] PRIMARY KEY ([nIndex])
+	CONSTRAINT [PK_ITEM_UPGRADE] PRIMARY KEY CLUSTERED ([nIndex])
 )
 GO

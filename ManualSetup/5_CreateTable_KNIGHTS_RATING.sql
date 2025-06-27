@@ -6,6 +6,5 @@ CREATE TABLE [KNIGHTS_RATING] (
 	[shIndex] smallint,
 	[strName] varchar(21),
 	[nPoints] int
-
 )
 GO

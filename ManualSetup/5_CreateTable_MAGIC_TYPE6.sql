@@ -27,6 +27,6 @@ CREATE TABLE [MAGIC_TYPE6] (
 	[NeedItem] tinyint NOT NULL,
 	[SkillSuccessRate] tinyint NOT NULL,
 	[MonsterFriendly] tinyint NOT NULL
-	CONSTRAINT [PK_MAGIC_TYPE6] PRIMARY KEY ([iNum])
+	CONSTRAINT [PK_MAGIC_TYPE6] PRIMARY KEY CLUSTERED ([iNum])
 )
 GO

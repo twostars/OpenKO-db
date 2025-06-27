@@ -3,6 +3,5 @@ GO
 
 CREATE TABLE [COPY_TEST] (
 	[ITEMSERIAL] bigint NOT NULL
-
 )
 GO

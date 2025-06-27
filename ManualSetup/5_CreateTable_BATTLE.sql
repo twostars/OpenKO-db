@@ -20,7 +20,6 @@ CREATE TABLE [BATTLE] (
 	[byArea_9] tinyint NOT NULL,
 	[byArea_10] tinyint NOT NULL,
 	[byArea_11] tinyint NOT NULL
-
 )
 GO
 ALTER TABLE [BATTLE] ADD CONSTRAINT [DF_BATTLE_byElmoArea] DEFAULT 0 FOR [byElmoArea]

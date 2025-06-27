@@ -13,6 +13,5 @@ CREATE TABLE [MONSTER_ITEM_TEST] (
 	[sPersent04] smallint,
 	[iItem05] int,
 	[sPersent05] smallint
-
 )
 GO

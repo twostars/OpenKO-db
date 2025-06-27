@@ -17,7 +17,7 @@ CREATE TABLE [RENTAL_ITEM] (
 	[strBorrowerAcID] varchar(21),
 	[timeLender] smalldatetime,
 	[timeRegister] smalldatetime NOT NULL
-	CONSTRAINT [PK_RENTAL_ITEM] PRIMARY KEY ([nRentalIndex])
+	CONSTRAINT [PK_RENTAL_ITEM] PRIMARY KEY CLUSTERED ([nRentalIndex])
 )
 GO
 ALTER TABLE [RENTAL_ITEM] ADD CONSTRAINT [DF_RENTAL_ITEM_sDurability] DEFAULT 0 FOR [sDurability]

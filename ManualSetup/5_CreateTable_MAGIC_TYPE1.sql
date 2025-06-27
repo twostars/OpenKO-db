@@ -14,6 +14,6 @@ CREATE TABLE [MAGIC_TYPE1] (
 	[ComboCount] tinyint NOT NULL,
 	[ComboDamage] smallint NOT NULL,
 	[Range] smallint NOT NULL
-	CONSTRAINT [PK_MAGIC_TYPE1] PRIMARY KEY ([iNum])
+	CONSTRAINT [PK_MAGIC_TYPE1] PRIMARY KEY CLUSTERED ([iNum])
 )
 GO

@@ -11,6 +11,6 @@ CREATE TABLE [USER_KNIGHTS_RANK] (
 	[strKarusKnightsName] varchar(21),
 	[nKarusLoyalty] int,
 	[nMoney] int NOT NULL
-	CONSTRAINT [PK_USER_KNIGHTS_RANK] PRIMARY KEY ([shIndex])
+	CONSTRAINT [PK_USER_KNIGHTS_RANK] PRIMARY KEY CLUSTERED ([shIndex])
 )
 GO

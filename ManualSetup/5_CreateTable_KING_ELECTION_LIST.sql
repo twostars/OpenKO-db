@@ -7,6 +7,5 @@ CREATE TABLE [KING_ELECTION_LIST] (
 	[nKnights] smallint,
 	[strName] varchar(21),
 	[nMoney] int NOT NULL
-
 )
 GO

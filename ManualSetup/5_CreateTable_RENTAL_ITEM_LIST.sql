@@ -17,7 +17,6 @@ CREATE TABLE [RENTAL_ITEM_LIST] (
 	[strBorrowerAcID] varchar(21),
 	[timeLender] smalldatetime,
 	[timeRegister] smalldatetime NOT NULL
-
 )
 GO
 ALTER TABLE [RENTAL_ITEM_LIST] ADD CONSTRAINT [DF_RENTAL_ITEM_LIST_sDurability] DEFAULT 0 FOR [sDurability]

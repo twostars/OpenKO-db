@@ -17,7 +17,6 @@ CREATE TABLE [USER_EDITOR] (
 	[strOldWHItem] char(1600) NOT NULL,
 	[strNewWHItem] char(1600) NOT NULL,
 	[EditorTime] smalldatetime NOT NULL
-
 )
 GO
 ALTER TABLE [USER_EDITOR] ADD CONSTRAINT [DF_USER_EDITOR_EditorTime] DEFAULT getdate() FOR [EditorTime]

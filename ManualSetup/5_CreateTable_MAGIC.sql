@@ -26,6 +26,6 @@ CREATE TABLE [MAGIC] (
 	[Range] smallint NOT NULL,
 	[Etc] tinyint NOT NULL,
 	[Event] int
-	CONSTRAINT [PK_MAGIC] PRIMARY KEY ([MagicNum])
+	CONSTRAINT [PK_MAGIC] PRIMARY KEY CLUSTERED ([MagicNum])
 )
 GO

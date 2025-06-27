@@ -8,6 +8,6 @@ CREATE TABLE [MAGIC_TYPE5] (
 	[Type] tinyint NOT NULL,
 	[ExpRecover] tinyint NOT NULL,
 	[NeedStone] smallint NOT NULL
-	CONSTRAINT [PK_MAGIC_TYPE5] PRIMARY KEY ([iNum])
+	CONSTRAINT [PK_MAGIC_TYPE5] PRIMARY KEY CLUSTERED ([iNum])
 )
 GO

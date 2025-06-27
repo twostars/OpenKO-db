@@ -8,6 +8,5 @@ CREATE TABLE [MONSTER_CHALLENGE] (
 	[bStartTime3] tinyint NOT NULL,
 	[bLevelMin] tinyint NOT NULL,
 	[bLevelMax] tinyint NOT NULL
-
 )
 GO

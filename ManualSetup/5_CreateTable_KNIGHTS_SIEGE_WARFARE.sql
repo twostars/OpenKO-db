@@ -40,7 +40,6 @@ CREATE TABLE [KNIGHTS_SIEGE_WARFARE] (
 	[sRequestList_8] smallint NOT NULL,
 	[sRequestList_9] smallint NOT NULL,
 	[sRequestList_10] smallint NOT NULL
-
 )
 GO
 ALTER TABLE [KNIGHTS_SIEGE_WARFARE] ADD CONSTRAINT [DF_KNIGHTS_SIEGE_WARFARE_sChallengeList_7] DEFAULT 0 FOR [sChallengeList_7]

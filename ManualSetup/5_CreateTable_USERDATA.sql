@@ -42,7 +42,7 @@ CREATE TABLE [USERDATA] (
 	[LoyaltyMonthly] int NOT NULL,
 	[CreateTime] smalldatetime NOT NULL,
 	[UpdateTime] smalldatetime
-	CONSTRAINT [PK_USERDATA] PRIMARY KEY ([strUserId])
+	CONSTRAINT [PK_USERDATA] PRIMARY KEY CLUSTERED ([strUserId])
 )
 GO
 ALTER TABLE [USERDATA] ADD CONSTRAINT [DF_USERDATA_Nation] DEFAULT 0 FOR [Nation]

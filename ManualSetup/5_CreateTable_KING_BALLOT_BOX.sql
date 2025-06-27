@@ -6,6 +6,5 @@ CREATE TABLE [KING_BALLOT_BOX] (
 	[strCharID] varchar(21) NOT NULL,
 	[byNation] tinyint NOT NULL,
 	[strCandidacyID] varchar(21) NOT NULL
-
 )
 GO

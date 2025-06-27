@@ -7,6 +7,5 @@ CREATE TABLE [HERO_USER] (
 	[strNation] varchar(20),
 	[strClass] varchar(30),
 	[strAchievement] varchar(50)
-
 )
 GO

@@ -15,7 +15,6 @@ CREATE TABLE [USER_RENTAL_ITEM] (
 	[sDuringTime] smallint NOT NULL,
 	[timeRental] smalldatetime,
 	[timeRegister] smalldatetime
-
 )
 GO
 ALTER TABLE [USER_RENTAL_ITEM] ADD CONSTRAINT [DF_USER_RENTAL_ITEM_byRegType] DEFAULT 0 FOR [byRegType]

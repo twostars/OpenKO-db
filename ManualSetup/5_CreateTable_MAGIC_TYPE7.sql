@@ -16,6 +16,6 @@ CREATE TABLE [MAGIC_TYPE7] (
 	[shDamage] smallint NOT NULL,
 	[byVisoin] tinyint NOT NULL,
 	[nNeedItem] int NOT NULL
-	CONSTRAINT [PK_MAGIC_TYPE7] PRIMARY KEY ([nIndex])
+	CONSTRAINT [PK_MAGIC_TYPE7] PRIMARY KEY CLUSTERED ([nIndex])
 )
 GO

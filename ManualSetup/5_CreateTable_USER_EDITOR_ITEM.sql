@@ -12,6 +12,5 @@ CREATE TABLE [USER_EDITOR_ITEM] (
 	[nItemID1] int NOT NULL,
 	[nItemID2] int NOT NULL,
 	[UpdateTime] smalldatetime
-
 )
 GO

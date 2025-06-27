@@ -15,6 +15,5 @@ CREATE TABLE [EVENT] (
 	[Exec3] varchar(128),
 	[Exec4] varchar(128),
 	[Exec5] varchar(128)
-
 )
 GO

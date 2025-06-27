@@ -15,6 +15,5 @@ CREATE TABLE [MAKE_WEAPON] (
 	[sClass_10] smallint,
 	[sClass_11] smallint,
 	[sClass_12] smallint
-
 )
 GO

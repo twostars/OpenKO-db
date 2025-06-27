@@ -12,7 +12,6 @@ CREATE TABLE [WEB_ITEMMALL_LOG] (
 	[strItemName] varchar(100),
 	[price] int,
 	[pay_type] int
-
 )
 GO
 ALTER TABLE [WEB_ITEMMALL_LOG] ADD CONSTRAINT [DF_WEB_ITEMMALL_LOG_BuyTime] DEFAULT getdate() FOR [BuyTime]

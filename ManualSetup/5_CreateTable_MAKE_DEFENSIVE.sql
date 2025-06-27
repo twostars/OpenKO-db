@@ -10,6 +10,5 @@ CREATE TABLE [MAKE_DEFENSIVE] (
 	[sClass_5] smallint,
 	[sClass_6] smallint,
 	[sClass_7] smallint
-
 )
 GO
