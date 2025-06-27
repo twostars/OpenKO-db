@@ -12,15 +12,15 @@ DROP TABLE [dbo].[EUSER_RATING]
 
 CREATE TABLE [dbo].[KUSER_RATING] (
     [nRank] [int] IDENTITY (1, 1) NOT NULL ,
-    [strUserID] [char] (21) NULL,
-    [strKnightsName] [char] (21) NULL ,
+    [strUserID] [varchar] (21) NULL,
+    [strKnightsName] [varchar] (21) NULL ,
     [nLoyalty] [int] NULL ,
 ) ON [PRIMARY]
 
 CREATE TABLE [dbo].[EUSER_RATING] (
     [nRank] [int] IDENTITY (1, 1) NOT NULL ,
-    [strUserID] [char] (21) NULL,
-    [strKnightsName] [char] (21) NULL ,
+    [strUserID] [varchar] (21) NULL,
+    [strKnightsName] [varchar] (21) NULL ,
     [nLoyalty] [int] NULL ,
 ) ON [PRIMARY]
 
