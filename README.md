@@ -6,8 +6,7 @@ import and export this data to a SQL server instance.  These will be covered in 
 
 These artifacts include:
 `jsonSchema`: contains the database table definitions as well as additional properties used in code generation.
-`ManualSetup`: contains most of the sql required to create the database and load default data.  The run order of the scripts
-are ordered.  Once these are run, the Sql files in `Views` and `StoredProcedures` should be run as well.
+`ManualSetup`: contains all sql required to create the database and load default data.  The run order of the scripts are ordered.
 `Templates`: contains Sql template files used by the export tool to generate DBs, Schemas, Users and Logins.
 
 ## Tools
@@ -28,5 +27,4 @@ You can run these scripts one by one to create the database, although it'll be v
 
 1. Run the scripts in ManualSetup that start with 1_, 2_, 3_, 4_ and 5_. 
 2. Run the insert scripts in ManualSetup starting 6_.  Note that you'll have to manually separate your batches into groups of 1000 or less.  Our exports do not include pre-defined batches to make the git diffs more manageable, and so that the import tool can have an adjustable batch size for performance adjustments.
-3. Run the scripts in Views
-4. Run the scripts in StoredProcedures
+3. Run the create view and stored procedure scripts in 7_ and 8_ files
